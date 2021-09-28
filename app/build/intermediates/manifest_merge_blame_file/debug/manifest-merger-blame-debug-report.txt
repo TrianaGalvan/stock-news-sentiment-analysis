@@ -1,0 +1,119 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="org.tensorflow.lite.codelabs.textclassification"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/Users/trianap/Documents/ProjectCertification/codelab-textclassification-android-master/start/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->/Users/trianap/Documents/ProjectCertification/codelab-textclassification-android-master/start/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+11-->[com.google.firebase:firebase-installations:17.0.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/2aae6c639194544a0dae8dfba6f260df/jetified-firebase-installations-17.0.0/AndroidManifest.xml:10:5-79
+11-->[com.google.firebase:firebase-installations:17.0.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/2aae6c639194544a0dae8dfba6f260df/jetified-firebase-installations-17.0.0/AndroidManifest.xml:10:22-76
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->[com.google.firebase:firebase-installations:17.0.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/2aae6c639194544a0dae8dfba6f260df/jetified-firebase-installations-17.0.0/AndroidManifest.xml:11:5-67
+12-->[com.google.firebase:firebase-installations:17.0.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/2aae6c639194544a0dae8dfba6f260df/jetified-firebase-installations-17.0.0/AndroidManifest.xml:11:22-64
+13    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+14    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+15    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+16
+17    <application
+17-->/Users/trianap/Documents/ProjectCertification/codelab-textclassification-android-master/start/app/src/main/AndroidManifest.xml:5:3-21:17
+18        android:allowBackup="true"
+18-->/Users/trianap/Documents/ProjectCertification/codelab-textclassification-android-master/start/app/src/main/AndroidManifest.xml:6:7-33
+19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+19-->[androidx.core:core:1.3.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/539dd7ec023f08c47477f9f5ca19cf00/core-1.3.0/AndroidManifest.xml:24:18-86
+20        android:debuggable="true"
+21        android:icon="@mipmap/ic_launcher"
+21-->/Users/trianap/Documents/ProjectCertification/codelab-textclassification-android-master/start/app/src/main/AndroidManifest.xml:7:7-41
+22        android:label="@string/tfe_tc_app_name"
+22-->/Users/trianap/Documents/ProjectCertification/codelab-textclassification-android-master/start/app/src/main/AndroidManifest.xml:8:7-46
+23        android:roundIcon="@mipmap/ic_launcher_round"
+23-->/Users/trianap/Documents/ProjectCertification/codelab-textclassification-android-master/start/app/src/main/AndroidManifest.xml:9:7-52
+24        android:supportsRtl="true"
+24-->/Users/trianap/Documents/ProjectCertification/codelab-textclassification-android-master/start/app/src/main/AndroidManifest.xml:10:7-33
+25        android:testOnly="true"
+26        android:theme="@style/AppTheme.TextClassification" >
+26-->/Users/trianap/Documents/ProjectCertification/codelab-textclassification-android-master/start/app/src/main/AndroidManifest.xml:11:7-57
+27        <activity
+27-->/Users/trianap/Documents/ProjectCertification/codelab-textclassification-android-master/start/app/src/main/AndroidManifest.xml:12:5-20:16
+28            android:name="org.tensorflow.lite.codelabs.textclassification.MainActivity"
+28-->/Users/trianap/Documents/ProjectCertification/codelab-textclassification-android-master/start/app/src/main/AndroidManifest.xml:12:15-43
+29            android:exported="true"
+29-->/Users/trianap/Documents/ProjectCertification/codelab-textclassification-android-master/start/app/src/main/AndroidManifest.xml:13:15-38
+30            android:windowSoftInputMode="adjustResize" >
+30-->/Users/trianap/Documents/ProjectCertification/codelab-textclassification-android-master/start/app/src/main/AndroidManifest.xml:14:15-57
+31            <intent-filter>
+31-->/Users/trianap/Documents/ProjectCertification/codelab-textclassification-android-master/start/app/src/main/AndroidManifest.xml:15:7-19:23
+32                <action android:name="android.intent.action.MAIN" />
+32-->/Users/trianap/Documents/ProjectCertification/codelab-textclassification-android-master/start/app/src/main/AndroidManifest.xml:16:9-60
+32-->/Users/trianap/Documents/ProjectCertification/codelab-textclassification-android-master/start/app/src/main/AndroidManifest.xml:16:17-58
+33
+34                <category android:name="android.intent.category.LAUNCHER" />
+34-->/Users/trianap/Documents/ProjectCertification/codelab-textclassification-android-master/start/app/src/main/AndroidManifest.xml:18:9-68
+34-->/Users/trianap/Documents/ProjectCertification/codelab-textclassification-android-master/start/app/src/main/AndroidManifest.xml:18:19-66
+35            </intent-filter>
+36        </activity>
+37
+38        <service
+38-->[com.google.firebase:firebase-ml-model-interpreter:22.0.4] /Users/trianap/.gradle/caches/transforms-2/files-2.1/c2c13385af53ac9e8c080651990be507/jetified-firebase-ml-model-interpreter-22.0.4/AndroidManifest.xml:9:9-15:19
+39            android:name="com.google.firebase.components.ComponentDiscoveryService"
+39-->[com.google.firebase:firebase-ml-model-interpreter:22.0.4] /Users/trianap/.gradle/caches/transforms-2/files-2.1/c2c13385af53ac9e8c080651990be507/jetified-firebase-ml-model-interpreter-22.0.4/AndroidManifest.xml:10:13-84
+40            android:directBootAware="true"
+40-->[com.google.firebase:firebase-common:20.0.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/f974751ac5677ce8830189f78881ba9c/jetified-firebase-common-20.0.0/AndroidManifest.xml:35:13-43
+41            android:exported="false" >
+41-->[com.google.firebase:firebase-ml-model-interpreter:22.0.4] /Users/trianap/.gradle/caches/transforms-2/files-2.1/c2c13385af53ac9e8c080651990be507/jetified-firebase-ml-model-interpreter-22.0.4/AndroidManifest.xml:11:13-37
+42            <meta-data
+42-->[com.google.firebase:firebase-ml-model-interpreter:22.0.4] /Users/trianap/.gradle/caches/transforms-2/files-2.1/c2c13385af53ac9e8c080651990be507/jetified-firebase-ml-model-interpreter-22.0.4/AndroidManifest.xml:12:13-14:85
+43                android:name="com.google.firebase.components:com.google.firebase.ml.custom.CustomModelRegistrar"
+43-->[com.google.firebase:firebase-ml-model-interpreter:22.0.4] /Users/trianap/.gradle/caches/transforms-2/files-2.1/c2c13385af53ac9e8c080651990be507/jetified-firebase-ml-model-interpreter-22.0.4/AndroidManifest.xml:13:17-113
+44                android:value="com.google.firebase.components.ComponentRegistrar" />
+44-->[com.google.firebase:firebase-ml-model-interpreter:22.0.4] /Users/trianap/.gradle/caches/transforms-2/files-2.1/c2c13385af53ac9e8c080651990be507/jetified-firebase-ml-model-interpreter-22.0.4/AndroidManifest.xml:14:17-82
+45            <meta-data
+45-->[com.google.firebase:firebase-ml-common:22.1.2] /Users/trianap/.gradle/caches/transforms-2/files-2.1/092dae428b66a8fbd7f4947f52f506e4/jetified-firebase-ml-common-22.1.2/AndroidManifest.xml:11:13-13:85
+46                android:name="com.google.firebase.components:com.google.firebase.ml.common.CommonComponentRegistrar"
+46-->[com.google.firebase:firebase-ml-common:22.1.2] /Users/trianap/.gradle/caches/transforms-2/files-2.1/092dae428b66a8fbd7f4947f52f506e4/jetified-firebase-ml-common-22.1.2/AndroidManifest.xml:12:17-117
+47                android:value="com.google.firebase.components.ComponentRegistrar" />
+47-->[com.google.firebase:firebase-ml-common:22.1.2] /Users/trianap/.gradle/caches/transforms-2/files-2.1/092dae428b66a8fbd7f4947f52f506e4/jetified-firebase-ml-common-22.1.2/AndroidManifest.xml:13:17-82
+48            <meta-data
+48-->[com.google.firebase:firebase-installations:17.0.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/2aae6c639194544a0dae8dfba6f260df/jetified-firebase-installations-17.0.0/AndroidManifest.xml:18:13-20:85
+49                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+49-->[com.google.firebase:firebase-installations:17.0.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/2aae6c639194544a0dae8dfba6f260df/jetified-firebase-installations-17.0.0/AndroidManifest.xml:19:17-127
+50                android:value="com.google.firebase.components.ComponentRegistrar" />
+50-->[com.google.firebase:firebase-installations:17.0.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/2aae6c639194544a0dae8dfba6f260df/jetified-firebase-installations-17.0.0/AndroidManifest.xml:20:17-82
+51        </service>
+52
+53        <provider
+53-->[com.google.firebase:firebase-common:20.0.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/f974751ac5677ce8830189f78881ba9c/jetified-firebase-common-20.0.0/AndroidManifest.xml:26:9-31:39
+54            android:name="com.google.firebase.provider.FirebaseInitProvider"
+54-->[com.google.firebase:firebase-common:20.0.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/f974751ac5677ce8830189f78881ba9c/jetified-firebase-common-20.0.0/AndroidManifest.xml:27:13-77
+55            android:authorities="org.tensorflow.lite.codelabs.textclassification.firebaseinitprovider"
+55-->[com.google.firebase:firebase-common:20.0.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/f974751ac5677ce8830189f78881ba9c/jetified-firebase-common-20.0.0/AndroidManifest.xml:28:13-72
+56            android:directBootAware="true"
+56-->[com.google.firebase:firebase-common:20.0.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/f974751ac5677ce8830189f78881ba9c/jetified-firebase-common-20.0.0/AndroidManifest.xml:29:13-43
+57            android:exported="false"
+57-->[com.google.firebase:firebase-common:20.0.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/f974751ac5677ce8830189f78881ba9c/jetified-firebase-common-20.0.0/AndroidManifest.xml:30:13-37
+58            android:initOrder="100" />
+58-->[com.google.firebase:firebase-common:20.0.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/f974751ac5677ce8830189f78881ba9c/jetified-firebase-common-20.0.0/AndroidManifest.xml:31:13-36
+59
+60        <activity
+60-->[com.google.android.gms:play-services-base:17.0.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/f0c83ac7690b43eef7a8feaeb3940721/jetified-play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
+61            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+61-->[com.google.android.gms:play-services-base:17.0.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/f0c83ac7690b43eef7a8feaeb3940721/jetified-play-services-base-17.0.0/AndroidManifest.xml:24:13-79
+62            android:exported="false"
+62-->[com.google.android.gms:play-services-base:17.0.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/f0c83ac7690b43eef7a8feaeb3940721/jetified-play-services-base-17.0.0/AndroidManifest.xml:25:13-37
+63            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+63-->[com.google.android.gms:play-services-base:17.0.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/f0c83ac7690b43eef7a8feaeb3940721/jetified-play-services-base-17.0.0/AndroidManifest.xml:26:13-72
+64
+65        <meta-data
+65-->[com.google.android.gms:play-services-basement:17.0.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/10b1e51736e27fda30f62ca5156f7b46/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+66            android:name="com.google.android.gms.version"
+66-->[com.google.android.gms:play-services-basement:17.0.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/10b1e51736e27fda30f62ca5156f7b46/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
+67            android:value="@integer/google_play_services_version" />
+67-->[com.google.android.gms:play-services-basement:17.0.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/10b1e51736e27fda30f62ca5156f7b46/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+68    </application>
+69
+70</manifest>

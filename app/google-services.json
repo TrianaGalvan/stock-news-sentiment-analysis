@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "569670136182",
+    "project_id": "certificationprojecy",
+    "storage_bucket": "certificationprojecy.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:569670136182:android:8bc6b2235007c7642f4a57",
+        "android_client_info": {
+          "package_name": "org.tensorflow.lite.codelabs.textclassification"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "569670136182-6q19ltb00h7htsfc7ceo7mmvu0fdkmrh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAS0p3sYKOiJBONNzJgBIBfLzeQro1InTo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "569670136182-6q19ltb00h7htsfc7ceo7mmvu0fdkmrh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

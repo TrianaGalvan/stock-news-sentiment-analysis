@@ -1,0 +1,4 @@
+org/tensorflow/lite/codelabs/textclassification/MainActivity.java
+ org.tensorflow.lite.codelabs.textclassification.MainActivity
+org/tensorflow/lite/codelabs/textclassification/BuildConfig.java
+ org.tensorflow.lite.codelabs.textclassification.BuildConfig
