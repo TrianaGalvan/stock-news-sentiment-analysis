@@ -1,2 +1,13 @@
 # stock-news-sentiment-analysis
-Android app that gathers restaurant recommendations and shows the acceptance of  people using sentiment analysis on the comments. 
+Android app that applies sentiment analysis to tweets and news tittles of stocks. 
+
+## Technologies 
+
+The app was built with Firebase and Android. 
+
+The Firebase services used in this application are: 
+
+  - Authentication
+  - Storage
+  - Firestore
+  - ML Kit
