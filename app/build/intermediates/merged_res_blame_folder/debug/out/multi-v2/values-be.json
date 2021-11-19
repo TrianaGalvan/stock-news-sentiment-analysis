@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "/Users/trianap/.gradle/caches/transforms-2/files-2.1/10b1e51736e27fda30f62ca5156f7b46/jetified-play-services-basement-17.0.0/res/values-be/values.xml",
+                    "source": "/Users/trianap/.gradle/caches/transforms-2/files-2.1/76d9b39004339d87bed43eb49248bfed/jetified-play-services-basement-17.1.0/res/values-be/values.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "0",
@@ -55,7 +55,7 @@
                     }
                 },
                 {
-                    "source": "/Users/trianap/.gradle/caches/transforms-2/files-2.1/f0c83ac7690b43eef7a8feaeb3940721/jetified-play-services-base-17.0.0/res/values-be/values.xml",
+                    "source": "/Users/trianap/.gradle/caches/transforms-2/files-2.1/efec7e0c5f71242a130c2f522d69d3f7/jetified-play-services-base-17.1.0/res/values-be/values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
                         "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",

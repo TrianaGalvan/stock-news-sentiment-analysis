@@ -1,86 +1,167 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/trianap/Documents/ProjectCertification/codelab-textclassification-android-master/start/app/src/main/AndroidManifest.xml:2:1-23:12
-INJECTED from /Users/trianap/Documents/ProjectCertification/codelab-textclassification-android-master/start/app/src/main/AndroidManifest.xml:2:1-23:12
-INJECTED from /Users/trianap/Documents/ProjectCertification/codelab-textclassification-android-master/start/app/src/main/AndroidManifest.xml:2:1-23:12
-INJECTED from /Users/trianap/Documents/ProjectCertification/codelab-textclassification-android-master/start/app/src/main/AndroidManifest.xml:2:1-23:12
+ADDED from /Users/trianap/Documents/ProjectCertification/codelab-textclassification-android-master/start/app/src/main/AndroidManifest.xml:2:1-22:12
+INJECTED from /Users/trianap/Documents/ProjectCertification/codelab-textclassification-android-master/start/app/src/main/AndroidManifest.xml:2:1-22:12
+INJECTED from /Users/trianap/Documents/ProjectCertification/codelab-textclassification-android-master/start/app/src/main/AndroidManifest.xml:2:1-22:12
+INJECTED from /Users/trianap/Documents/ProjectCertification/codelab-textclassification-android-master/start/app/src/main/AndroidManifest.xml:2:1-22:12
+MERGED from [me.zhanghai.android.materialratingbar:library:1.4.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/f18607c3204c6ebef6e1380ff1d72414/jetified-library-1.4.0/AndroidManifest.xml:6:1-15:12
+MERGED from [com.firebaseui:firebase-ui-auth:6.2.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/9e889a7aeeb1f5be02b2707a894fd057/jetified-firebase-ui-auth-6.2.0/AndroidManifest.xml:2:1-109:12
+MERGED from [com.google.android.material:material:1.1.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/067fb970d9cf15beefab2ae9c6e76139/material-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [me.zhanghai.android.materialprogressbar:library:1.6.1] /Users/trianap/.gradle/caches/transforms-2/files-2.1/10a4729edf2c2819cea42f5c84b6d124/jetified-library-1.6.1/AndroidManifest.xml:6:1-15:12
 MERGED from [androidx.appcompat:appcompat:1.2.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/8f63d9c6eab1fc3ec3bd8e994478e6d9/appcompat-1.2.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/trianap/.gradle/caches/transforms-2/files-2.1/507974e82405b4b3d3fc49dcf4b17fca/constraintlayout-1.1.3/AndroidManifest.xml:2:1-11:12
 MERGED from [com.google.firebase:firebase-ml-model-interpreter:22.0.4] /Users/trianap/.gradle/caches/transforms-2/files-2.1/c2c13385af53ac9e8c080651990be507/jetified-firebase-ml-model-interpreter-22.0.4/AndroidManifest.xml:2:1-18:12
 MERGED from [org.tensorflow:tensorflow-lite-task-text:0.1.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/5a61bf94d25afcbb3ebe6d83fe404b13/jetified-tensorflow-lite-task-text-0.1.0/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/73898f2313c4e5de3fea24bfe5ee663d/lifecycle-extensions-2.2.0/AndroidManifest.xml:17:1-27:12
+MERGED from [com.google.firebase:firebase-auth:21.0.1] /Users/trianap/.gradle/caches/transforms-2/files-2.1/fba6a590e046ae3bb28498ec65ed943f/jetified-firebase-auth-21.0.1/AndroidManifest.xml:17:1-83:12
+MERGED from [androidx.browser:browser:1.0.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/0da7d5a94dd0e0378241c8ed9d1e3759/browser-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/5d723b9ea2a3e9ad865b5d34e83c4810/jetified-viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/0331a2723e21d1b00f24d3ef54f554cf/recyclerview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/cd2d632f47d1e20d4e37ab620bf2016c/jetified-appcompat-resources-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/56570853ab2c3aa2616c58372a71d2ff/legacy-support-v4-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/2fa1bcc7c24d245161e345383ce0ea17/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/d5a3002fc0cff364ed08157156171c1c/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.firebase:firebase-ml-common:22.1.2] /Users/trianap/.gradle/caches/transforms-2/files-2.1/092dae428b66a8fbd7f4947f52f506e4/jetified-firebase-ml-common-22.1.2/AndroidManifest.xml:2:1-17:12
-MERGED from [com.google.firebase:firebase-installations:17.0.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/2aae6c639194544a0dae8dfba6f260df/jetified-firebase-installations-17.0.0/AndroidManifest.xml:2:1-24:12
-MERGED from [com.google.firebase:firebase-common:20.0.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/f974751ac5677ce8830189f78881ba9c/jetified-firebase-common-20.0.0/AndroidManifest.xml:15:1-40:12
+MERGED from [com.google.android.gms:play-services-auth:17.0.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/d694a49b020a80ef71aa3cdb66eeb8a8/jetified-play-services-auth-17.0.0/AndroidManifest.xml:17:1-39:12
+MERGED from [com.google.firebase:firebase-firestore:23.0.3] /Users/trianap/.gradle/caches/transforms-2/files-2.1/a5d9f8cae2b1cb25561aa60cf8081596/jetified-firebase-firestore-23.0.3/AndroidManifest.xml:2:1-26:12
+MERGED from [com.google.android.gms:play-services-auth-base:17.0.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/ad24c125b13a8e37ce99c866be620cdb/jetified-play-services-auth-base-17.0.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-auth-api-phone:17.4.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/93722283db114e57a915fd37d4b64b3c/jetified-play-services-auth-api-phone-17.4.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/20563ed05ca41ae21912365770a5250a/jetified-play-services-safetynet-17.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-database-collection:18.0.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/ac879ba210006d80d393a198b1f63150/jetified-firebase-database-collection-18.0.0/AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.android.gms:play-services-clearcut:17.0.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/0578bea03d6a77ff5618bbd6fe4d21ce/jetified-play-services-clearcut-17.0.0/AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.gms:play-services-phenotype:17.0.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/e111ac08bb6c2c6e779e3514b3ccd495/jetified-play-services-phenotype-17.0.0/AndroidManifest.xml:17:1-24:12
-MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/f0c83ac7690b43eef7a8feaeb3940721/jetified-play-services-base-17.0.0/AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-base:17.1.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/efec7e0c5f71242a130c2f522d69d3f7/jetified-play-services-base-17.1.0/AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.firebase:firebase-analytics:19.0.1] /Users/trianap/.gradle/caches/transforms-2/files-2.1/dad23adba3fb979504f117bfad5dd278/jetified-firebase-analytics-19.0.1/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-measurement-api:19.0.1] /Users/trianap/.gradle/caches/transforms-2/files-2.1/5cd2cea2e3f4f0e0a3821ae9e5b45e56/jetified-play-services-measurement-api-19.0.1/AndroidManifest.xml:17:1-36:12
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/17bf4f4b038871922722263075864a12/jetified-firebase-auth-interop-20.0.0/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.firebase:firebase-installations:17.0.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/2aae6c639194544a0dae8dfba6f260df/jetified-firebase-installations-17.0.0/AndroidManifest.xml:2:1-24:12
+MERGED from [com.google.firebase:firebase-common:20.0.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/f974751ac5677ce8830189f78881ba9c/jetified-firebase-common-20.0.0/AndroidManifest.xml:15:1-40:12
 MERGED from [com.google.firebase:firebase-installations-interop:17.0.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/492b30f0e7b3c8d55402321ef82cc84b/jetified-firebase-installations-interop-17.0.0/AndroidManifest.xml:15:1-23:12
 MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/b6ea415f531905c42bdc68eba6adc9ea/jetified-play-services-tasks-17.0.0/AndroidManifest.xml:2:1-9:12
-MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/10b1e51736e27fda30f62ca5156f7b46/jetified-play-services-basement-17.0.0/AndroidManifest.xml:17:1-28:12
-MERGED from [androidx.fragment:fragment:1.1.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/f80ae77aefca45c6b7cf943d3bebb285/fragment-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/cd2d632f47d1e20d4e37ab620bf2016c/jetified-appcompat-resources-1.2.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/d5a3002fc0cff364ed08157156171c1c/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/c3cd4191ace0436612f546d256538292/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-measurement:19.0.1] /Users/trianap/.gradle/caches/transforms-2/files-2.1/81c849a1850caeb2a712a86533e7ab90/jetified-play-services-measurement-19.0.1/AndroidManifest.xml:17:1-46:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk:19.0.1] /Users/trianap/.gradle/caches/transforms-2/files-2.1/32a32d9aa4b5eae4af9a87dc376d6288/jetified-play-services-measurement-sdk-19.0.1/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-measurement-impl:19.0.1] /Users/trianap/.gradle/caches/transforms-2/files-2.1/83c8a9ec725032d262189f235d0b99a9/jetified-play-services-measurement-impl-19.0.1/AndroidManifest.xml:17:1-31:12
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/cd33f2e9d1a968b81e76d133efdae63c/jetified-play-services-ads-identifier-17.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:19.0.1] /Users/trianap/.gradle/caches/transforms-2/files-2.1/b84d1e3bcea0d4d5f9dc27a6a63e5bff/jetified-play-services-measurement-sdk-api-19.0.1/AndroidManifest.xml:17:1-27:12
+MERGED from [com.google.android.gms:play-services-measurement-base:19.0.1] /Users/trianap/.gradle/caches/transforms-2/files-2.1/4da6efb1a0097c10194d9292423ee2df/jetified-play-services-measurement-base-19.0.1/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/d6319ec0a1a80c2bec3d633d225d05ac/jetified-play-services-stats-17.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/c62a6207c0737af357ee6f9f9239fc06/jetified-firebase-measurement-connector-19.0.0/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-basement:17.1.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/76d9b39004339d87bed43eb49248bfed/jetified-play-services-basement-17.1.0/AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.fragment:fragment:1.2.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/6d965c3819338ea1f3c399331de48bd0/fragment-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/30c8d6d01f63d1802f1d42d5231fab69/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.loader:loader:1.0.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/f88ab4bd85c8737598ab7cbd3e71c215/loader-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.activity:activity:1.0.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/ba549b49ba890d64a253a7a522299476/jetified-activity-1.0.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/68057359e27bbdd06bf2480458ce7f3f/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/fabe640f9e5e527e1b12fa42a9b2f07a/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/a56f4035730a92ea4a7b3fccb4b1d457/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.2.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/ebef8c97c826d4a1ee14b3ba3d1fe2a3/transition-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/c3cd4191ace0436612f546d256538292/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/9c8693e93fa93e1599708e5f997c4293/slidingpanelayout-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.customview:customview:1.0.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/b650020d6ea2a6451544857486e8da90/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.1.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/9adbf43962d892385826f4dac7b64696/jetified-activity-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.media:media:1.0.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/3a0f55079b72067775a8ba85442d799c/media-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/8c06ddd65e8444707ea2f45592fb95fe/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/8bc568ba2a659586aa51efa03479ddc7/asynclayoutinflater-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.core:core:1.3.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/539dd7ec023f08c47477f9f5ca19cf00/core-1.3.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/0e9e5f3fd1aaa2a20b7d31d01d3d95e5/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:17:1-32:12
+MERGED from [androidx.lifecycle:lifecycle-service:2.2.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/abab69291027e50dfb44dee393ada44f/jetified-lifecycle-service-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/40bd5a55cbb145b17c9126ab5e709fe8/lifecycle-runtime-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/e5f242ec43d99bcd54e53a78a4f96253/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.multidex:multidex:2.0.1] /Users/trianap/.gradle/caches/transforms-2/files-2.1/db11ce8a48e8687e79a1536a3a543e8b/multidex-2.0.1/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/c48274ca9c7916920773a90d1ecacef4/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/8a55d7eb0052e9fe45d0aa7dc25e3ffd/versionedparcelable-1.1.0/AndroidManifest.xml:17:1-27:12
-MERGED from [com.google.firebase:firebase-components:17.0.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/6f7dcb6a18c635161723fcc4cde38773/jetified-firebase-components-17.0.0/AndroidManifest.xml:15:1-23:12
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/bd1fa9fb92daeeffa1f9ae36f19a22b6/lifecycle-runtime-2.1.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/8913cbc6b4a1982cf279e1f041a8e97b/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.2.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/59436d40c1eb99ab0e35999e65ff6267/lifecycle-livedata-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:1.0.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/3785ac3d0a5f1eb6ec3d634fcf594976/jetified-lifecycle-viewmodel-savedstate-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/a57a625206443f0f25873e9299c18adc/lifecycle-livedata-core-2.2.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/d82ee48dcf7c6d0426ef9f08be84fc4a/jetified-savedstate-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/7fd04d136f76c1c87da587dae49cc250/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/4d5fb3e6250fe812906312d48f7d8bef/lifecycle-viewmodel-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/8a55d7eb0052e9fe45d0aa7dc25e3ffd/versionedparcelable-1.1.0/AndroidManifest.xml:17:1-27:12
 MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/c6ae507bfbbbc7cadc9d1fa18b37d46f/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/c02959994c0fe23110ca86cd18d2a266/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/0798e8687a30e713d97b898ccf1f85c9/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/4970efe8ccabb2c6cb289910540ff629/core-runtime-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-components:17.0.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/6f7dcb6a18c635161723fcc4cde38773/jetified-firebase-components-17.0.0/AndroidManifest.xml:15:1-23:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/f321dc6de199ac139f8a0802c11749c9/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/95845392fc02f66a0c202dabf7818a57/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/2951fc92df0b0491504555b9bee91436/print-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [org.tensorflow:tensorflow-lite-support:0.1.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/a10932bcc1699cd6186761f0089c521b/jetified-tensorflow-lite-support-0.1.0/AndroidManifest.xml:2:1-5:12
 MERGED from [org.tensorflow:tensorflow-lite:2.4.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/8875ca7942cfaa510b2d97aba004e9a3/jetified-tensorflow-lite-2.4.0/AndroidManifest.xml:2:1-12:12
 MERGED from [org.tensorflow:tensorflow-lite-task-base:0.1.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/f05aa6e0881bfdbe6451c8b236920584/jetified-tensorflow-lite-task-base-0.0.0-nightly/AndroidManifest.xml:2:1-6:12
-INJECTED from /Users/trianap/Documents/ProjectCertification/codelab-textclassification-android-master/start/app/src/main/AndroidManifest.xml:2:1-23:12
-INJECTED from /Users/trianap/Documents/ProjectCertification/codelab-textclassification-android-master/start/app/src/main/AndroidManifest.xml:2:1-23:12
-INJECTED from /Users/trianap/Documents/ProjectCertification/codelab-textclassification-android-master/start/app/src/main/AndroidManifest.xml:2:1-23:12
+MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/bba02ced707fae9f70d476a06b906222/jetified-protolite-well-known-types-18.0.0/AndroidManifest.xml:2:1-11:12
+MERGED from [io.grpc:grpc-android:1.28.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/ec26acd5ffaabb4c152048bb4c3b5856/jetified-grpc-android-1.28.0/AndroidManifest.xml:2:1-13:12
+INJECTED from /Users/trianap/Documents/ProjectCertification/codelab-textclassification-android-master/start/app/src/main/AndroidManifest.xml:2:1-22:12
+INJECTED from /Users/trianap/Documents/ProjectCertification/codelab-textclassification-android-master/start/app/src/main/AndroidManifest.xml:2:1-22:12
+INJECTED from /Users/trianap/Documents/ProjectCertification/codelab-textclassification-android-master/start/app/src/main/AndroidManifest.xml:2:1-22:12
 	package
 		ADDED from /Users/trianap/Documents/ProjectCertification/codelab-textclassification-android-master/start/app/src/main/AndroidManifest.xml:3:5-62
 		INJECTED from /Users/trianap/Documents/ProjectCertification/codelab-textclassification-android-master/start/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/trianap/Documents/ProjectCertification/codelab-textclassification-android-master/start/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /Users/trianap/Documents/ProjectCertification/codelab-textclassification-android-master/start/app/src/main/AndroidManifest.xml
-		ADDED from /Users/trianap/Documents/ProjectCertification/codelab-textclassification-android-master/start/app/src/main/AndroidManifest.xml:2:1-23:12
+		ADDED from /Users/trianap/Documents/ProjectCertification/codelab-textclassification-android-master/start/app/src/main/AndroidManifest.xml:2:1-22:12
 		INJECTED from /Users/trianap/Documents/ProjectCertification/codelab-textclassification-android-master/start/app/src/main/AndroidManifest.xml
 	android:versionCode
 		INJECTED from /Users/trianap/Documents/ProjectCertification/codelab-textclassification-android-master/start/app/src/main/AndroidManifest.xml
-		ADDED from /Users/trianap/Documents/ProjectCertification/codelab-textclassification-android-master/start/app/src/main/AndroidManifest.xml:2:1-23:12
+		ADDED from /Users/trianap/Documents/ProjectCertification/codelab-textclassification-android-master/start/app/src/main/AndroidManifest.xml:2:1-22:12
 		INJECTED from /Users/trianap/Documents/ProjectCertification/codelab-textclassification-android-master/start/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /Users/trianap/Documents/ProjectCertification/codelab-textclassification-android-master/start/app/src/main/AndroidManifest.xml:2:11-69
 application
-ADDED from /Users/trianap/Documents/ProjectCertification/codelab-textclassification-android-master/start/app/src/main/AndroidManifest.xml:5:3-21:17
+ADDED from /Users/trianap/Documents/ProjectCertification/codelab-textclassification-android-master/start/app/src/main/AndroidManifest.xml:5:3-20:17
+MERGED from [com.firebaseui:firebase-ui-auth:6.2.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/9e889a7aeeb1f5be02b2707a894fd057/jetified-firebase-ui-auth-6.2.0/AndroidManifest.xml:15:5-107:19
+MERGED from [com.firebaseui:firebase-ui-auth:6.2.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/9e889a7aeeb1f5be02b2707a894fd057/jetified-firebase-ui-auth-6.2.0/AndroidManifest.xml:15:5-107:19
+MERGED from [com.google.android.material:material:1.1.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/067fb970d9cf15beefab2ae9c6e76139/material-1.1.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.1.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/067fb970d9cf15beefab2ae9c6e76139/material-1.1.0/AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/trianap/.gradle/caches/transforms-2/files-2.1/507974e82405b4b3d3fc49dcf4b17fca/constraintlayout-1.1.3/AndroidManifest.xml:9:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/trianap/.gradle/caches/transforms-2/files-2.1/507974e82405b4b3d3fc49dcf4b17fca/constraintlayout-1.1.3/AndroidManifest.xml:9:5-20
 MERGED from [com.google.firebase:firebase-ml-model-interpreter:22.0.4] /Users/trianap/.gradle/caches/transforms-2/files-2.1/c2c13385af53ac9e8c080651990be507/jetified-firebase-ml-model-interpreter-22.0.4/AndroidManifest.xml:8:5-16:19
 MERGED from [com.google.firebase:firebase-ml-model-interpreter:22.0.4] /Users/trianap/.gradle/caches/transforms-2/files-2.1/c2c13385af53ac9e8c080651990be507/jetified-firebase-ml-model-interpreter-22.0.4/AndroidManifest.xml:8:5-16:19
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/73898f2313c4e5de3fea24bfe5ee663d/lifecycle-extensions-2.2.0/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/73898f2313c4e5de3fea24bfe5ee663d/lifecycle-extensions-2.2.0/AndroidManifest.xml:24:5-25:19
+MERGED from [com.google.firebase:firebase-auth:21.0.1] /Users/trianap/.gradle/caches/transforms-2/files-2.1/fba6a590e046ae3bb28498ec65ed943f/jetified-firebase-auth-21.0.1/AndroidManifest.xml:26:5-81:19
+MERGED from [com.google.firebase:firebase-auth:21.0.1] /Users/trianap/.gradle/caches/transforms-2/files-2.1/fba6a590e046ae3bb28498ec65ed943f/jetified-firebase-auth-21.0.1/AndroidManifest.xml:26:5-81:19
 MERGED from [com.google.firebase:firebase-ml-common:22.1.2] /Users/trianap/.gradle/caches/transforms-2/files-2.1/092dae428b66a8fbd7f4947f52f506e4/jetified-firebase-ml-common-22.1.2/AndroidManifest.xml:7:5-15:19
 MERGED from [com.google.firebase:firebase-ml-common:22.1.2] /Users/trianap/.gradle/caches/transforms-2/files-2.1/092dae428b66a8fbd7f4947f52f506e4/jetified-firebase-ml-common-22.1.2/AndroidManifest.xml:7:5-15:19
-MERGED from [com.google.firebase:firebase-installations:17.0.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/2aae6c639194544a0dae8dfba6f260df/jetified-firebase-installations-17.0.0/AndroidManifest.xml:14:5-22:19
-MERGED from [com.google.firebase:firebase-installations:17.0.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/2aae6c639194544a0dae8dfba6f260df/jetified-firebase-installations-17.0.0/AndroidManifest.xml:14:5-22:19
-MERGED from [com.google.firebase:firebase-common:20.0.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/f974751ac5677ce8830189f78881ba9c/jetified-firebase-common-20.0.0/AndroidManifest.xml:25:5-38:19
-MERGED from [com.google.firebase:firebase-common:20.0.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/f974751ac5677ce8830189f78881ba9c/jetified-firebase-common-20.0.0/AndroidManifest.xml:25:5-38:19
+MERGED from [com.google.android.gms:play-services-auth:17.0.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/d694a49b020a80ef71aa3cdb66eeb8a8/jetified-play-services-auth-17.0.0/AndroidManifest.xml:22:5-37:19
+MERGED from [com.google.android.gms:play-services-auth:17.0.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/d694a49b020a80ef71aa3cdb66eeb8a8/jetified-play-services-auth-17.0.0/AndroidManifest.xml:22:5-37:19
+MERGED from [com.google.firebase:firebase-firestore:23.0.3] /Users/trianap/.gradle/caches/transforms-2/files-2.1/a5d9f8cae2b1cb25561aa60cf8081596/jetified-firebase-firestore-23.0.3/AndroidManifest.xml:16:5-24:19
+MERGED from [com.google.firebase:firebase-firestore:23.0.3] /Users/trianap/.gradle/caches/transforms-2/files-2.1/a5d9f8cae2b1cb25561aa60cf8081596/jetified-firebase-firestore-23.0.3/AndroidManifest.xml:16:5-24:19
+MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/20563ed05ca41ae21912365770a5250a/jetified-play-services-safetynet-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/20563ed05ca41ae21912365770a5250a/jetified-play-services-safetynet-17.0.0/AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.gms:play-services-clearcut:17.0.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/0578bea03d6a77ff5618bbd6fe4d21ce/jetified-play-services-clearcut-17.0.0/AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.gms:play-services-clearcut:17.0.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/0578bea03d6a77ff5618bbd6fe4d21ce/jetified-play-services-clearcut-17.0.0/AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.gms:play-services-phenotype:17.0.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/e111ac08bb6c2c6e779e3514b3ccd495/jetified-play-services-phenotype-17.0.0/AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.gms:play-services-phenotype:17.0.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/e111ac08bb6c2c6e779e3514b3ccd495/jetified-play-services-phenotype-17.0.0/AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/f0c83ac7690b43eef7a8feaeb3940721/jetified-play-services-base-17.0.0/AndroidManifest.xml:22:5-27:19
-MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/f0c83ac7690b43eef7a8feaeb3940721/jetified-play-services-base-17.0.0/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:17.1.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/efec7e0c5f71242a130c2f522d69d3f7/jetified-play-services-base-17.1.0/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:17.1.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/efec7e0c5f71242a130c2f522d69d3f7/jetified-play-services-base-17.1.0/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.firebase:firebase-analytics:19.0.1] /Users/trianap/.gradle/caches/transforms-2/files-2.1/dad23adba3fb979504f117bfad5dd278/jetified-firebase-analytics-19.0.1/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-analytics:19.0.1] /Users/trianap/.gradle/caches/transforms-2/files-2.1/dad23adba3fb979504f117bfad5dd278/jetified-firebase-analytics-19.0.1/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-api:19.0.1] /Users/trianap/.gradle/caches/transforms-2/files-2.1/5cd2cea2e3f4f0e0a3821ae9e5b45e56/jetified-play-services-measurement-api-19.0.1/AndroidManifest.xml:26:5-34:19
+MERGED from [com.google.android.gms:play-services-measurement-api:19.0.1] /Users/trianap/.gradle/caches/transforms-2/files-2.1/5cd2cea2e3f4f0e0a3821ae9e5b45e56/jetified-play-services-measurement-api-19.0.1/AndroidManifest.xml:26:5-34:19
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/17bf4f4b038871922722263075864a12/jetified-firebase-auth-interop-20.0.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/17bf4f4b038871922722263075864a12/jetified-firebase-auth-interop-20.0.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-installations:17.0.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/2aae6c639194544a0dae8dfba6f260df/jetified-firebase-installations-17.0.0/AndroidManifest.xml:14:5-22:19
+MERGED from [com.google.firebase:firebase-installations:17.0.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/2aae6c639194544a0dae8dfba6f260df/jetified-firebase-installations-17.0.0/AndroidManifest.xml:14:5-22:19
+MERGED from [com.google.firebase:firebase-common:20.0.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/f974751ac5677ce8830189f78881ba9c/jetified-firebase-common-20.0.0/AndroidManifest.xml:25:5-38:19
+MERGED from [com.google.firebase:firebase-common:20.0.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/f974751ac5677ce8830189f78881ba9c/jetified-firebase-common-20.0.0/AndroidManifest.xml:25:5-38:19
 MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/b6ea415f531905c42bdc68eba6adc9ea/jetified-play-services-tasks-17.0.0/AndroidManifest.xml:7:5-20
 MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/b6ea415f531905c42bdc68eba6adc9ea/jetified-play-services-tasks-17.0.0/AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/10b1e51736e27fda30f62ca5156f7b46/jetified-play-services-basement-17.0.0/AndroidManifest.xml:22:5-26:19
-MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/10b1e51736e27fda30f62ca5156f7b46/jetified-play-services-basement-17.0.0/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-measurement:19.0.1] /Users/trianap/.gradle/caches/transforms-2/files-2.1/81c849a1850caeb2a712a86533e7ab90/jetified-play-services-measurement-19.0.1/AndroidManifest.xml:28:5-44:19
+MERGED from [com.google.android.gms:play-services-measurement:19.0.1] /Users/trianap/.gradle/caches/transforms-2/files-2.1/81c849a1850caeb2a712a86533e7ab90/jetified-play-services-measurement-19.0.1/AndroidManifest.xml:28:5-44:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:19.0.1] /Users/trianap/.gradle/caches/transforms-2/files-2.1/32a32d9aa4b5eae4af9a87dc376d6288/jetified-play-services-measurement-sdk-19.0.1/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:19.0.1] /Users/trianap/.gradle/caches/transforms-2/files-2.1/32a32d9aa4b5eae4af9a87dc376d6288/jetified-play-services-measurement-sdk-19.0.1/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-impl:19.0.1] /Users/trianap/.gradle/caches/transforms-2/files-2.1/83c8a9ec725032d262189f235d0b99a9/jetified-play-services-measurement-impl-19.0.1/AndroidManifest.xml:28:5-29:19
+MERGED from [com.google.android.gms:play-services-measurement-impl:19.0.1] /Users/trianap/.gradle/caches/transforms-2/files-2.1/83c8a9ec725032d262189f235d0b99a9/jetified-play-services-measurement-impl-19.0.1/AndroidManifest.xml:28:5-29:19
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/cd33f2e9d1a968b81e76d133efdae63c/jetified-play-services-ads-identifier-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/cd33f2e9d1a968b81e76d133efdae63c/jetified-play-services-ads-identifier-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:19.0.1] /Users/trianap/.gradle/caches/transforms-2/files-2.1/4da6efb1a0097c10194d9292423ee2df/jetified-play-services-measurement-base-19.0.1/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:19.0.1] /Users/trianap/.gradle/caches/transforms-2/files-2.1/4da6efb1a0097c10194d9292423ee2df/jetified-play-services-measurement-base-19.0.1/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/d6319ec0a1a80c2bec3d633d225d05ac/jetified-play-services-stats-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/d6319ec0a1a80c2bec3d633d225d05ac/jetified-play-services-stats-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/c62a6207c0737af357ee6f9f9239fc06/jetified-firebase-measurement-connector-19.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/c62a6207c0737af357ee6f9f9239fc06/jetified-firebase-measurement-connector-19.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-basement:17.1.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/76d9b39004339d87bed43eb49248bfed/jetified-play-services-basement-17.1.0/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:17.1.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/76d9b39004339d87bed43eb49248bfed/jetified-play-services-basement-17.1.0/AndroidManifest.xml:22:5-26:19
 MERGED from [androidx.core:core:1.3.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/539dd7ec023f08c47477f9f5ca19cf00/core-1.3.0/AndroidManifest.xml:24:5-89
 MERGED from [androidx.core:core:1.3.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/539dd7ec023f08c47477f9f5ca19cf00/core-1.3.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/0e9e5f3fd1aaa2a20b7d31d01d3d95e5/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:24:5-30:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/0e9e5f3fd1aaa2a20b7d31d01d3d95e5/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:24:5-30:19
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/8a55d7eb0052e9fe45d0aa7dc25e3ffd/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/8a55d7eb0052e9fe45d0aa7dc25e3ffd/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
 MERGED from [org.tensorflow:tensorflow-lite:2.4.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/8875ca7942cfaa510b2d97aba004e9a3/jetified-tensorflow-lite-2.4.0/AndroidManifest.xml:10:5-20
@@ -100,29 +181,37 @@ MERGED from [org.tensorflow:tensorflow-lite-task-base:0.1.0] /Users/trianap/.gra
 	android:allowBackup
 		ADDED from /Users/trianap/Documents/ProjectCertification/codelab-textclassification-android-master/start/app/src/main/AndroidManifest.xml:6:7-33
 	android:theme
-		ADDED from /Users/trianap/Documents/ProjectCertification/codelab-textclassification-android-master/start/app/src/main/AndroidManifest.xml:11:7-57
+		ADDED from /Users/trianap/Documents/ProjectCertification/codelab-textclassification-android-master/start/app/src/main/AndroidManifest.xml:11:7-38
 activity#org.tensorflow.lite.codelabs.textclassification.MainActivity
-ADDED from /Users/trianap/Documents/ProjectCertification/codelab-textclassification-android-master/start/app/src/main/AndroidManifest.xml:12:5-20:16
-	android:windowSoftInputMode
-		ADDED from /Users/trianap/Documents/ProjectCertification/codelab-textclassification-android-master/start/app/src/main/AndroidManifest.xml:14:15-57
-	android:exported
-		ADDED from /Users/trianap/Documents/ProjectCertification/codelab-textclassification-android-master/start/app/src/main/AndroidManifest.xml:13:15-38
+ADDED from /Users/trianap/Documents/ProjectCertification/codelab-textclassification-android-master/start/app/src/main/AndroidManifest.xml:12:7-18:16
 	android:name
-		ADDED from /Users/trianap/Documents/ProjectCertification/codelab-textclassification-android-master/start/app/src/main/AndroidManifest.xml:12:15-43
+		ADDED from /Users/trianap/Documents/ProjectCertification/codelab-textclassification-android-master/start/app/src/main/AndroidManifest.xml:12:17-45
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/trianap/Documents/ProjectCertification/codelab-textclassification-android-master/start/app/src/main/AndroidManifest.xml:15:7-19:23
+ADDED from /Users/trianap/Documents/ProjectCertification/codelab-textclassification-android-master/start/app/src/main/AndroidManifest.xml:13:7-17:23
 action#android.intent.action.MAIN
-ADDED from /Users/trianap/Documents/ProjectCertification/codelab-textclassification-android-master/start/app/src/main/AndroidManifest.xml:16:9-60
+ADDED from /Users/trianap/Documents/ProjectCertification/codelab-textclassification-android-master/start/app/src/main/AndroidManifest.xml:14:9-60
 	android:name
-		ADDED from /Users/trianap/Documents/ProjectCertification/codelab-textclassification-android-master/start/app/src/main/AndroidManifest.xml:16:17-58
+		ADDED from /Users/trianap/Documents/ProjectCertification/codelab-textclassification-android-master/start/app/src/main/AndroidManifest.xml:14:17-58
 category#android.intent.category.LAUNCHER
-ADDED from /Users/trianap/Documents/ProjectCertification/codelab-textclassification-android-master/start/app/src/main/AndroidManifest.xml:18:9-68
+ADDED from /Users/trianap/Documents/ProjectCertification/codelab-textclassification-android-master/start/app/src/main/AndroidManifest.xml:16:9-68
 	android:name
-		ADDED from /Users/trianap/Documents/ProjectCertification/codelab-textclassification-android-master/start/app/src/main/AndroidManifest.xml:18:19-66
+		ADDED from /Users/trianap/Documents/ProjectCertification/codelab-textclassification-android-master/start/app/src/main/AndroidManifest.xml:16:19-66
+activity#org.tensorflow.lite.codelabs.textclassification.RestaurantDetailActivity
+ADDED from /Users/trianap/Documents/ProjectCertification/codelab-textclassification-android-master/start/app/src/main/AndroidManifest.xml:19:5-58
+	android:name
+		ADDED from /Users/trianap/Documents/ProjectCertification/codelab-textclassification-android-master/start/app/src/main/AndroidManifest.xml:19:15-55
 uses-sdk
 INJECTED from /Users/trianap/Documents/ProjectCertification/codelab-textclassification-android-master/start/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/trianap/Documents/ProjectCertification/codelab-textclassification-android-master/start/app/src/main/AndroidManifest.xml
 INJECTED from /Users/trianap/Documents/ProjectCertification/codelab-textclassification-android-master/start/app/src/main/AndroidManifest.xml
+MERGED from [me.zhanghai.android.materialratingbar:library:1.4.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/f18607c3204c6ebef6e1380ff1d72414/jetified-library-1.4.0/AndroidManifest.xml:11:5-13:41
+MERGED from [me.zhanghai.android.materialratingbar:library:1.4.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/f18607c3204c6ebef6e1380ff1d72414/jetified-library-1.4.0/AndroidManifest.xml:11:5-13:41
+MERGED from [com.firebaseui:firebase-ui-auth:6.2.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/9e889a7aeeb1f5be02b2707a894fd057/jetified-firebase-ui-auth-6.2.0/AndroidManifest.xml:8:5-10:41
+MERGED from [com.firebaseui:firebase-ui-auth:6.2.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/9e889a7aeeb1f5be02b2707a894fd057/jetified-firebase-ui-auth-6.2.0/AndroidManifest.xml:8:5-10:41
+MERGED from [com.google.android.material:material:1.1.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/067fb970d9cf15beefab2ae9c6e76139/material-1.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.1.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/067fb970d9cf15beefab2ae9c6e76139/material-1.1.0/AndroidManifest.xml:20:5-44
+MERGED from [me.zhanghai.android.materialprogressbar:library:1.6.1] /Users/trianap/.gradle/caches/transforms-2/files-2.1/10a4729edf2c2819cea42f5c84b6d124/jetified-library-1.6.1/AndroidManifest.xml:11:5-13:41
+MERGED from [me.zhanghai.android.materialprogressbar:library:1.6.1] /Users/trianap/.gradle/caches/transforms-2/files-2.1/10a4729edf2c2819cea42f5c84b6d124/jetified-library-1.6.1/AndroidManifest.xml:11:5-13:41
 MERGED from [androidx.appcompat:appcompat:1.2.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/8f63d9c6eab1fc3ec3bd8e994478e6d9/appcompat-1.2.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.appcompat:appcompat:1.2.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/8f63d9c6eab1fc3ec3bd8e994478e6d9/appcompat-1.2.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/trianap/.gradle/caches/transforms-2/files-2.1/507974e82405b4b3d3fc49dcf4b17fca/constraintlayout-1.1.3/AndroidManifest.xml:5:5-7:41
@@ -131,68 +220,150 @@ MERGED from [com.google.firebase:firebase-ml-model-interpreter:22.0.4] /Users/tr
 MERGED from [com.google.firebase:firebase-ml-model-interpreter:22.0.4] /Users/trianap/.gradle/caches/transforms-2/files-2.1/c2c13385af53ac9e8c080651990be507/jetified-firebase-ml-model-interpreter-22.0.4/AndroidManifest.xml:6:5-44
 MERGED from [org.tensorflow:tensorflow-lite-task-text:0.1.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/5a61bf94d25afcbb3ebe6d83fe404b13/jetified-tensorflow-lite-task-text-0.1.0/AndroidManifest.xml:5:5-7:41
 MERGED from [org.tensorflow:tensorflow-lite-task-text:0.1.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/5a61bf94d25afcbb3ebe6d83fe404b13/jetified-tensorflow-lite-task-text-0.1.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/73898f2313c4e5de3fea24bfe5ee663d/lifecycle-extensions-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/73898f2313c4e5de3fea24bfe5ee663d/lifecycle-extensions-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-auth:21.0.1] /Users/trianap/.gradle/caches/transforms-2/files-2.1/fba6a590e046ae3bb28498ec65ed943f/jetified-firebase-auth-21.0.1/AndroidManifest.xml:21:5-44
+MERGED from [com.google.firebase:firebase-auth:21.0.1] /Users/trianap/.gradle/caches/transforms-2/files-2.1/fba6a590e046ae3bb28498ec65ed943f/jetified-firebase-auth-21.0.1/AndroidManifest.xml:21:5-44
+MERGED from [androidx.browser:browser:1.0.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/0da7d5a94dd0e0378241c8ed9d1e3759/browser-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.browser:browser:1.0.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/0da7d5a94dd0e0378241c8ed9d1e3759/browser-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/5d723b9ea2a3e9ad865b5d34e83c4810/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/5d723b9ea2a3e9ad865b5d34e83c4810/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/0331a2723e21d1b00f24d3ef54f554cf/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/0331a2723e21d1b00f24d3ef54f554cf/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/cd2d632f47d1e20d4e37ab620bf2016c/jetified-appcompat-resources-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/cd2d632f47d1e20d4e37ab620bf2016c/jetified-appcompat-resources-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/56570853ab2c3aa2616c58372a71d2ff/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/56570853ab2c3aa2616c58372a71d2ff/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/2fa1bcc7c24d245161e345383ce0ea17/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/2fa1bcc7c24d245161e345383ce0ea17/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/d5a3002fc0cff364ed08157156171c1c/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/d5a3002fc0cff364ed08157156171c1c/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [com.google.firebase:firebase-ml-common:22.1.2] /Users/trianap/.gradle/caches/transforms-2/files-2.1/092dae428b66a8fbd7f4947f52f506e4/jetified-firebase-ml-common-22.1.2/AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-ml-common:22.1.2] /Users/trianap/.gradle/caches/transforms-2/files-2.1/092dae428b66a8fbd7f4947f52f506e4/jetified-firebase-ml-common-22.1.2/AndroidManifest.xml:5:5-44
-MERGED from [com.google.firebase:firebase-installations:17.0.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/2aae6c639194544a0dae8dfba6f260df/jetified-firebase-installations-17.0.0/AndroidManifest.xml:6:5-8:41
-MERGED from [com.google.firebase:firebase-installations:17.0.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/2aae6c639194544a0dae8dfba6f260df/jetified-firebase-installations-17.0.0/AndroidManifest.xml:6:5-8:41
-MERGED from [com.google.firebase:firebase-common:20.0.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/f974751ac5677ce8830189f78881ba9c/jetified-firebase-common-20.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [com.google.firebase:firebase-common:20.0.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/f974751ac5677ce8830189f78881ba9c/jetified-firebase-common-20.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.gms:play-services-auth:17.0.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/d694a49b020a80ef71aa3cdb66eeb8a8/jetified-play-services-auth-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth:17.0.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/d694a49b020a80ef71aa3cdb66eeb8a8/jetified-play-services-auth-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-firestore:23.0.3] /Users/trianap/.gradle/caches/transforms-2/files-2.1/a5d9f8cae2b1cb25561aa60cf8081596/jetified-firebase-firestore-23.0.3/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:firebase-firestore:23.0.3] /Users/trianap/.gradle/caches/transforms-2/files-2.1/a5d9f8cae2b1cb25561aa60cf8081596/jetified-firebase-firestore-23.0.3/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.gms:play-services-auth-base:17.0.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/ad24c125b13a8e37ce99c866be620cdb/jetified-play-services-auth-base-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:17.0.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/ad24c125b13a8e37ce99c866be620cdb/jetified-play-services-auth-base-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:17.4.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/93722283db114e57a915fd37d4b64b3c/jetified-play-services-auth-api-phone-17.4.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:17.4.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/93722283db114e57a915fd37d4b64b3c/jetified-play-services-auth-api-phone-17.4.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/20563ed05ca41ae21912365770a5250a/jetified-play-services-safetynet-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/20563ed05ca41ae21912365770a5250a/jetified-play-services-safetynet-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-database-collection:18.0.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/ac879ba210006d80d393a198b1f63150/jetified-firebase-database-collection-18.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-database-collection:18.0.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/ac879ba210006d80d393a198b1f63150/jetified-firebase-database-collection-18.0.0/AndroidManifest.xml:5:5-7:41
 MERGED from [com.google.android.gms:play-services-clearcut:17.0.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/0578bea03d6a77ff5618bbd6fe4d21ce/jetified-play-services-clearcut-17.0.0/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-clearcut:17.0.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/0578bea03d6a77ff5618bbd6fe4d21ce/jetified-play-services-clearcut-17.0.0/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-phenotype:17.0.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/e111ac08bb6c2c6e779e3514b3ccd495/jetified-play-services-phenotype-17.0.0/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-phenotype:17.0.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/e111ac08bb6c2c6e779e3514b3ccd495/jetified-play-services-phenotype-17.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/f0c83ac7690b43eef7a8feaeb3940721/jetified-play-services-base-17.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/f0c83ac7690b43eef7a8feaeb3940721/jetified-play-services-base-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:17.1.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/efec7e0c5f71242a130c2f522d69d3f7/jetified-play-services-base-17.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:17.1.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/efec7e0c5f71242a130c2f522d69d3f7/jetified-play-services-base-17.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics:19.0.1] /Users/trianap/.gradle/caches/transforms-2/files-2.1/dad23adba3fb979504f117bfad5dd278/jetified-firebase-analytics-19.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-analytics:19.0.1] /Users/trianap/.gradle/caches/transforms-2/files-2.1/dad23adba3fb979504f117bfad5dd278/jetified-firebase-analytics-19.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:19.0.1] /Users/trianap/.gradle/caches/transforms-2/files-2.1/5cd2cea2e3f4f0e0a3821ae9e5b45e56/jetified-play-services-measurement-api-19.0.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:19.0.1] /Users/trianap/.gradle/caches/transforms-2/files-2.1/5cd2cea2e3f4f0e0a3821ae9e5b45e56/jetified-play-services-measurement-api-19.0.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/17bf4f4b038871922722263075864a12/jetified-firebase-auth-interop-20.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/17bf4f4b038871922722263075864a12/jetified-firebase-auth-interop-20.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-installations:17.0.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/2aae6c639194544a0dae8dfba6f260df/jetified-firebase-installations-17.0.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-installations:17.0.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/2aae6c639194544a0dae8dfba6f260df/jetified-firebase-installations-17.0.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-common:20.0.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/f974751ac5677ce8830189f78881ba9c/jetified-firebase-common-20.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-common:20.0.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/f974751ac5677ce8830189f78881ba9c/jetified-firebase-common-20.0.0/AndroidManifest.xml:20:5-22:41
 MERGED from [com.google.firebase:firebase-installations-interop:17.0.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/492b30f0e7b3c8d55402321ef82cc84b/jetified-firebase-installations-interop-17.0.0/AndroidManifest.xml:19:5-21:41
 MERGED from [com.google.firebase:firebase-installations-interop:17.0.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/492b30f0e7b3c8d55402321ef82cc84b/jetified-firebase-installations-interop-17.0.0/AndroidManifest.xml:19:5-21:41
 MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/b6ea415f531905c42bdc68eba6adc9ea/jetified-play-services-tasks-17.0.0/AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/b6ea415f531905c42bdc68eba6adc9ea/jetified-play-services-tasks-17.0.0/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/10b1e51736e27fda30f62ca5156f7b46/jetified-play-services-basement-17.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/10b1e51736e27fda30f62ca5156f7b46/jetified-play-services-basement-17.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.fragment:fragment:1.1.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/f80ae77aefca45c6b7cf943d3bebb285/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.fragment:fragment:1.1.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/f80ae77aefca45c6b7cf943d3bebb285/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/cd2d632f47d1e20d4e37ab620bf2016c/jetified-appcompat-resources-1.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/cd2d632f47d1e20d4e37ab620bf2016c/jetified-appcompat-resources-1.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/d5a3002fc0cff364ed08157156171c1c/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/d5a3002fc0cff364ed08157156171c1c/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/c3cd4191ace0436612f546d256538292/viewpager-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/c3cd4191ace0436612f546d256538292/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement:19.0.1] /Users/trianap/.gradle/caches/transforms-2/files-2.1/81c849a1850caeb2a712a86533e7ab90/jetified-play-services-measurement-19.0.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement:19.0.1] /Users/trianap/.gradle/caches/transforms-2/files-2.1/81c849a1850caeb2a712a86533e7ab90/jetified-play-services-measurement-19.0.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:19.0.1] /Users/trianap/.gradle/caches/transforms-2/files-2.1/32a32d9aa4b5eae4af9a87dc376d6288/jetified-play-services-measurement-sdk-19.0.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:19.0.1] /Users/trianap/.gradle/caches/transforms-2/files-2.1/32a32d9aa4b5eae4af9a87dc376d6288/jetified-play-services-measurement-sdk-19.0.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-impl:19.0.1] /Users/trianap/.gradle/caches/transforms-2/files-2.1/83c8a9ec725032d262189f235d0b99a9/jetified-play-services-measurement-impl-19.0.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-impl:19.0.1] /Users/trianap/.gradle/caches/transforms-2/files-2.1/83c8a9ec725032d262189f235d0b99a9/jetified-play-services-measurement-impl-19.0.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/cd33f2e9d1a968b81e76d133efdae63c/jetified-play-services-ads-identifier-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/cd33f2e9d1a968b81e76d133efdae63c/jetified-play-services-ads-identifier-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:19.0.1] /Users/trianap/.gradle/caches/transforms-2/files-2.1/b84d1e3bcea0d4d5f9dc27a6a63e5bff/jetified-play-services-measurement-sdk-api-19.0.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:19.0.1] /Users/trianap/.gradle/caches/transforms-2/files-2.1/b84d1e3bcea0d4d5f9dc27a6a63e5bff/jetified-play-services-measurement-sdk-api-19.0.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:19.0.1] /Users/trianap/.gradle/caches/transforms-2/files-2.1/4da6efb1a0097c10194d9292423ee2df/jetified-play-services-measurement-base-19.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:19.0.1] /Users/trianap/.gradle/caches/transforms-2/files-2.1/4da6efb1a0097c10194d9292423ee2df/jetified-play-services-measurement-base-19.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/d6319ec0a1a80c2bec3d633d225d05ac/jetified-play-services-stats-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/d6319ec0a1a80c2bec3d633d225d05ac/jetified-play-services-stats-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/c62a6207c0737af357ee6f9f9239fc06/jetified-firebase-measurement-connector-19.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/c62a6207c0737af357ee6f9f9239fc06/jetified-firebase-measurement-connector-19.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.1.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/76d9b39004339d87bed43eb49248bfed/jetified-play-services-basement-17.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.1.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/76d9b39004339d87bed43eb49248bfed/jetified-play-services-basement-17.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.2.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/6d965c3819338ea1f3c399331de48bd0/fragment-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.2.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/6d965c3819338ea1f3c399331de48bd0/fragment-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/30c8d6d01f63d1802f1d42d5231fab69/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/30c8d6d01f63d1802f1d42d5231fab69/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.loader:loader:1.0.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/f88ab4bd85c8737598ab7cbd3e71c215/loader-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.loader:loader:1.0.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/f88ab4bd85c8737598ab7cbd3e71c215/loader-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.activity:activity:1.0.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/ba549b49ba890d64a253a7a522299476/jetified-activity-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.activity:activity:1.0.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/ba549b49ba890d64a253a7a522299476/jetified-activity-1.0.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/68057359e27bbdd06bf2480458ce7f3f/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/68057359e27bbdd06bf2480458ce7f3f/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/fabe640f9e5e527e1b12fa42a9b2f07a/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/fabe640f9e5e527e1b12fa42a9b2f07a/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/a56f4035730a92ea4a7b3fccb4b1d457/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/a56f4035730a92ea4a7b3fccb4b1d457/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/ebef8c97c826d4a1ee14b3ba3d1fe2a3/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/ebef8c97c826d4a1ee14b3ba3d1fe2a3/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/c3cd4191ace0436612f546d256538292/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/c3cd4191ace0436612f546d256538292/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/9c8693e93fa93e1599708e5f997c4293/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/9c8693e93fa93e1599708e5f997c4293/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.customview:customview:1.0.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/b650020d6ea2a6451544857486e8da90/customview-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.customview:customview:1.0.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/b650020d6ea2a6451544857486e8da90/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.1.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/9adbf43962d892385826f4dac7b64696/jetified-activity-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.1.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/9adbf43962d892385826f4dac7b64696/jetified-activity-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media:media:1.0.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/3a0f55079b72067775a8ba85442d799c/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/3a0f55079b72067775a8ba85442d799c/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/8c06ddd65e8444707ea2f45592fb95fe/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/8c06ddd65e8444707ea2f45592fb95fe/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/8bc568ba2a659586aa51efa03479ddc7/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/8bc568ba2a659586aa51efa03479ddc7/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.core:core:1.3.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/539dd7ec023f08c47477f9f5ca19cf00/core-1.3.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.core:core:1.3.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/539dd7ec023f08c47477f9f5ca19cf00/core-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/0e9e5f3fd1aaa2a20b7d31d01d3d95e5/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/0e9e5f3fd1aaa2a20b7d31d01d3d95e5/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-service:2.2.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/abab69291027e50dfb44dee393ada44f/jetified-lifecycle-service-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-service:2.2.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/abab69291027e50dfb44dee393ada44f/jetified-lifecycle-service-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/40bd5a55cbb145b17c9126ab5e709fe8/lifecycle-runtime-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/40bd5a55cbb145b17c9126ab5e709fe8/lifecycle-runtime-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/e5f242ec43d99bcd54e53a78a4f96253/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/e5f242ec43d99bcd54e53a78a4f96253/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.multidex:multidex:2.0.1] /Users/trianap/.gradle/caches/transforms-2/files-2.1/db11ce8a48e8687e79a1536a3a543e8b/multidex-2.0.1/AndroidManifest.xml:20:5-43
+MERGED from [androidx.multidex:multidex:2.0.1] /Users/trianap/.gradle/caches/transforms-2/files-2.1/db11ce8a48e8687e79a1536a3a543e8b/multidex-2.0.1/AndroidManifest.xml:20:5-43
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/c48274ca9c7916920773a90d1ecacef4/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/c48274ca9c7916920773a90d1ecacef4/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/8a55d7eb0052e9fe45d0aa7dc25e3ffd/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/8a55d7eb0052e9fe45d0aa7dc25e3ffd/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [com.google.firebase:firebase-components:17.0.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/6f7dcb6a18c635161723fcc4cde38773/jetified-firebase-components-17.0.0/AndroidManifest.xml:19:5-21:41
-MERGED from [com.google.firebase:firebase-components:17.0.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/6f7dcb6a18c635161723fcc4cde38773/jetified-firebase-components-17.0.0/AndroidManifest.xml:19:5-21:41
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/bd1fa9fb92daeeffa1f9ae36f19a22b6/lifecycle-runtime-2.1.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/bd1fa9fb92daeeffa1f9ae36f19a22b6/lifecycle-runtime-2.1.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/8913cbc6b4a1982cf279e1f041a8e97b/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/8913cbc6b4a1982cf279e1f041a8e97b/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.2.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/59436d40c1eb99ab0e35999e65ff6267/lifecycle-livedata-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.2.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/59436d40c1eb99ab0e35999e65ff6267/lifecycle-livedata-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:1.0.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/3785ac3d0a5f1eb6ec3d634fcf594976/jetified-lifecycle-viewmodel-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:1.0.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/3785ac3d0a5f1eb6ec3d634fcf594976/jetified-lifecycle-viewmodel-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/a57a625206443f0f25873e9299c18adc/lifecycle-livedata-core-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/a57a625206443f0f25873e9299c18adc/lifecycle-livedata-core-2.2.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/d82ee48dcf7c6d0426ef9f08be84fc4a/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/d82ee48dcf7c6d0426ef9f08be84fc4a/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/7fd04d136f76c1c87da587dae49cc250/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/7fd04d136f76c1c87da587dae49cc250/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/4d5fb3e6250fe812906312d48f7d8bef/lifecycle-viewmodel-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/4d5fb3e6250fe812906312d48f7d8bef/lifecycle-viewmodel-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/8a55d7eb0052e9fe45d0aa7dc25e3ffd/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/8a55d7eb0052e9fe45d0aa7dc25e3ffd/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/c6ae507bfbbbc7cadc9d1fa18b37d46f/interpolator-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/c6ae507bfbbbc7cadc9d1fa18b37d46f/interpolator-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/c02959994c0fe23110ca86cd18d2a266/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/c02959994c0fe23110ca86cd18d2a266/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/0798e8687a30e713d97b898ccf1f85c9/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/0798e8687a30e713d97b898ccf1f85c9/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/4970efe8ccabb2c6cb289910540ff629/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/4970efe8ccabb2c6cb289910540ff629/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-components:17.0.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/6f7dcb6a18c635161723fcc4cde38773/jetified-firebase-components-17.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-components:17.0.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/6f7dcb6a18c635161723fcc4cde38773/jetified-firebase-components-17.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/f321dc6de199ac139f8a0802c11749c9/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/f321dc6de199ac139f8a0802c11749c9/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/95845392fc02f66a0c202dabf7818a57/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/95845392fc02f66a0c202dabf7818a57/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/2951fc92df0b0491504555b9bee91436/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/2951fc92df0b0491504555b9bee91436/print-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [org.tensorflow:tensorflow-lite-support:0.1.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/a10932bcc1699cd6186761f0089c521b/jetified-tensorflow-lite-support-0.1.0/AndroidManifest.xml:4:3-71
 MERGED from [org.tensorflow:tensorflow-lite-support:0.1.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/a10932bcc1699cd6186761f0089c521b/jetified-tensorflow-lite-support-0.1.0/AndroidManifest.xml:4:3-71
 MERGED from [org.tensorflow:tensorflow-lite:2.4.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/8875ca7942cfaa510b2d97aba004e9a3/jetified-tensorflow-lite-2.4.0/AndroidManifest.xml:7:5-8:41
 MERGED from [org.tensorflow:tensorflow-lite:2.4.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/8875ca7942cfaa510b2d97aba004e9a3/jetified-tensorflow-lite-2.4.0/AndroidManifest.xml:7:5-8:41
+MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/bba02ced707fae9f70d476a06b906222/jetified-protolite-well-known-types-18.0.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/bba02ced707fae9f70d476a06b906222/jetified-protolite-well-known-types-18.0.0/AndroidManifest.xml:7:5-9:41
+MERGED from [io.grpc:grpc-android:1.28.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/ec26acd5ffaabb4c152048bb4c3b5856/jetified-grpc-android-1.28.0/AndroidManifest.xml:7:5-9:41
+MERGED from [io.grpc:grpc-android:1.28.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/ec26acd5ffaabb4c152048bb4c3b5856/jetified-grpc-android-1.28.0/AndroidManifest.xml:7:5-9:41
 INJECTED from /Users/trianap/Documents/ProjectCertification/codelab-textclassification-android-master/start/app/src/main/AndroidManifest.xml
 INJECTED from /Users/trianap/Documents/ProjectCertification/codelab-textclassification-android-master/start/app/src/main/AndroidManifest.xml
 	android:targetSdkVersion
@@ -204,10 +375,234 @@ INJECTED from /Users/trianap/Documents/ProjectCertification/codelab-textclassifi
 		ADDED from /Users/trianap/Documents/ProjectCertification/codelab-textclassification-android-master/start/app/src/main/AndroidManifest.xml
 		MERGED from /Users/trianap/Documents/ProjectCertification/codelab-textclassification-android-master/start/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/trianap/Documents/ProjectCertification/codelab-textclassification-android-master/start/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.firebaseui:firebase-ui-auth:6.2.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/9e889a7aeeb1f5be02b2707a894fd057/jetified-firebase-ui-auth-6.2.0/AndroidManifest.xml:12:5-79
+MERGED from [com.google.firebase:firebase-auth:21.0.1] /Users/trianap/.gradle/caches/transforms-2/files-2.1/fba6a590e046ae3bb28498ec65ed943f/jetified-firebase-auth-21.0.1/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-auth:21.0.1] /Users/trianap/.gradle/caches/transforms-2/files-2.1/fba6a590e046ae3bb28498ec65ed943f/jetified-firebase-auth-21.0.1/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-firestore:23.0.3] /Users/trianap/.gradle/caches/transforms-2/files-2.1/a5d9f8cae2b1cb25561aa60cf8081596/jetified-firebase-firestore-23.0.3/AndroidManifest.xml:13:5-79
+MERGED from [com.google.firebase:firebase-firestore:23.0.3] /Users/trianap/.gradle/caches/transforms-2/files-2.1/a5d9f8cae2b1cb25561aa60cf8081596/jetified-firebase-firestore-23.0.3/AndroidManifest.xml:13:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:19.0.1] /Users/trianap/.gradle/caches/transforms-2/files-2.1/5cd2cea2e3f4f0e0a3821ae9e5b45e56/jetified-play-services-measurement-api-19.0.1/AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:19.0.1] /Users/trianap/.gradle/caches/transforms-2/files-2.1/5cd2cea2e3f4f0e0a3821ae9e5b45e56/jetified-play-services-measurement-api-19.0.1/AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-installations:17.0.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/2aae6c639194544a0dae8dfba6f260df/jetified-firebase-installations-17.0.0/AndroidManifest.xml:10:5-79
+MERGED from [com.google.firebase:firebase-installations:17.0.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/2aae6c639194544a0dae8dfba6f260df/jetified-firebase-installations-17.0.0/AndroidManifest.xml:10:5-79
+MERGED from [com.google.android.gms:play-services-measurement:19.0.1] /Users/trianap/.gradle/caches/transforms-2/files-2.1/81c849a1850caeb2a712a86533e7ab90/jetified-play-services-measurement-19.0.1/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement:19.0.1] /Users/trianap/.gradle/caches/transforms-2/files-2.1/81c849a1850caeb2a712a86533e7ab90/jetified-play-services-measurement-19.0.1/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:19.0.1] /Users/trianap/.gradle/caches/transforms-2/files-2.1/83c8a9ec725032d262189f235d0b99a9/jetified-play-services-measurement-impl-19.0.1/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:19.0.1] /Users/trianap/.gradle/caches/transforms-2/files-2.1/83c8a9ec725032d262189f235d0b99a9/jetified-play-services-measurement-impl-19.0.1/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:19.0.1] /Users/trianap/.gradle/caches/transforms-2/files-2.1/b84d1e3bcea0d4d5f9dc27a6a63e5bff/jetified-play-services-measurement-sdk-api-19.0.1/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:19.0.1] /Users/trianap/.gradle/caches/transforms-2/files-2.1/b84d1e3bcea0d4d5f9dc27a6a63e5bff/jetified-play-services-measurement-sdk-api-19.0.1/AndroidManifest.xml:24:5-79
+MERGED from [io.grpc:grpc-android:1.28.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/ec26acd5ffaabb4c152048bb4c3b5856/jetified-grpc-android-1.28.0/AndroidManifest.xml:11:5-79
+MERGED from [io.grpc:grpc-android:1.28.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/ec26acd5ffaabb4c152048bb4c3b5856/jetified-grpc-android-1.28.0/AndroidManifest.xml:11:5-79
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:6.2.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/9e889a7aeeb1f5be02b2707a894fd057/jetified-firebase-ui-auth-6.2.0/AndroidManifest.xml:12:22-76
+uses-permission#android.permission.INTERNET
+ADDED from [com.firebaseui:firebase-ui-auth:6.2.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/9e889a7aeeb1f5be02b2707a894fd057/jetified-firebase-ui-auth-6.2.0/AndroidManifest.xml:13:5-67
+MERGED from [com.google.firebase:firebase-auth:21.0.1] /Users/trianap/.gradle/caches/transforms-2/files-2.1/fba6a590e046ae3bb28498ec65ed943f/jetified-firebase-auth-21.0.1/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-auth:21.0.1] /Users/trianap/.gradle/caches/transforms-2/files-2.1/fba6a590e046ae3bb28498ec65ed943f/jetified-firebase-auth-21.0.1/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-firestore:23.0.3] /Users/trianap/.gradle/caches/transforms-2/files-2.1/a5d9f8cae2b1cb25561aa60cf8081596/jetified-firebase-firestore-23.0.3/AndroidManifest.xml:14:5-67
+MERGED from [com.google.firebase:firebase-firestore:23.0.3] /Users/trianap/.gradle/caches/transforms-2/files-2.1/a5d9f8cae2b1cb25561aa60cf8081596/jetified-firebase-firestore-23.0.3/AndroidManifest.xml:14:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:19.0.1] /Users/trianap/.gradle/caches/transforms-2/files-2.1/5cd2cea2e3f4f0e0a3821ae9e5b45e56/jetified-play-services-measurement-api-19.0.1/AndroidManifest.xml:22:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:19.0.1] /Users/trianap/.gradle/caches/transforms-2/files-2.1/5cd2cea2e3f4f0e0a3821ae9e5b45e56/jetified-play-services-measurement-api-19.0.1/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-installations:17.0.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/2aae6c639194544a0dae8dfba6f260df/jetified-firebase-installations-17.0.0/AndroidManifest.xml:11:5-67
+MERGED from [com.google.firebase:firebase-installations:17.0.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/2aae6c639194544a0dae8dfba6f260df/jetified-firebase-installations-17.0.0/AndroidManifest.xml:11:5-67
+MERGED from [com.google.android.gms:play-services-measurement:19.0.1] /Users/trianap/.gradle/caches/transforms-2/files-2.1/81c849a1850caeb2a712a86533e7ab90/jetified-play-services-measurement-19.0.1/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement:19.0.1] /Users/trianap/.gradle/caches/transforms-2/files-2.1/81c849a1850caeb2a712a86533e7ab90/jetified-play-services-measurement-19.0.1/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:19.0.1] /Users/trianap/.gradle/caches/transforms-2/files-2.1/83c8a9ec725032d262189f235d0b99a9/jetified-play-services-measurement-impl-19.0.1/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:19.0.1] /Users/trianap/.gradle/caches/transforms-2/files-2.1/83c8a9ec725032d262189f235d0b99a9/jetified-play-services-measurement-impl-19.0.1/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:19.0.1] /Users/trianap/.gradle/caches/transforms-2/files-2.1/b84d1e3bcea0d4d5f9dc27a6a63e5bff/jetified-play-services-measurement-sdk-api-19.0.1/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:19.0.1] /Users/trianap/.gradle/caches/transforms-2/files-2.1/b84d1e3bcea0d4d5f9dc27a6a63e5bff/jetified-play-services-measurement-sdk-api-19.0.1/AndroidManifest.xml:23:5-67
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:6.2.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/9e889a7aeeb1f5be02b2707a894fd057/jetified-firebase-ui-auth-6.2.0/AndroidManifest.xml:13:22-64
+meta-data#com.google.android.gms.version
+ADDED from [com.firebaseui:firebase-ui-auth:6.2.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/9e889a7aeeb1f5be02b2707a894fd057/jetified-firebase-ui-auth-6.2.0/AndroidManifest.xml:16:9-18:69
+MERGED from [com.google.android.gms:play-services-basement:17.1.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/76d9b39004339d87bed43eb49248bfed/jetified-play-services-basement-17.1.0/AndroidManifest.xml:23:9-25:69
+MERGED from [com.google.android.gms:play-services-basement:17.1.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/76d9b39004339d87bed43eb49248bfed/jetified-play-services-basement-17.1.0/AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.firebaseui:firebase-ui-auth:6.2.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/9e889a7aeeb1f5be02b2707a894fd057/jetified-firebase-ui-auth-6.2.0/AndroidManifest.xml:18:13-66
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:6.2.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/9e889a7aeeb1f5be02b2707a894fd057/jetified-firebase-ui-auth-6.2.0/AndroidManifest.xml:17:13-58
+meta-data#com.facebook.sdk.ApplicationId
+ADDED from [com.firebaseui:firebase-ui-auth:6.2.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/9e889a7aeeb1f5be02b2707a894fd057/jetified-firebase-ui-auth-6.2.0/AndroidManifest.xml:19:9-21:63
+	android:value
+		ADDED from [com.firebaseui:firebase-ui-auth:6.2.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/9e889a7aeeb1f5be02b2707a894fd057/jetified-firebase-ui-auth-6.2.0/AndroidManifest.xml:21:13-60
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:6.2.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/9e889a7aeeb1f5be02b2707a894fd057/jetified-firebase-ui-auth-6.2.0/AndroidManifest.xml:20:13-58
+activity#com.firebase.ui.auth.KickoffActivity
+ADDED from [com.firebaseui:firebase-ui-auth:6.2.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/9e889a7aeeb1f5be02b2707a894fd057/jetified-firebase-ui-auth-6.2.0/AndroidManifest.xml:23:9-27:61
+	android:label
+		ADDED from [com.firebaseui:firebase-ui-auth:6.2.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/9e889a7aeeb1f5be02b2707a894fd057/jetified-firebase-ui-auth-6.2.0/AndroidManifest.xml:26:13-29
+	android:exported
+		ADDED from [com.firebaseui:firebase-ui-auth:6.2.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/9e889a7aeeb1f5be02b2707a894fd057/jetified-firebase-ui-auth-6.2.0/AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.firebaseui:firebase-ui-auth:6.2.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/9e889a7aeeb1f5be02b2707a894fd057/jetified-firebase-ui-auth-6.2.0/AndroidManifest.xml:27:13-58
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:6.2.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/9e889a7aeeb1f5be02b2707a894fd057/jetified-firebase-ui-auth-6.2.0/AndroidManifest.xml:24:13-64
+activity#com.firebase.ui.auth.ui.idp.SingleSignInActivity
+ADDED from [com.firebaseui:firebase-ui-auth:6.2.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/9e889a7aeeb1f5be02b2707a894fd057/jetified-firebase-ui-auth-6.2.0/AndroidManifest.xml:28:9-32:61
+	android:label
+		ADDED from [com.firebaseui:firebase-ui-auth:6.2.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/9e889a7aeeb1f5be02b2707a894fd057/jetified-firebase-ui-auth-6.2.0/AndroidManifest.xml:31:13-29
+	android:exported
+		ADDED from [com.firebaseui:firebase-ui-auth:6.2.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/9e889a7aeeb1f5be02b2707a894fd057/jetified-firebase-ui-auth-6.2.0/AndroidManifest.xml:30:13-37
+	android:theme
+		ADDED from [com.firebaseui:firebase-ui-auth:6.2.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/9e889a7aeeb1f5be02b2707a894fd057/jetified-firebase-ui-auth-6.2.0/AndroidManifest.xml:32:13-58
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:6.2.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/9e889a7aeeb1f5be02b2707a894fd057/jetified-firebase-ui-auth-6.2.0/AndroidManifest.xml:29:13-76
+activity#com.firebase.ui.auth.ui.credentials.CredentialSaveActivity
+ADDED from [com.firebaseui:firebase-ui-auth:6.2.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/9e889a7aeeb1f5be02b2707a894fd057/jetified-firebase-ui-auth-6.2.0/AndroidManifest.xml:33:9-37:61
+	android:label
+		ADDED from [com.firebaseui:firebase-ui-auth:6.2.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/9e889a7aeeb1f5be02b2707a894fd057/jetified-firebase-ui-auth-6.2.0/AndroidManifest.xml:36:13-29
+	android:exported
+		ADDED from [com.firebaseui:firebase-ui-auth:6.2.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/9e889a7aeeb1f5be02b2707a894fd057/jetified-firebase-ui-auth-6.2.0/AndroidManifest.xml:35:13-37
+	android:theme
+		ADDED from [com.firebaseui:firebase-ui-auth:6.2.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/9e889a7aeeb1f5be02b2707a894fd057/jetified-firebase-ui-auth-6.2.0/AndroidManifest.xml:37:13-58
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:6.2.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/9e889a7aeeb1f5be02b2707a894fd057/jetified-firebase-ui-auth-6.2.0/AndroidManifest.xml:34:13-86
+activity#com.firebase.ui.auth.ui.email.RecoverPasswordActivity
+ADDED from [com.firebaseui:firebase-ui-auth:6.2.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/9e889a7aeeb1f5be02b2707a894fd057/jetified-firebase-ui-auth-6.2.0/AndroidManifest.xml:38:9-42:58
+	android:label
+		ADDED from [com.firebaseui:firebase-ui-auth:6.2.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/9e889a7aeeb1f5be02b2707a894fd057/jetified-firebase-ui-auth-6.2.0/AndroidManifest.xml:41:13-72
+	android:windowSoftInputMode
+		ADDED from [com.firebaseui:firebase-ui-auth:6.2.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/9e889a7aeeb1f5be02b2707a894fd057/jetified-firebase-ui-auth-6.2.0/AndroidManifest.xml:42:13-55
+	android:exported
+		ADDED from [com.firebaseui:firebase-ui-auth:6.2.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/9e889a7aeeb1f5be02b2707a894fd057/jetified-firebase-ui-auth-6.2.0/AndroidManifest.xml:40:13-37
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:6.2.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/9e889a7aeeb1f5be02b2707a894fd057/jetified-firebase-ui-auth-6.2.0/AndroidManifest.xml:39:13-81
+activity#com.firebase.ui.auth.ui.email.EmailActivity
+ADDED from [com.firebaseui:firebase-ui-auth:6.2.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/9e889a7aeeb1f5be02b2707a894fd057/jetified-firebase-ui-auth-6.2.0/AndroidManifest.xml:43:9-47:58
+	android:label
+		ADDED from [com.firebaseui:firebase-ui-auth:6.2.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/9e889a7aeeb1f5be02b2707a894fd057/jetified-firebase-ui-auth-6.2.0/AndroidManifest.xml:46:13-56
+	android:windowSoftInputMode
+		ADDED from [com.firebaseui:firebase-ui-auth:6.2.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/9e889a7aeeb1f5be02b2707a894fd057/jetified-firebase-ui-auth-6.2.0/AndroidManifest.xml:47:13-55
+	android:exported
+		ADDED from [com.firebaseui:firebase-ui-auth:6.2.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/9e889a7aeeb1f5be02b2707a894fd057/jetified-firebase-ui-auth-6.2.0/AndroidManifest.xml:45:13-37
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:6.2.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/9e889a7aeeb1f5be02b2707a894fd057/jetified-firebase-ui-auth-6.2.0/AndroidManifest.xml:44:13-71
+activity#com.firebase.ui.auth.ui.phone.PhoneActivity
+ADDED from [com.firebaseui:firebase-ui-auth:6.2.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/9e889a7aeeb1f5be02b2707a894fd057/jetified-firebase-ui-auth-6.2.0/AndroidManifest.xml:48:9-52:77
+	android:label
+		ADDED from [com.firebaseui:firebase-ui-auth:6.2.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/9e889a7aeeb1f5be02b2707a894fd057/jetified-firebase-ui-auth-6.2.0/AndroidManifest.xml:51:13-66
+	android:windowSoftInputMode
+		ADDED from [com.firebaseui:firebase-ui-auth:6.2.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/9e889a7aeeb1f5be02b2707a894fd057/jetified-firebase-ui-auth-6.2.0/AndroidManifest.xml:52:13-74
+	android:exported
+		ADDED from [com.firebaseui:firebase-ui-auth:6.2.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/9e889a7aeeb1f5be02b2707a894fd057/jetified-firebase-ui-auth-6.2.0/AndroidManifest.xml:50:13-37
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:6.2.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/9e889a7aeeb1f5be02b2707a894fd057/jetified-firebase-ui-auth-6.2.0/AndroidManifest.xml:49:13-71
+activity#com.firebase.ui.auth.ui.idp.WelcomeBackIdpPrompt
+ADDED from [com.firebaseui:firebase-ui-auth:6.2.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/9e889a7aeeb1f5be02b2707a894fd057/jetified-firebase-ui-auth-6.2.0/AndroidManifest.xml:53:9-57:58
+	android:label
+		ADDED from [com.firebaseui:firebase-ui-auth:6.2.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/9e889a7aeeb1f5be02b2707a894fd057/jetified-firebase-ui-auth-6.2.0/AndroidManifest.xml:56:13-70
+	android:windowSoftInputMode
+		ADDED from [com.firebaseui:firebase-ui-auth:6.2.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/9e889a7aeeb1f5be02b2707a894fd057/jetified-firebase-ui-auth-6.2.0/AndroidManifest.xml:57:13-55
+	android:exported
+		ADDED from [com.firebaseui:firebase-ui-auth:6.2.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/9e889a7aeeb1f5be02b2707a894fd057/jetified-firebase-ui-auth-6.2.0/AndroidManifest.xml:55:13-37
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:6.2.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/9e889a7aeeb1f5be02b2707a894fd057/jetified-firebase-ui-auth-6.2.0/AndroidManifest.xml:54:13-76
+activity#com.firebase.ui.auth.ui.email.WelcomeBackPasswordPrompt
+ADDED from [com.firebaseui:firebase-ui-auth:6.2.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/9e889a7aeeb1f5be02b2707a894fd057/jetified-firebase-ui-auth-6.2.0/AndroidManifest.xml:58:9-62:58
+	android:label
+		ADDED from [com.firebaseui:firebase-ui-auth:6.2.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/9e889a7aeeb1f5be02b2707a894fd057/jetified-firebase-ui-auth-6.2.0/AndroidManifest.xml:61:13-75
+	android:windowSoftInputMode
+		ADDED from [com.firebaseui:firebase-ui-auth:6.2.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/9e889a7aeeb1f5be02b2707a894fd057/jetified-firebase-ui-auth-6.2.0/AndroidManifest.xml:62:13-55
+	android:exported
+		ADDED from [com.firebaseui:firebase-ui-auth:6.2.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/9e889a7aeeb1f5be02b2707a894fd057/jetified-firebase-ui-auth-6.2.0/AndroidManifest.xml:60:13-37
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:6.2.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/9e889a7aeeb1f5be02b2707a894fd057/jetified-firebase-ui-auth-6.2.0/AndroidManifest.xml:59:13-83
+activity#com.firebase.ui.auth.ui.email.WelcomeBackEmailLinkPrompt
+ADDED from [com.firebaseui:firebase-ui-auth:6.2.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/9e889a7aeeb1f5be02b2707a894fd057/jetified-firebase-ui-auth-6.2.0/AndroidManifest.xml:63:9-67:58
+	android:label
+		ADDED from [com.firebaseui:firebase-ui-auth:6.2.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/9e889a7aeeb1f5be02b2707a894fd057/jetified-firebase-ui-auth-6.2.0/AndroidManifest.xml:66:13-75
+	android:windowSoftInputMode
+		ADDED from [com.firebaseui:firebase-ui-auth:6.2.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/9e889a7aeeb1f5be02b2707a894fd057/jetified-firebase-ui-auth-6.2.0/AndroidManifest.xml:67:13-55
+	android:exported
+		ADDED from [com.firebaseui:firebase-ui-auth:6.2.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/9e889a7aeeb1f5be02b2707a894fd057/jetified-firebase-ui-auth-6.2.0/AndroidManifest.xml:65:13-37
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:6.2.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/9e889a7aeeb1f5be02b2707a894fd057/jetified-firebase-ui-auth-6.2.0/AndroidManifest.xml:64:13-84
+activity#com.firebase.ui.auth.ui.email.EmailLinkCatcherActivity
+ADDED from [com.firebaseui:firebase-ui-auth:6.2.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/9e889a7aeeb1f5be02b2707a894fd057/jetified-firebase-ui-auth-6.2.0/AndroidManifest.xml:68:9-73:58
+	android:label
+		ADDED from [com.firebaseui:firebase-ui-auth:6.2.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/9e889a7aeeb1f5be02b2707a894fd057/jetified-firebase-ui-auth-6.2.0/AndroidManifest.xml:71:13-29
+	android:windowSoftInputMode
+		ADDED from [com.firebaseui:firebase-ui-auth:6.2.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/9e889a7aeeb1f5be02b2707a894fd057/jetified-firebase-ui-auth-6.2.0/AndroidManifest.xml:73:13-55
+	android:exported
+		ADDED from [com.firebaseui:firebase-ui-auth:6.2.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/9e889a7aeeb1f5be02b2707a894fd057/jetified-firebase-ui-auth-6.2.0/AndroidManifest.xml:70:13-37
+	android:theme
+		ADDED from [com.firebaseui:firebase-ui-auth:6.2.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/9e889a7aeeb1f5be02b2707a894fd057/jetified-firebase-ui-auth-6.2.0/AndroidManifest.xml:72:13-58
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:6.2.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/9e889a7aeeb1f5be02b2707a894fd057/jetified-firebase-ui-auth-6.2.0/AndroidManifest.xml:69:13-82
+activity#com.firebase.ui.auth.ui.email.EmailLinkErrorRecoveryActivity
+ADDED from [com.firebaseui:firebase-ui-auth:6.2.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/9e889a7aeeb1f5be02b2707a894fd057/jetified-firebase-ui-auth-6.2.0/AndroidManifest.xml:74:9-78:58
+	android:label
+		ADDED from [com.firebaseui:firebase-ui-auth:6.2.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/9e889a7aeeb1f5be02b2707a894fd057/jetified-firebase-ui-auth-6.2.0/AndroidManifest.xml:77:13-56
+	android:windowSoftInputMode
+		ADDED from [com.firebaseui:firebase-ui-auth:6.2.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/9e889a7aeeb1f5be02b2707a894fd057/jetified-firebase-ui-auth-6.2.0/AndroidManifest.xml:78:13-55
+	android:exported
+		ADDED from [com.firebaseui:firebase-ui-auth:6.2.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/9e889a7aeeb1f5be02b2707a894fd057/jetified-firebase-ui-auth-6.2.0/AndroidManifest.xml:76:13-37
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:6.2.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/9e889a7aeeb1f5be02b2707a894fd057/jetified-firebase-ui-auth-6.2.0/AndroidManifest.xml:75:13-88
+activity#com.firebase.ui.auth.ui.idp.AuthMethodPickerActivity
+ADDED from [com.firebaseui:firebase-ui-auth:6.2.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/9e889a7aeeb1f5be02b2707a894fd057/jetified-firebase-ui-auth-6.2.0/AndroidManifest.xml:79:9-82:65
+	android:label
+		ADDED from [com.firebaseui:firebase-ui-auth:6.2.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/9e889a7aeeb1f5be02b2707a894fd057/jetified-firebase-ui-auth-6.2.0/AndroidManifest.xml:82:13-62
+	android:exported
+		ADDED from [com.firebaseui:firebase-ui-auth:6.2.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/9e889a7aeeb1f5be02b2707a894fd057/jetified-firebase-ui-auth-6.2.0/AndroidManifest.xml:81:13-37
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:6.2.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/9e889a7aeeb1f5be02b2707a894fd057/jetified-firebase-ui-auth-6.2.0/AndroidManifest.xml:80:13-80
+activity#com.facebook.FacebookActivity
+ADDED from [com.firebaseui:firebase-ui-auth:6.2.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/9e889a7aeeb1f5be02b2707a894fd057/jetified-firebase-ui-auth-6.2.0/AndroidManifest.xml:83:9-87:48
+	android:label
+		ADDED from [com.firebaseui:firebase-ui-auth:6.2.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/9e889a7aeeb1f5be02b2707a894fd057/jetified-firebase-ui-auth-6.2.0/AndroidManifest.xml:86:13-45
+	tools:ignore
+		ADDED from [com.firebaseui:firebase-ui-auth:6.2.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/9e889a7aeeb1f5be02b2707a894fd057/jetified-firebase-ui-auth-6.2.0/AndroidManifest.xml:87:13-45
+	android:configChanges
+		ADDED from [com.firebaseui:firebase-ui-auth:6.2.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/9e889a7aeeb1f5be02b2707a894fd057/jetified-firebase-ui-auth-6.2.0/AndroidManifest.xml:85:13-96
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:6.2.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/9e889a7aeeb1f5be02b2707a894fd057/jetified-firebase-ui-auth-6.2.0/AndroidManifest.xml:84:13-57
+activity#com.facebook.CustomTabActivity
+ADDED from [com.firebaseui:firebase-ui-auth:6.2.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/9e889a7aeeb1f5be02b2707a894fd057/jetified-firebase-ui-auth-6.2.0/AndroidManifest.xml:88:9-100:20
+	android:exported
+		ADDED from [com.firebaseui:firebase-ui-auth:6.2.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/9e889a7aeeb1f5be02b2707a894fd057/jetified-firebase-ui-auth-6.2.0/AndroidManifest.xml:90:13-36
+	tools:ignore
+		ADDED from [com.firebaseui:firebase-ui-auth:6.2.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/9e889a7aeeb1f5be02b2707a894fd057/jetified-firebase-ui-auth-6.2.0/AndroidManifest.xml:91:13-45
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:6.2.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/9e889a7aeeb1f5be02b2707a894fd057/jetified-firebase-ui-auth-6.2.0/AndroidManifest.xml:89:13-58
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:scheme:@string/facebook_login_protocol_scheme
+ADDED from [com.firebaseui:firebase-ui-auth:6.2.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/9e889a7aeeb1f5be02b2707a894fd057/jetified-firebase-ui-auth-6.2.0/AndroidManifest.xml:92:13-99:29
+action#android.intent.action.VIEW
+ADDED from [com.firebaseui:firebase-ui-auth:6.2.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/9e889a7aeeb1f5be02b2707a894fd057/jetified-firebase-ui-auth-6.2.0/AndroidManifest.xml:93:17-69
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:6.2.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/9e889a7aeeb1f5be02b2707a894fd057/jetified-firebase-ui-auth-6.2.0/AndroidManifest.xml:93:25-66
+category#android.intent.category.DEFAULT
+ADDED from [com.firebaseui:firebase-ui-auth:6.2.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/9e889a7aeeb1f5be02b2707a894fd057/jetified-firebase-ui-auth-6.2.0/AndroidManifest.xml:95:17-76
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:6.2.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/9e889a7aeeb1f5be02b2707a894fd057/jetified-firebase-ui-auth-6.2.0/AndroidManifest.xml:95:27-73
+category#android.intent.category.BROWSABLE
+ADDED from [com.firebaseui:firebase-ui-auth:6.2.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/9e889a7aeeb1f5be02b2707a894fd057/jetified-firebase-ui-auth-6.2.0/AndroidManifest.xml:96:17-78
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:6.2.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/9e889a7aeeb1f5be02b2707a894fd057/jetified-firebase-ui-auth-6.2.0/AndroidManifest.xml:96:27-75
+data
+ADDED from [com.firebaseui:firebase-ui-auth:6.2.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/9e889a7aeeb1f5be02b2707a894fd057/jetified-firebase-ui-auth-6.2.0/AndroidManifest.xml:98:17-81
+	android:scheme
+		ADDED from [com.firebaseui:firebase-ui-auth:6.2.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/9e889a7aeeb1f5be02b2707a894fd057/jetified-firebase-ui-auth-6.2.0/AndroidManifest.xml:98:23-78
+provider#com.firebase.ui.auth.data.client.AuthUiInitProvider
+ADDED from [com.firebaseui:firebase-ui-auth:6.2.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/9e889a7aeeb1f5be02b2707a894fd057/jetified-firebase-ui-auth-6.2.0/AndroidManifest.xml:102:9-106:38
+	android:authorities
+		ADDED from [com.firebaseui:firebase-ui-auth:6.2.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/9e889a7aeeb1f5be02b2707a894fd057/jetified-firebase-ui-auth-6.2.0/AndroidManifest.xml:104:13-70
+	android:exported
+		ADDED from [com.firebaseui:firebase-ui-auth:6.2.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/9e889a7aeeb1f5be02b2707a894fd057/jetified-firebase-ui-auth-6.2.0/AndroidManifest.xml:105:13-37
+	android:initOrder
+		ADDED from [com.firebaseui:firebase-ui-auth:6.2.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/9e889a7aeeb1f5be02b2707a894fd057/jetified-firebase-ui-auth-6.2.0/AndroidManifest.xml:106:13-35
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:6.2.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/9e889a7aeeb1f5be02b2707a894fd057/jetified-firebase-ui-auth-6.2.0/AndroidManifest.xml:103:13-79
 service#com.google.firebase.components.ComponentDiscoveryService
 ADDED from [com.google.firebase:firebase-ml-model-interpreter:22.0.4] /Users/trianap/.gradle/caches/transforms-2/files-2.1/c2c13385af53ac9e8c080651990be507/jetified-firebase-ml-model-interpreter-22.0.4/AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.firebase:firebase-auth:21.0.1] /Users/trianap/.gradle/caches/transforms-2/files-2.1/fba6a590e046ae3bb28498ec65ed943f/jetified-firebase-auth-21.0.1/AndroidManifest.xml:74:9-80:19
+MERGED from [com.google.firebase:firebase-auth:21.0.1] /Users/trianap/.gradle/caches/transforms-2/files-2.1/fba6a590e046ae3bb28498ec65ed943f/jetified-firebase-auth-21.0.1/AndroidManifest.xml:74:9-80:19
 MERGED from [com.google.firebase:firebase-ml-common:22.1.2] /Users/trianap/.gradle/caches/transforms-2/files-2.1/092dae428b66a8fbd7f4947f52f506e4/jetified-firebase-ml-common-22.1.2/AndroidManifest.xml:8:9-14:19
 MERGED from [com.google.firebase:firebase-ml-common:22.1.2] /Users/trianap/.gradle/caches/transforms-2/files-2.1/092dae428b66a8fbd7f4947f52f506e4/jetified-firebase-ml-common-22.1.2/AndroidManifest.xml:8:9-14:19
+MERGED from [com.google.firebase:firebase-firestore:23.0.3] /Users/trianap/.gradle/caches/transforms-2/files-2.1/a5d9f8cae2b1cb25561aa60cf8081596/jetified-firebase-firestore-23.0.3/AndroidManifest.xml:17:9-23:19
+MERGED from [com.google.firebase:firebase-firestore:23.0.3] /Users/trianap/.gradle/caches/transforms-2/files-2.1/a5d9f8cae2b1cb25561aa60cf8081596/jetified-firebase-firestore-23.0.3/AndroidManifest.xml:17:9-23:19
+MERGED from [com.google.android.gms:play-services-measurement-api:19.0.1] /Users/trianap/.gradle/caches/transforms-2/files-2.1/5cd2cea2e3f4f0e0a3821ae9e5b45e56/jetified-play-services-measurement-api-19.0.1/AndroidManifest.xml:27:9-33:19
+MERGED from [com.google.android.gms:play-services-measurement-api:19.0.1] /Users/trianap/.gradle/caches/transforms-2/files-2.1/5cd2cea2e3f4f0e0a3821ae9e5b45e56/jetified-play-services-measurement-api-19.0.1/AndroidManifest.xml:27:9-33:19
 MERGED from [com.google.firebase:firebase-installations:17.0.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/2aae6c639194544a0dae8dfba6f260df/jetified-firebase-installations-17.0.0/AndroidManifest.xml:15:9-21:19
 MERGED from [com.google.firebase:firebase-installations:17.0.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/2aae6c639194544a0dae8dfba6f260df/jetified-firebase-installations-17.0.0/AndroidManifest.xml:15:9-21:19
 MERGED from [com.google.firebase:firebase-common:20.0.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/f974751ac5677ce8830189f78881ba9c/jetified-firebase-common-20.0.0/AndroidManifest.xml:33:9-37:35
@@ -226,20 +621,108 @@ ADDED from [com.google.firebase:firebase-ml-model-interpreter:22.0.4] /Users/tri
 		ADDED from [com.google.firebase:firebase-ml-model-interpreter:22.0.4] /Users/trianap/.gradle/caches/transforms-2/files-2.1/c2c13385af53ac9e8c080651990be507/jetified-firebase-ml-model-interpreter-22.0.4/AndroidManifest.xml:14:17-82
 	android:name
 		ADDED from [com.google.firebase:firebase-ml-model-interpreter:22.0.4] /Users/trianap/.gradle/caches/transforms-2/files-2.1/c2c13385af53ac9e8c080651990be507/jetified-firebase-ml-model-interpreter-22.0.4/AndroidManifest.xml:13:17-113
+activity#com.google.firebase.auth.internal.GenericIdpActivity
+ADDED from [com.google.firebase:firebase-auth:21.0.1] /Users/trianap/.gradle/caches/transforms-2/files-2.1/fba6a590e046ae3bb28498ec65ed943f/jetified-firebase-auth-21.0.1/AndroidManifest.xml:27:9-44:20
+	android:excludeFromRecents
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] /Users/trianap/.gradle/caches/transforms-2/files-2.1/fba6a590e046ae3bb28498ec65ed943f/jetified-firebase-auth-21.0.1/AndroidManifest.xml:29:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] /Users/trianap/.gradle/caches/transforms-2/files-2.1/fba6a590e046ae3bb28498ec65ed943f/jetified-firebase-auth-21.0.1/AndroidManifest.xml:31:13-44
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] /Users/trianap/.gradle/caches/transforms-2/files-2.1/fba6a590e046ae3bb28498ec65ed943f/jetified-firebase-auth-21.0.1/AndroidManifest.xml:30:13-36
+	android:theme
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] /Users/trianap/.gradle/caches/transforms-2/files-2.1/fba6a590e046ae3bb28498ec65ed943f/jetified-firebase-auth-21.0.1/AndroidManifest.xml:32:13-72
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] /Users/trianap/.gradle/caches/transforms-2/files-2.1/fba6a590e046ae3bb28498ec65ed943f/jetified-firebase-auth-21.0.1/AndroidManifest.xml:28:13-80
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:firebase.auth+data:path:/+data:scheme:genericidp
+ADDED from [com.google.firebase:firebase-auth:21.0.1] /Users/trianap/.gradle/caches/transforms-2/files-2.1/fba6a590e046ae3bb28498ec65ed943f/jetified-firebase-auth-21.0.1/AndroidManifest.xml:33:13-43:29
+activity#com.google.firebase.auth.internal.RecaptchaActivity
+ADDED from [com.google.firebase:firebase-auth:21.0.1] /Users/trianap/.gradle/caches/transforms-2/files-2.1/fba6a590e046ae3bb28498ec65ed943f/jetified-firebase-auth-21.0.1/AndroidManifest.xml:45:9-62:20
+	android:excludeFromRecents
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] /Users/trianap/.gradle/caches/transforms-2/files-2.1/fba6a590e046ae3bb28498ec65ed943f/jetified-firebase-auth-21.0.1/AndroidManifest.xml:47:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] /Users/trianap/.gradle/caches/transforms-2/files-2.1/fba6a590e046ae3bb28498ec65ed943f/jetified-firebase-auth-21.0.1/AndroidManifest.xml:49:13-44
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] /Users/trianap/.gradle/caches/transforms-2/files-2.1/fba6a590e046ae3bb28498ec65ed943f/jetified-firebase-auth-21.0.1/AndroidManifest.xml:48:13-36
+	android:theme
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] /Users/trianap/.gradle/caches/transforms-2/files-2.1/fba6a590e046ae3bb28498ec65ed943f/jetified-firebase-auth-21.0.1/AndroidManifest.xml:50:13-72
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] /Users/trianap/.gradle/caches/transforms-2/files-2.1/fba6a590e046ae3bb28498ec65ed943f/jetified-firebase-auth-21.0.1/AndroidManifest.xml:46:13-79
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:firebase.auth+data:path:/+data:scheme:recaptcha
+ADDED from [com.google.firebase:firebase-auth:21.0.1] /Users/trianap/.gradle/caches/transforms-2/files-2.1/fba6a590e046ae3bb28498ec65ed943f/jetified-firebase-auth-21.0.1/AndroidManifest.xml:51:13-61:29
+service#com.google.firebase.auth.api.fallback.service.FirebaseAuthFallbackService
+ADDED from [com.google.firebase:firebase-auth:21.0.1] /Users/trianap/.gradle/caches/transforms-2/files-2.1/fba6a590e046ae3bb28498ec65ed943f/jetified-firebase-auth-21.0.1/AndroidManifest.xml:64:9-73:19
+	android:enabled
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] /Users/trianap/.gradle/caches/transforms-2/files-2.1/fba6a590e046ae3bb28498ec65ed943f/jetified-firebase-auth-21.0.1/AndroidManifest.xml:66:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] /Users/trianap/.gradle/caches/transforms-2/files-2.1/fba6a590e046ae3bb28498ec65ed943f/jetified-firebase-auth-21.0.1/AndroidManifest.xml:67:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] /Users/trianap/.gradle/caches/transforms-2/files-2.1/fba6a590e046ae3bb28498ec65ed943f/jetified-firebase-auth-21.0.1/AndroidManifest.xml:65:13-101
+intent-filter#action:name:com.google.firebase.auth.api.gms.service.START+category:name:android.intent.category.DEFAULT
+ADDED from [com.google.firebase:firebase-auth:21.0.1] /Users/trianap/.gradle/caches/transforms-2/files-2.1/fba6a590e046ae3bb28498ec65ed943f/jetified-firebase-auth-21.0.1/AndroidManifest.xml:68:13-72:29
+action#com.google.firebase.auth.api.gms.service.START
+ADDED from [com.google.firebase:firebase-auth:21.0.1] /Users/trianap/.gradle/caches/transforms-2/files-2.1/fba6a590e046ae3bb28498ec65ed943f/jetified-firebase-auth-21.0.1/AndroidManifest.xml:69:17-89
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] /Users/trianap/.gradle/caches/transforms-2/files-2.1/fba6a590e046ae3bb28498ec65ed943f/jetified-firebase-auth-21.0.1/AndroidManifest.xml:69:25-86
+meta-data#com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar
+ADDED from [com.google.firebase:firebase-auth:21.0.1] /Users/trianap/.gradle/caches/transforms-2/files-2.1/fba6a590e046ae3bb28498ec65ed943f/jetified-firebase-auth-21.0.1/AndroidManifest.xml:77:13-79:85
+	android:value
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] /Users/trianap/.gradle/caches/transforms-2/files-2.1/fba6a590e046ae3bb28498ec65ed943f/jetified-firebase-auth-21.0.1/AndroidManifest.xml:79:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] /Users/trianap/.gradle/caches/transforms-2/files-2.1/fba6a590e046ae3bb28498ec65ed943f/jetified-firebase-auth-21.0.1/AndroidManifest.xml:78:17-109
 meta-data#com.google.firebase.components:com.google.firebase.ml.common.CommonComponentRegistrar
 ADDED from [com.google.firebase:firebase-ml-common:22.1.2] /Users/trianap/.gradle/caches/transforms-2/files-2.1/092dae428b66a8fbd7f4947f52f506e4/jetified-firebase-ml-common-22.1.2/AndroidManifest.xml:11:13-13:85
 	android:value
 		ADDED from [com.google.firebase:firebase-ml-common:22.1.2] /Users/trianap/.gradle/caches/transforms-2/files-2.1/092dae428b66a8fbd7f4947f52f506e4/jetified-firebase-ml-common-22.1.2/AndroidManifest.xml:13:17-82
 	android:name
 		ADDED from [com.google.firebase:firebase-ml-common:22.1.2] /Users/trianap/.gradle/caches/transforms-2/files-2.1/092dae428b66a8fbd7f4947f52f506e4/jetified-firebase-ml-common-22.1.2/AndroidManifest.xml:12:17-117
-uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from [com.google.firebase:firebase-installations:17.0.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/2aae6c639194544a0dae8dfba6f260df/jetified-firebase-installations-17.0.0/AndroidManifest.xml:10:5-79
+activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
+ADDED from [com.google.android.gms:play-services-auth:17.0.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/d694a49b020a80ef71aa3cdb66eeb8a8/jetified-play-services-auth-17.0.0/AndroidManifest.xml:23:9-27:75
+	android:excludeFromRecents
+		ADDED from [com.google.android.gms:play-services-auth:17.0.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/d694a49b020a80ef71aa3cdb66eeb8a8/jetified-play-services-auth-17.0.0/AndroidManifest.xml:25:13-46
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:17.0.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/d694a49b020a80ef71aa3cdb66eeb8a8/jetified-play-services-auth-17.0.0/AndroidManifest.xml:26:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-auth:17.0.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/d694a49b020a80ef71aa3cdb66eeb8a8/jetified-play-services-auth-17.0.0/AndroidManifest.xml:27:13-72
 	android:name
-		ADDED from [com.google.firebase:firebase-installations:17.0.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/2aae6c639194544a0dae8dfba6f260df/jetified-firebase-installations-17.0.0/AndroidManifest.xml:10:22-76
-uses-permission#android.permission.INTERNET
-ADDED from [com.google.firebase:firebase-installations:17.0.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/2aae6c639194544a0dae8dfba6f260df/jetified-firebase-installations-17.0.0/AndroidManifest.xml:11:5-67
+		ADDED from [com.google.android.gms:play-services-auth:17.0.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/d694a49b020a80ef71aa3cdb66eeb8a8/jetified-play-services-auth-17.0.0/AndroidManifest.xml:24:13-93
+service#com.google.android.gms.auth.api.signin.RevocationBoundService
+ADDED from [com.google.android.gms:play-services-auth:17.0.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/d694a49b020a80ef71aa3cdb66eeb8a8/jetified-play-services-auth-17.0.0/AndroidManifest.xml:33:9-36:110
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:17.0.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/d694a49b020a80ef71aa3cdb66eeb8a8/jetified-play-services-auth-17.0.0/AndroidManifest.xml:35:13-36
+	android:permission
+		ADDED from [com.google.android.gms:play-services-auth:17.0.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/d694a49b020a80ef71aa3cdb66eeb8a8/jetified-play-services-auth-17.0.0/AndroidManifest.xml:36:13-107
 	android:name
-		ADDED from [com.google.firebase:firebase-installations:17.0.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/2aae6c639194544a0dae8dfba6f260df/jetified-firebase-installations-17.0.0/AndroidManifest.xml:11:22-64
+		ADDED from [com.google.android.gms:play-services-auth:17.0.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/d694a49b020a80ef71aa3cdb66eeb8a8/jetified-play-services-auth-17.0.0/AndroidManifest.xml:34:13-89
+meta-data#com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar
+ADDED from [com.google.firebase:firebase-firestore:23.0.3] /Users/trianap/.gradle/caches/transforms-2/files-2.1/a5d9f8cae2b1cb25561aa60cf8081596/jetified-firebase-firestore-23.0.3/AndroidManifest.xml:20:13-22:85
+	android:value
+		ADDED from [com.google.firebase:firebase-firestore:23.0.3] /Users/trianap/.gradle/caches/transforms-2/files-2.1/a5d9f8cae2b1cb25561aa60cf8081596/jetified-firebase-firestore-23.0.3/AndroidManifest.xml:22:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-firestore:23.0.3] /Users/trianap/.gradle/caches/transforms-2/files-2.1/a5d9f8cae2b1cb25561aa60cf8081596/jetified-firebase-firestore-23.0.3/AndroidManifest.xml:21:17-111
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:17.1.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/efec7e0c5f71242a130c2f522d69d3f7/jetified-play-services-base-17.1.0/AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:17.1.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/efec7e0c5f71242a130c2f522d69d3f7/jetified-play-services-base-17.1.0/AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:17.1.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/efec7e0c5f71242a130c2f522d69d3f7/jetified-play-services-base-17.1.0/AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:17.1.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/efec7e0c5f71242a130c2f522d69d3f7/jetified-play-services-base-17.1.0/AndroidManifest.xml:24:13-79
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.android.gms:play-services-measurement-api:19.0.1] /Users/trianap/.gradle/caches/transforms-2/files-2.1/5cd2cea2e3f4f0e0a3821ae9e5b45e56/jetified-play-services-measurement-api-19.0.1/AndroidManifest.xml:24:5-68
+MERGED from [com.google.android.gms:play-services-measurement:19.0.1] /Users/trianap/.gradle/caches/transforms-2/files-2.1/81c849a1850caeb2a712a86533e7ab90/jetified-play-services-measurement-19.0.1/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement:19.0.1] /Users/trianap/.gradle/caches/transforms-2/files-2.1/81c849a1850caeb2a712a86533e7ab90/jetified-play-services-measurement-19.0.1/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:19.0.1] /Users/trianap/.gradle/caches/transforms-2/files-2.1/83c8a9ec725032d262189f235d0b99a9/jetified-play-services-measurement-impl-19.0.1/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:19.0.1] /Users/trianap/.gradle/caches/transforms-2/files-2.1/83c8a9ec725032d262189f235d0b99a9/jetified-play-services-measurement-impl-19.0.1/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:19.0.1] /Users/trianap/.gradle/caches/transforms-2/files-2.1/b84d1e3bcea0d4d5f9dc27a6a63e5bff/jetified-play-services-measurement-sdk-api-19.0.1/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:19.0.1] /Users/trianap/.gradle/caches/transforms-2/files-2.1/b84d1e3bcea0d4d5f9dc27a6a63e5bff/jetified-play-services-measurement-sdk-api-19.0.1/AndroidManifest.xml:25:5-68
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:19.0.1] /Users/trianap/.gradle/caches/transforms-2/files-2.1/5cd2cea2e3f4f0e0a3821ae9e5b45e56/jetified-play-services-measurement-api-19.0.1/AndroidManifest.xml:24:22-65
+meta-data#com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar
+ADDED from [com.google.android.gms:play-services-measurement-api:19.0.1] /Users/trianap/.gradle/caches/transforms-2/files-2.1/5cd2cea2e3f4f0e0a3821ae9e5b45e56/jetified-play-services-measurement-api-19.0.1/AndroidManifest.xml:30:13-32:85
+	android:value
+		ADDED from [com.google.android.gms:play-services-measurement-api:19.0.1] /Users/trianap/.gradle/caches/transforms-2/files-2.1/5cd2cea2e3f4f0e0a3821ae9e5b45e56/jetified-play-services-measurement-api-19.0.1/AndroidManifest.xml:32:17-82
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:19.0.1] /Users/trianap/.gradle/caches/transforms-2/files-2.1/5cd2cea2e3f4f0e0a3821ae9e5b45e56/jetified-play-services-measurement-api-19.0.1/AndroidManifest.xml:31:17-139
 meta-data#com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar
 ADDED from [com.google.firebase:firebase-installations:17.0.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/2aae6c639194544a0dae8dfba6f260df/jetified-firebase-installations-17.0.0/AndroidManifest.xml:18:13-20:85
 	android:value
@@ -258,23 +741,51 @@ ADDED from [com.google.firebase:firebase-common:20.0.0] /Users/trianap/.gradle/c
 		ADDED from [com.google.firebase:firebase-common:20.0.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/f974751ac5677ce8830189f78881ba9c/jetified-firebase-common-20.0.0/AndroidManifest.xml:31:13-36
 	android:name
 		ADDED from [com.google.firebase:firebase-common:20.0.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/f974751ac5677ce8830189f78881ba9c/jetified-firebase-common-20.0.0/AndroidManifest.xml:27:13-77
-activity#com.google.android.gms.common.api.GoogleApiActivity
-ADDED from [com.google.android.gms:play-services-base:17.0.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/f0c83ac7690b43eef7a8feaeb3940721/jetified-play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
+uses-permission#com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+ADDED from [com.google.android.gms:play-services-measurement:19.0.1] /Users/trianap/.gradle/caches/transforms-2/files-2.1/81c849a1850caeb2a712a86533e7ab90/jetified-play-services-measurement-19.0.1/AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:19.0.1] /Users/trianap/.gradle/caches/transforms-2/files-2.1/83c8a9ec725032d262189f235d0b99a9/jetified-play-services-measurement-impl-19.0.1/AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:19.0.1] /Users/trianap/.gradle/caches/transforms-2/files-2.1/83c8a9ec725032d262189f235d0b99a9/jetified-play-services-measurement-impl-19.0.1/AndroidManifest.xml:26:5-110
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:19.0.1] /Users/trianap/.gradle/caches/transforms-2/files-2.1/81c849a1850caeb2a712a86533e7ab90/jetified-play-services-measurement-19.0.1/AndroidManifest.xml:26:22-107
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.android.gms:play-services-measurement:19.0.1] /Users/trianap/.gradle/caches/transforms-2/files-2.1/81c849a1850caeb2a712a86533e7ab90/jetified-play-services-measurement-19.0.1/AndroidManifest.xml:29:9-33:20
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:19.0.1] /Users/trianap/.gradle/caches/transforms-2/files-2.1/81c849a1850caeb2a712a86533e7ab90/jetified-play-services-measurement-19.0.1/AndroidManifest.xml:31:13-35
 	android:exported
-		ADDED from [com.google.android.gms:play-services-base:17.0.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/f0c83ac7690b43eef7a8feaeb3940721/jetified-play-services-base-17.0.0/AndroidManifest.xml:25:13-37
-	android:theme
-		ADDED from [com.google.android.gms:play-services-base:17.0.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/f0c83ac7690b43eef7a8feaeb3940721/jetified-play-services-base-17.0.0/AndroidManifest.xml:26:13-72
+		ADDED from [com.google.android.gms:play-services-measurement:19.0.1] /Users/trianap/.gradle/caches/transforms-2/files-2.1/81c849a1850caeb2a712a86533e7ab90/jetified-play-services-measurement-19.0.1/AndroidManifest.xml:32:13-37
 	android:name
-		ADDED from [com.google.android.gms:play-services-base:17.0.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/f0c83ac7690b43eef7a8feaeb3940721/jetified-play-services-base-17.0.0/AndroidManifest.xml:24:13-79
-meta-data#com.google.android.gms.version
-ADDED from [com.google.android.gms:play-services-basement:17.0.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/10b1e51736e27fda30f62ca5156f7b46/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
-	android:value
-		ADDED from [com.google.android.gms:play-services-basement:17.0.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/10b1e51736e27fda30f62ca5156f7b46/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+		ADDED from [com.google.android.gms:play-services-measurement:19.0.1] /Users/trianap/.gradle/caches/transforms-2/files-2.1/81c849a1850caeb2a712a86533e7ab90/jetified-play-services-measurement-19.0.1/AndroidManifest.xml:30:13-85
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.android.gms:play-services-measurement:19.0.1] /Users/trianap/.gradle/caches/transforms-2/files-2.1/81c849a1850caeb2a712a86533e7ab90/jetified-play-services-measurement-19.0.1/AndroidManifest.xml:35:9-38:40
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:19.0.1] /Users/trianap/.gradle/caches/transforms-2/files-2.1/81c849a1850caeb2a712a86533e7ab90/jetified-play-services-measurement-19.0.1/AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:19.0.1] /Users/trianap/.gradle/caches/transforms-2/files-2.1/81c849a1850caeb2a712a86533e7ab90/jetified-play-services-measurement-19.0.1/AndroidManifest.xml:38:13-37
 	android:name
-		ADDED from [com.google.android.gms:play-services-basement:17.0.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/10b1e51736e27fda30f62ca5156f7b46/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
+		ADDED from [com.google.android.gms:play-services-measurement:19.0.1] /Users/trianap/.gradle/caches/transforms-2/files-2.1/81c849a1850caeb2a712a86533e7ab90/jetified-play-services-measurement-19.0.1/AndroidManifest.xml:36:13-84
+service#com.google.android.gms.measurement.AppMeasurementJobService
+ADDED from [com.google.android.gms:play-services-measurement:19.0.1] /Users/trianap/.gradle/caches/transforms-2/files-2.1/81c849a1850caeb2a712a86533e7ab90/jetified-play-services-measurement-19.0.1/AndroidManifest.xml:39:9-43:72
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:19.0.1] /Users/trianap/.gradle/caches/transforms-2/files-2.1/81c849a1850caeb2a712a86533e7ab90/jetified-play-services-measurement-19.0.1/AndroidManifest.xml:41:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:19.0.1] /Users/trianap/.gradle/caches/transforms-2/files-2.1/81c849a1850caeb2a712a86533e7ab90/jetified-play-services-measurement-19.0.1/AndroidManifest.xml:42:13-37
+	android:permission
+		ADDED from [com.google.android.gms:play-services-measurement:19.0.1] /Users/trianap/.gradle/caches/transforms-2/files-2.1/81c849a1850caeb2a712a86533e7ab90/jetified-play-services-measurement-19.0.1/AndroidManifest.xml:43:13-69
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:19.0.1] /Users/trianap/.gradle/caches/transforms-2/files-2.1/81c849a1850caeb2a712a86533e7ab90/jetified-play-services-measurement-19.0.1/AndroidManifest.xml:40:13-87
+provider#androidx.lifecycle.ProcessLifecycleOwnerInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/0e9e5f3fd1aaa2a20b7d31d01d3d95e5/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:25:9-29:43
+	android:authorities
+		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/0e9e5f3fd1aaa2a20b7d31d01d3d95e5/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:27:13-69
+	android:multiprocess
+		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/0e9e5f3fd1aaa2a20b7d31d01d3d95e5/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:29:13-40
+	android:exported
+		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/0e9e5f3fd1aaa2a20b7d31d01d3d95e5/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:28:13-37
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/0e9e5f3fd1aaa2a20b7d31d01d3d95e5/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:26:13-79
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-IMPLIED from /Users/trianap/Documents/ProjectCertification/codelab-textclassification-android-master/start/app/src/main/AndroidManifest.xml:2:1-23:12 reason: src.java.org.tensorflow.lite.task.core has a targetSdkVersion < 4
+IMPLIED from /Users/trianap/Documents/ProjectCertification/codelab-textclassification-android-master/start/app/src/main/AndroidManifest.xml:2:1-22:12 reason: src.java.org.tensorflow.lite.task.core has a targetSdkVersion < 4
 uses-permission#android.permission.READ_PHONE_STATE
-IMPLIED from /Users/trianap/Documents/ProjectCertification/codelab-textclassification-android-master/start/app/src/main/AndroidManifest.xml:2:1-23:12 reason: src.java.org.tensorflow.lite.task.core has a targetSdkVersion < 4
+IMPLIED from /Users/trianap/Documents/ProjectCertification/codelab-textclassification-android-master/start/app/src/main/AndroidManifest.xml:2:1-22:12 reason: src.java.org.tensorflow.lite.task.core has a targetSdkVersion < 4
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-IMPLIED from /Users/trianap/Documents/ProjectCertification/codelab-textclassification-android-master/start/app/src/main/AndroidManifest.xml:2:1-23:12 reason: src.java.org.tensorflow.lite.task.core requested WRITE_EXTERNAL_STORAGE
+IMPLIED from /Users/trianap/Documents/ProjectCertification/codelab-textclassification-android-master/start/app/src/main/AndroidManifest.xml:2:1-22:12 reason: src.java.org.tensorflow.lite.task.core requested WRITE_EXTERNAL_STORAGE

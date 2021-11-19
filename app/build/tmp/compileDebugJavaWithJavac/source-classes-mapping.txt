@@ -1,4 +1,42 @@
+org/tensorflow/lite/codelabs/textclassification/FilterDialogFragment.java
+ org.tensorflow.lite.codelabs.textclassification.FilterDialogFragment
+ org.tensorflow.lite.codelabs.textclassification.FilterDialogFragment$FilterListener
+org/tensorflow/lite/codelabs/textclassification/model/Rating.java
+ org.tensorflow.lite.codelabs.textclassification.model.Rating
+org/tensorflow/lite/codelabs/textclassification/Filters.java
+ org.tensorflow.lite.codelabs.textclassification.Filters
 org/tensorflow/lite/codelabs/textclassification/MainActivity.java
  org.tensorflow.lite.codelabs.textclassification.MainActivity
+ org.tensorflow.lite.codelabs.textclassification.MainActivity$1
+org/tensorflow/lite/codelabs/textclassification/adapter/FirestoreAdapter.java
+ org.tensorflow.lite.codelabs.textclassification.adapter.FirestoreAdapter
+ org.tensorflow.lite.codelabs.textclassification.adapter.FirestoreAdapter$1
 org/tensorflow/lite/codelabs/textclassification/BuildConfig.java
  org.tensorflow.lite.codelabs.textclassification.BuildConfig
+org/tensorflow/lite/codelabs/textclassification/RestaurantDetailActivity.java
+ org.tensorflow.lite.codelabs.textclassification.RestaurantDetailActivity
+ org.tensorflow.lite.codelabs.textclassification.RestaurantDetailActivity$1
+ org.tensorflow.lite.codelabs.textclassification.RestaurantDetailActivity$2
+ org.tensorflow.lite.codelabs.textclassification.RestaurantDetailActivity$3
+ org.tensorflow.lite.codelabs.textclassification.RestaurantDetailActivity$4
+org/tensorflow/lite/codelabs/textclassification/util/FirebaseUtil.java
+ org.tensorflow.lite.codelabs.textclassification.util.FirebaseUtil
+org/tensorflow/lite/codelabs/textclassification/model/Restaurant.java
+ org.tensorflow.lite.codelabs.textclassification.model.Restaurant
+org/tensorflow/lite/codelabs/textclassification/viewmodel/MainActivityViewModel.java
+ org.tensorflow.lite.codelabs.textclassification.viewmodel.MainActivityViewModel
+org/tensorflow/lite/codelabs/textclassification/RatingDialogFragment.java
+ org.tensorflow.lite.codelabs.textclassification.RatingDialogFragment
+ org.tensorflow.lite.codelabs.textclassification.RatingDialogFragment$RatingListener
+org/tensorflow/lite/codelabs/textclassification/util/RestaurantUtil.java
+ org.tensorflow.lite.codelabs.textclassification.util.RestaurantUtil
+org/tensorflow/lite/codelabs/textclassification/adapter/RestaurantAdapter.java
+ org.tensorflow.lite.codelabs.textclassification.adapter.RestaurantAdapter
+ org.tensorflow.lite.codelabs.textclassification.adapter.RestaurantAdapter$OnRestaurantSelectedListener
+ org.tensorflow.lite.codelabs.textclassification.adapter.RestaurantAdapter$ViewHolder
+ org.tensorflow.lite.codelabs.textclassification.adapter.RestaurantAdapter$ViewHolder$1
+org/tensorflow/lite/codelabs/textclassification/adapter/RatingAdapter.java
+ org.tensorflow.lite.codelabs.textclassification.adapter.RatingAdapter
+ org.tensorflow.lite.codelabs.textclassification.adapter.RatingAdapter$ViewHolder
+org/tensorflow/lite/codelabs/textclassification/MainClassifier.java
+ org.tensorflow.lite.codelabs.textclassification.MainClassifier

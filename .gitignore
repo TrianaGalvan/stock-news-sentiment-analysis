@@ -1,6 +1,6 @@
 
-# Created by https://www.toptal.com/developers/gitignore/api/macos,android,androidstudio,firebase
-# Edit at https://www.toptal.com/developers/gitignore?templates=macos,android,androidstudio,firebase
+# Created by https://www.toptal.com/developers/gitignore/api/android,androidstudio,gradle,firebase,macos
+# Edit at https://www.toptal.com/developers/gitignore?templates=android,androidstudio,gradle,firebase,macos
 
 ### Android ###
 # Built application files
@@ -66,7 +66,7 @@ captures/
 .cxx/
 
 # Google Services (e.g. APIs or Firebase)
-google-services.json
+# google-services.json
 
 # Freeline
 freeline.py
@@ -138,6 +138,30 @@ Network Trash Folder
 Temporary Items
 .apdisk
 
+### Gradle ###
+.gradle
+
+# Ignore Gradle GUI config
+gradle-app.setting
+
+# Avoid ignoring Gradle wrapper jar file (.jar files are usually ignored)
+!gradle-wrapper.jar
+
+# Cache of project
+.gradletasknamecache
+
+# # Work around https://youtrack.jetbrains.com/issue/IDEA-116898
+# gradle/wrapper/gradle-wrapper.properties
+
+### Gradle Patch ###
+**/build/
+
+# Eclipse Gradle plugin generated files
+# Eclipse Core
+.project
+# JDT-specific (Eclipse Java Development Tools)
+.classpath
+
 ### AndroidStudio ###
 # Covers files to be ignored for android development using Android Studio.
 
@@ -150,7 +174,6 @@ Temporary Items
 # Generated files
 
 # Gradle files
-.gradle
 
 # Signing files
 .signing/
@@ -213,8 +236,6 @@ ehthumbs.db
 Thumbs.db
 
 # Legacy Eclipse project files
-.classpath
-.project
 .cproject
 .settings/
 
@@ -249,4 +270,4 @@ fabric.properties
 
 !/gradle/wrapper/gradle-wrapper.jar
 
-# End of https://www.toptal.com/developers/gitignore/api/macos,android,androidstudio,firebase
+# End of https://www.toptal.com/developers/gitignore/api/android,androidstudio,gradle,firebase,macos

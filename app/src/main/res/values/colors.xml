@@ -3,4 +3,12 @@
   <color name="tfe_color_primary">#ffa800</color>
   <color name="tfe_color_primary_dark">#ff6f00</color>
   <color name="tfe_color_accent">#425066</color>
+
+  <color name="colorPrimary">#66bb6a</color>
+  <color name="colorPrimaryDark">#338a3e</color>
+  <color name="colorAccent">#98ee99</color>
+
+  <color name="greyPrimary">#DE000000</color>
+  <color name="greySecondary">#8B000000</color>
+  <color name="greyDisabled">#61000000</color>
 </resources>

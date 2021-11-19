@@ -4,6 +4,23 @@
             "outputFile": "/Users/trianap/Documents/ProjectCertification/codelab-textclassification-android-master/start/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-my/values-my.xml",
             "map": [
                 {
+                    "source": "/Users/trianap/.gradle/caches/transforms-2/files-2.1/76d9b39004339d87bed43eb49248bfed/jetified-play-services-basement-17.1.0/res/values-my/values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "247",
+                        "endColumns": "212",
+                        "endOffsets": "459"
+                    },
+                    "to": {
+                        "startLines": "37",
+                        "startColumns": "4",
+                        "startOffsets": "4058",
+                        "endColumns": "212",
+                        "endOffsets": "4266"
+                    }
+                },
+                {
                     "source": "/Users/trianap/.gradle/caches/transforms-2/files-2.1/8f63d9c6eab1fc3ec3bd8e994478e6d9/appcompat-1.2.0/res/values-my/values-my.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
@@ -38,7 +55,7 @@
                     }
                 },
                 {
-                    "source": "/Users/trianap/.gradle/caches/transforms-2/files-2.1/f0c83ac7690b43eef7a8feaeb3940721/jetified-play-services-base-17.0.0/res/values-my/values.xml",
+                    "source": "/Users/trianap/.gradle/caches/transforms-2/files-2.1/efec7e0c5f71242a130c2f522d69d3f7/jetified-play-services-base-17.1.0/res/values-my/values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
                         "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
@@ -52,23 +69,6 @@
                         "startOffsets": "2872,2981,3177,3313,3426,3632,3766,3919,4271,4506,4614,4815,4960,5177,5394,5494,5597",
                         "endColumns": "108,195,135,112,205,133,152,138,234,107,200,144,216,216,99,102,117",
                         "endOffsets": "2976,3172,3308,3421,3627,3761,3914,4053,4501,4609,4810,4955,5172,5389,5489,5592,5710"
-                    }
-                },
-                {
-                    "source": "/Users/trianap/.gradle/caches/transforms-2/files-2.1/10b1e51736e27fda30f62ca5156f7b46/jetified-play-services-basement-17.0.0/res/values-my/values.xml",
-                    "from": {
-                        "startLines": "4",
-                        "startColumns": "0",
-                        "startOffsets": "247",
-                        "endColumns": "212",
-                        "endOffsets": "459"
-                    },
-                    "to": {
-                        "startLines": "37",
-                        "startColumns": "4",
-                        "startOffsets": "4058",
-                        "endColumns": "212",
-                        "endOffsets": "4266"
                     }
                 }
             ]

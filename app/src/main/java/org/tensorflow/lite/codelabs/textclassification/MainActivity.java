@@ -1,11 +1,11 @@
-/*
- * Copyright 2019 The TensorFlow Authors. All Rights Reserved.
+/**
+ * Copyright 2017 Google Inc. All Rights Reserved.
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
  *
- *       http://www.apache.org/licenses/LICENSE-2.0
+ * http://www.apache.org/licenses/LICENSE-2.0
  *
  * Unless required by applicable law or agreed to in writing, software
  * distributed under the License is distributed on an "AS IS" BASIS,
@@ -13,136 +13,299 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-
 package org.tensorflow.lite.codelabs.textclassification;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.text.Html;
 import android.util.Log;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
-import android.widget.Button;
-import android.widget.EditText;
-import android.widget.ScrollView;
+import android.view.ViewGroup;
 import android.widget.TextView;
 import android.widget.Toast;
+
 import androidx.appcompat.app.AppCompatActivity;
-import com.google.android.gms.tasks.Continuation;
-import com.google.firebase.ml.common.modeldownload.FirebaseModelDownloadConditions;
-import com.google.firebase.ml.common.modeldownload.FirebaseModelManager;
-import com.google.firebase.ml.custom.FirebaseCustomRemoteModel;
-import java.io.File;
-import java.util.List;
-import java.util.concurrent.ExecutorService;
-import java.util.concurrent.Executors;
-import org.tensorflow.lite.support.label.Category;
-import org.tensorflow.lite.task.text.nlclassifier.NLClassifier;
+import androidx.appcompat.widget.Toolbar;
+import androidx.lifecycle.ViewModelProvider;
+import androidx.lifecycle.ViewModelProviders;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 
-/** The main activity to provide interactions with users. */
-public class MainActivity extends AppCompatActivity {
-    private static final String TAG = "TextClassificationDemo";
+import com.firebase.ui.auth.AuthUI;
+import com.google.android.material.snackbar.Snackbar;
+import com.google.firebase.auth.FirebaseAuth;
+import org.tensorflow.lite.codelabs.textclassification.adapter.RestaurantAdapter;
+import org.tensorflow.lite.codelabs.textclassification.model.Restaurant;
+import org.tensorflow.lite.codelabs.textclassification.util.FirebaseUtil;
+import org.tensorflow.lite.codelabs.textclassification.util.RestaurantUtil;
+import org.tensorflow.lite.codelabs.textclassification.viewmodel.MainActivityViewModel;
+import com.google.firebase.firestore.CollectionReference;
+import com.google.firebase.firestore.DocumentSnapshot;
+import com.google.firebase.firestore.FirebaseFirestore;
+import com.google.firebase.firestore.FirebaseFirestoreException;
+import com.google.firebase.firestore.Query;
 
-    private TextView resultTextView;
-    private EditText inputEditText;
-    private ExecutorService executorService;
-    private ScrollView scrollView;
-    private Button predictButton;
+import java.util.Collections;
 
-    // TODO 5: Define a NLClassifier variable
-    private NLClassifier textClassifier;
+public class MainActivity extends AppCompatActivity implements
+        View.OnClickListener,
+        FilterDialogFragment.FilterListener,
+        RestaurantAdapter.OnRestaurantSelectedListener {
+
+    private static final String TAG = "MainActivity";
+
+    private static final int RC_SIGN_IN = 9001;
+
+    private static final int LIMIT = 50;
+
+    private Toolbar mToolbar;
+    private TextView mCurrentSearchView;
+    private TextView mCurrentSortByView;
+    private RecyclerView mRestaurantsRecycler;
+    private ViewGroup mEmptyView;
+
+    private FirebaseFirestore mFirestore;
+    private Query mQuery;
+
+    private FilterDialogFragment mFilterDialog;
+    private RestaurantAdapter mAdapter;
+
+    private MainActivityViewModel mViewModel;
+
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.tfe_tc_activity_main);
-        Log.v(TAG, "onCreate");
+        setContentView(R.layout.activity_main);
 
-        executorService = Executors.newSingleThreadExecutor();
-        resultTextView = findViewById(R.id.result_text_view);
-        inputEditText = findViewById(R.id.input_text);
-        scrollView = findViewById(R.id.scroll_view);
+        mToolbar = findViewById(R.id.toolbar);
+        setSupportActionBar(mToolbar);
 
-        predictButton = findViewById(R.id.predict_button);
-        predictButton.setOnClickListener(
-                (View v) -> {
-                    classify(inputEditText.getText().toString());
-                });
+        mCurrentSearchView = findViewById(R.id.text_current_search);
+        mCurrentSortByView = findViewById(R.id.text_current_sort_by);
+        mRestaurantsRecycler = findViewById(R.id.recycler_restaurants);
+        mEmptyView = findViewById(R.id.view_empty);
 
-        // TODO 3: Call the method to download TFLite model
-        downloadModel("sentiment_analysis");
+        findViewById(R.id.filter_bar).setOnClickListener(this);
+        findViewById(R.id.button_clear_filter).setOnClickListener(this);
+
+        // View model
+        mViewModel = new ViewModelProvider(this).get(MainActivityViewModel.class);
+
+        // Enable Firestore logging
+        FirebaseFirestore.setLoggingEnabled(true);
+
+        // Initialize Firestore and the main RecyclerView
+        mFirestore = FirebaseUtil.getFirestore();
+        initRecyclerView();
+
+        // Filter Dialog
+        mFilterDialog = new FilterDialogFragment();
     }
 
-    /** Send input text to TextClassificationClient and get the classify messages. */
-    private void classify(final String text) {
-        executorService.execute(
-                () -> {
-                    // TODO 7: Run sentiment analysis on the input text
-                    List<Category> results = textClassifier.classify(text);
+    private void initFirestore() {
+        mFirestore = FirebaseFirestore.getInstance();
 
-                    // TODO 8: Convert the result to a human-readable text
-                    String textToShow = "Input: " + text + "\nOutput:\n";
-                    for (int i = 0; i < results.size(); i++) {
-                        Category result = results.get(i);
-                        textToShow +=
-                                String.format("    %s: %s\n", result.getLabel(), result.getScore());
-                    }
-                    textToShow += "---------\n";
-
-                    // Show classification result on screen
-                    showResult(textToShow);
-                });
+        // Get the 50 highest rated restaurants
+        mQuery = mFirestore.collection("restaurants")
+                .orderBy("avgRating", Query.Direction.DESCENDING)
+                .limit(LIMIT);
     }
 
-    /** Show classification result on the screen. */
-    private void showResult(final String textToShow) {
-        // Run on UI thread as we'll updating our app UI
-        runOnUiThread(
-                () -> {
-                    // Append the result to the UI.
-                    resultTextView.append(textToShow);
+    private void initRecyclerView() {
+        if (mQuery == null) {
+            Log.w(TAG, "No query, not initializing RecyclerView");
+        }
 
-                    // Clear the input text.
-                    inputEditText.getText().clear();
+        mAdapter = new RestaurantAdapter(mQuery, this) {
 
-                    // Scroll to the bottom to show latest entry's classification result.
-                    scrollView.post(() -> scrollView.fullScroll(View.FOCUS_DOWN));
-                });
+            @Override
+            protected void onDataChanged() {
+                // Show/hide content if the query returns empty.
+                if (getItemCount() == 0) {
+                    mRestaurantsRecycler.setVisibility(View.GONE);
+                    mEmptyView.setVisibility(View.VISIBLE);
+                } else {
+                    mRestaurantsRecycler.setVisibility(View.VISIBLE);
+                    mEmptyView.setVisibility(View.GONE);
+                }
+            }
+
+            @Override
+            protected void onError(FirebaseFirestoreException e) {
+                // Show a snackbar on errors
+                Snackbar.make(findViewById(android.R.id.content),
+                        "Error: check logs for info.", Snackbar.LENGTH_LONG).show();
+            }
+        };
+
+        mRestaurantsRecycler.setLayoutManager(new LinearLayoutManager(this));
+        mRestaurantsRecycler.setAdapter(mAdapter);
     }
 
-    // TODO 2: Implement a method to download TFLite model from Firebase
-    /** Download model from Firebase ML. */
-    private synchronized void downloadModel(String modelName) {
-        final FirebaseCustomRemoteModel remoteModel =
-                new FirebaseCustomRemoteModel
-                        .Builder(modelName)
-                        .build();
-        FirebaseModelDownloadConditions conditions =
-                new FirebaseModelDownloadConditions.Builder()
-                        .requireWifi()
-                        .build();
-        final FirebaseModelManager firebaseModelManager = FirebaseModelManager.getInstance();
-        firebaseModelManager
-                .download(remoteModel, conditions)
-                .continueWithTask(task ->
-                        firebaseModelManager.getLatestModelFile(remoteModel)
-                )
-                .continueWith(executorService, (Continuation<File, Void>) task -> {
-                    // Initialize a text classifier instance with the model
-                    File modelFile = task.getResult();
+    @Override
+    public void onStart() {
+        super.onStart();
 
-                    // TODO 6: Initialize a TextClassifier with the downloaded model
-                    textClassifier = NLClassifier.createFromFile(modelFile);
+        // Start sign in if necessary
+        if (shouldStartSignIn()) {
+            startSignIn();
+            return;
+        }
 
-                    // Enable predict button
-                    predictButton.setEnabled(true);
-                    return null;
-                })
-                .addOnFailureListener(e -> {
-                    Log.e(TAG, "Failed to download and initialize the model. ", e);
-                    Toast.makeText(
-                            MainActivity.this,
-                            "Model download failed, please check your connection.",
-                            Toast.LENGTH_LONG)
-                            .show();
-                    predictButton.setEnabled(false);
-                });
+        // Apply filters
+        onFilter(mViewModel.getFilters());
+
+        // Start listening for Firestore updates
+        if (mAdapter != null) {
+            mAdapter.startListening();
+        }
+    }
+
+    @Override
+    public void onStop() {
+        super.onStop();
+        if (mAdapter != null) {
+            mAdapter.stopListening();
+        }
+    }
+
+    private void onAddItemsClicked() {
+        // Get a reference to the restaurants collection
+        CollectionReference restaurants = mFirestore.collection("restaurants");
+
+        for (int i = 0; i < 10; i++) {
+            // Get a random Restaurant POJO
+            Restaurant restaurant = RestaurantUtil.getRandom(this);
+
+            // Add a new document to the restaurants collection
+            restaurants.add(restaurant);
+        }
+    }
+
+    @Override
+    public void onFilter(Filters filters) {
+        // Construct query basic query
+        Query query = mFirestore.collection("restaurants");
+
+        // Category (equality filter)
+        if (filters.hasCategory()) {
+            query = query.whereEqualTo("category", filters.getCategory());
+        }
+
+        // City (equality filter)
+        if (filters.hasCity()) {
+            query = query.whereEqualTo("city", filters.getCity());
+        }
+
+        // Price (equality filter)
+        if (filters.hasPrice()) {
+            query = query.whereEqualTo("price", filters.getPrice());
+        }
+
+        // Sort by (orderBy with direction)
+        if (filters.hasSortBy()) {
+            query = query.orderBy(filters.getSortBy(), filters.getSortDirection());
+        }
+
+        // Limit items
+        query = query.limit(LIMIT);
+
+        // Update the query
+        mQuery = query;
+        mAdapter.setQuery(query);
+
+        // Set header
+        mCurrentSearchView.setText(Html.fromHtml(filters.getSearchDescription(this)));
+        mCurrentSortByView.setText(filters.getOrderDescription(this));
+
+        // Save filters
+        mViewModel.setFilters(filters);
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.menu_main, menu);
+        return super.onCreateOptionsMenu(menu);
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch (item.getItemId()) {
+            case R.id.menu_add_items:
+                onAddItemsClicked();
+                break;
+            case R.id.menu_sign_out:
+                AuthUI.getInstance().signOut(this);
+                startSignIn();
+                break;
+        }
+        return super.onOptionsItemSelected(item);
+    }
+
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+        super.onActivityResult(requestCode, resultCode, data);
+        if (requestCode == RC_SIGN_IN) {
+            mViewModel.setIsSigningIn(false);
+
+            if (resultCode != RESULT_OK && shouldStartSignIn()) {
+                startSignIn();
+            }
+        }
+    }
+
+    @Override
+    public void onClick(View v) {
+        switch (v.getId()) {
+            case R.id.filter_bar:
+                onFilterClicked();
+                break;
+            case R.id.button_clear_filter:
+                onClearFilterClicked();
+        }
+    }
+
+    public void onFilterClicked() {
+        // Show the dialog containing filter options
+        mFilterDialog.show(getSupportFragmentManager(), FilterDialogFragment.TAG);
+    }
+
+    public void onClearFilterClicked() {
+        mFilterDialog.resetFilters();
+
+        onFilter(Filters.getDefault());
+    }
+
+    @Override
+    public void onRestaurantSelected(DocumentSnapshot restaurant) {
+        // Go to the details page for the selected restaurant
+        Intent intent = new Intent(this, RestaurantDetailActivity.class);
+        intent.putExtra(RestaurantDetailActivity.KEY_RESTAURANT_ID, restaurant.getId());
+
+        startActivity(intent);
+    }
+
+    private boolean shouldStartSignIn() {
+        return (!mViewModel.getIsSigningIn() && FirebaseAuth.getInstance().getCurrentUser() == null);
+    }
+
+    private void startSignIn() {
+        // Sign in with FirebaseUI
+        Intent intent = AuthUI.getInstance().createSignInIntentBuilder()
+                .setAvailableProviders(Collections.singletonList(
+                        new AuthUI.IdpConfig.EmailBuilder().build()))
+                .setIsSmartLockEnabled(false)
+                .build();
+
+        startActivityForResult(intent, RC_SIGN_IN);
+        mViewModel.setIsSigningIn(true);
+    }
+
+    private void showTodoToast() {
+        Toast.makeText(this, "TODO: Implement", Toast.LENGTH_SHORT).show();
     }
 }

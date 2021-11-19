@@ -1,5 +1,79 @@
 <resources>
-  <string name="tfe_tc_app_name" translatable="false">TFL Text Classification</string>
-  <string name="tfe_tc_edit_text_hint" translatable="false">Enter your movie review.</string>
+  <string name="tfe_tc_app_name" translatable="false">Stock news analyzer</string>
+  <string name="tfe_tc_edit_text_hint" translatable="false">Enter the tittle or tweet.</string>
   <string name="tfe_tc_button_ok" translatable="false">Predict</string>
+
+  <string name="app_name">Stock news analyzer</string>
+
+  <string name="value_any_category">All sectors</string>
+  <string name="value_any_city">Any symbol</string>
+  <string name="value_any_price">Any price</string>
+
+  <string name="price_1">$</string>
+  <string name="price_2">$$</string>
+  <string name="price_3">$$$</string>
+
+  <string name="label_category">Sector</string>
+  <string name="label_city">Symbol</string>
+  <string name="label_price">Price</string>
+  <string name="label_sort_by">Sort By</string>
+
+  <string name="fmt_num_ratings" translatable="false">(%d)</string>
+  <string name="all_restaurants">All sectors</string>
+  <string name="header_filters">Filter</string>
+  <string name="search">Search</string>
+
+  <string name="sort_by_rating">Sort by sentiment</string>
+  <string name="sort_by_price">Sort by Price</string>
+
+  <string name="sorted_by_rating">sorted by sentiment</string>
+  <string name="sorted_by_price">sorted by price</string>
+
+  <string name="add_random_items">Add Random Items</string>
+  <string name="sign_out">Sign Out</string>
+  <string name="delete_all">Delete All</string>
+  <string name="divider_bullet">•</string>
+  <string name="apply">Apply</string>
+  <string name="cancel">Cancel</string>
+  <string name="message_no_results">Oops, couldn\'t find any results\nthat matched your filter</string>
+  <string name="message_no_reviews">Be the first to share news !</string>
+  <string name="hint_review">Add tweet or news tittle</string>
+  <string name="submit">Submit</string>
+  <string name="filter_add_review">Add tittle or tweet</string>
+
+  <!-- Types of food I could think of in 5 minutes -->
+  <string-array name="categories">
+      <item>@string/value_any_category</item>
+
+      <item>Finance</item>
+      <item>Technology</item>
+  </string-array>
+
+  <!-- 50 most populous cities in the US -->
+  <string-array name="cities">
+      <item>@string/value_any_city</item>
+
+      <item>JPM</item>
+      <item>AXP</item>
+      <item>AAPL</item>
+      <item>FB</item>
+      <item>GOOGL</item>
+      <item>TSLA</item>
+      <item>AMZN</item>
+  </string-array>
+
+  <!-- Price filters -->
+  <string-array name="prices">
+      <item>@string/value_any_price</item>
+
+      <item>@string/price_1</item>
+      <item>@string/price_2</item>
+      <item>@string/price_3</item>
+  </string-array>
+
+  <!-- Ways you can sort restaurants -->
+  <string-array name="sort_by">
+      <item>@string/sort_by_rating</item>
+      <item>@string/sort_by_price</item>
+  </string-array>
 </resources>
