@@ -11,4 +11,8 @@
   <color name="greyPrimary">#DE000000</color>
   <color name="greySecondary">#8B000000</color>
   <color name="greyDisabled">#61000000</color>
+  <color name="positiveSentiment">#2196f3</color>
+  <color name="negativeSentiment">#f44336</color>
+  <color name="fui_bgEmail">#599B12</color>
+  <color name="fui_bgGoogle">#ffffff</color>
 </resources>

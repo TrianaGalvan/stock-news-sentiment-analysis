@@ -1,107 +1,19 @@
 [
     {
-        "merged": "/Users/trianap/Documents/ProjectCertification/codelab-textclassification-android-master/start/app/build/intermediates/res/merged/debug/drawable_ic_local_dining_white_24px.xml.flat",
-        "source": "/Users/trianap/Documents/ProjectCertification/codelab-textclassification-android-master/start/app/src/main/res/drawable/ic_local_dining_white_24px.xml"
-    },
-    {
-        "merged": "/Users/trianap/Documents/ProjectCertification/codelab-textclassification-android-master/start/app/build/intermediates/res/merged/debug/drawable_ic_baseline_assignment_24.xml.flat",
-        "source": "/Users/trianap/Documents/ProjectCertification/codelab-textclassification-android-master/start/app/src/main/res/drawable/ic_baseline_assignment_24.xml"
-    },
-    {
-        "merged": "/Users/trianap/Documents/ProjectCertification/codelab-textclassification-android-master/start/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher_foreground.png.flat",
-        "source": "/Users/trianap/Documents/ProjectCertification/codelab-textclassification-android-master/start/app/src/main/res/mipmap-hdpi/ic_launcher_foreground.png"
-    },
-    {
-        "merged": "/Users/trianap/Documents/ProjectCertification/codelab-textclassification-android-master/start/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_launcher.png.flat",
-        "source": "/Users/trianap/Documents/ProjectCertification/codelab-textclassification-android-master/start/app/src/main/res/drawable-hdpi/ic_launcher.png"
-    },
-    {
-        "merged": "/Users/trianap/Documents/ProjectCertification/codelab-textclassification-android-master/start/app/build/intermediates/res/merged/debug/drawable-xhdpi_pizza_monster.png.flat",
-        "source": "/Users/trianap/Documents/ProjectCertification/codelab-textclassification-android-master/start/app/src/main/res/drawable-xhdpi/pizza_monster.png"
-    },
-    {
-        "merged": "/Users/trianap/Documents/ProjectCertification/codelab-textclassification-android-master/start/app/build/intermediates/res/merged/debug/drawable-mdpi_pizza_monster.png.flat",
-        "source": "/Users/trianap/Documents/ProjectCertification/codelab-textclassification-android-master/start/app/src/main/res/drawable-mdpi/pizza_monster.png"
-    },
-    {
-        "merged": "/Users/trianap/Documents/ProjectCertification/codelab-textclassification-android-master/start/app/build/intermediates/res/merged/debug/drawable_ic_launcher_background.xml.flat",
-        "source": "/Users/trianap/Documents/ProjectCertification/codelab-textclassification-android-master/start/app/src/main/res/drawable/ic_launcher_background.xml"
-    },
-    {
-        "merged": "/Users/trianap/Documents/ProjectCertification/codelab-textclassification-android-master/start/app/build/intermediates/res/merged/debug/drawable_ic_baseline_emoji_emotions_24.xml.flat",
-        "source": "/Users/trianap/Documents/ProjectCertification/codelab-textclassification-android-master/start/app/src/main/res/drawable/ic_baseline_emoji_emotions_24.xml"
-    },
-    {
-        "merged": "/Users/trianap/Documents/ProjectCertification/codelab-textclassification-android-master/start/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher_round.png.flat",
-        "source": "/Users/trianap/Documents/ProjectCertification/codelab-textclassification-android-master/start/app/src/main/res/mipmap-hdpi/ic_launcher_round.png"
-    },
-    {
-        "merged": "/Users/trianap/Documents/ProjectCertification/codelab-textclassification-android-master/start/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "/Users/trianap/Documents/ProjectCertification/codelab-textclassification-android-master/start/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml"
-    },
-    {
-        "merged": "/Users/trianap/Documents/ProjectCertification/codelab-textclassification-android-master/start/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher_round.png.flat",
-        "source": "/Users/trianap/Documents/ProjectCertification/codelab-textclassification-android-master/start/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png"
-    },
-    {
-        "merged": "/Users/trianap/Documents/ProjectCertification/codelab-textclassification-android-master/start/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher_foreground.png.flat",
-        "source": "/Users/trianap/Documents/ProjectCertification/codelab-textclassification-android-master/start/app/src/main/res/mipmap-xxhdpi/ic_launcher_foreground.png"
-    },
-    {
-        "merged": "/Users/trianap/Documents/ProjectCertification/codelab-textclassification-android-master/start/app/build/intermediates/res/merged/debug/drawable-nodpi_food_1.png.flat",
-        "source": "/Users/trianap/Documents/ProjectCertification/codelab-textclassification-android-master/start/app/src/main/res/drawable-nodpi/food_1.png"
-    },
-    {
-        "merged": "/Users/trianap/Documents/ProjectCertification/codelab-textclassification-android-master/start/app/build/intermediates/res/merged/debug/drawable-xxhdpi_tfl2_logo.png.flat",
-        "source": "/Users/trianap/Documents/ProjectCertification/codelab-textclassification-android-master/start/app/src/main/res/drawable-xxhdpi/tfl2_logo.png"
-    },
-    {
-        "merged": "/Users/trianap/Documents/ProjectCertification/codelab-textclassification-android-master/start/app/build/intermediates/res/merged/debug/layout_tfe_tc_activity_main.xml.flat",
-        "source": "/Users/trianap/Documents/ProjectCertification/codelab-textclassification-android-master/start/app/src/main/res/layout/tfe_tc_activity_main.xml"
-    },
-    {
-        "merged": "/Users/trianap/Documents/ProjectCertification/codelab-textclassification-android-master/start/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
-        "source": "/Users/trianap/Documents/ProjectCertification/codelab-textclassification-android-master/start/app/src/main/res/mipmap-xxxhdpi/ic_launcher_foreground.png"
-    },
-    {
-        "merged": "/Users/trianap/Documents/ProjectCertification/codelab-textclassification-android-master/start/app/build/intermediates/res/merged/debug/layout_activity_restaurant_detail.xml.flat",
-        "source": "/Users/trianap/Documents/ProjectCertification/codelab-textclassification-android-master/start/app/src/main/res/layout/activity_restaurant_detail.xml"
-    },
-    {
-        "merged": "/Users/trianap/Documents/ProjectCertification/codelab-textclassification-android-master/start/app/build/intermediates/res/merged/debug/drawable-xxhdpi_pizza_monster.png.flat",
-        "source": "/Users/trianap/Documents/ProjectCertification/codelab-textclassification-android-master/start/app/src/main/res/drawable-xxhdpi/pizza_monster.png"
-    },
-    {
-        "merged": "/Users/trianap/Documents/ProjectCertification/codelab-textclassification-android-master/start/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher_round.png.flat",
-        "source": "/Users/trianap/Documents/ProjectCertification/codelab-textclassification-android-master/start/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png"
-    },
-    {
-        "merged": "/Users/trianap/Documents/ProjectCertification/codelab-textclassification-android-master/start/app/build/intermediates/res/merged/debug/drawable_ic_arrow_back_white_24px.xml.flat",
-        "source": "/Users/trianap/Documents/ProjectCertification/codelab-textclassification-android-master/start/app/src/main/res/drawable/ic_arrow_back_white_24px.xml"
-    },
-    {
-        "merged": "/Users/trianap/Documents/ProjectCertification/codelab-textclassification-android-master/start/app/build/intermediates/res/merged/debug/drawable_ic_baseline_donut_small_24.xml.flat",
-        "source": "/Users/trianap/Documents/ProjectCertification/codelab-textclassification-android-master/start/app/src/main/res/drawable/ic_baseline_donut_small_24.xml"
-    },
-    {
-        "merged": "/Users/trianap/Documents/ProjectCertification/codelab-textclassification-android-master/start/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher.png.flat",
-        "source": "/Users/trianap/Documents/ProjectCertification/codelab-textclassification-android-master/start/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
-    },
-    {
-        "merged": "/Users/trianap/Documents/ProjectCertification/codelab-textclassification-android-master/start/app/build/intermediates/res/merged/debug/menu_menu_main.xml.flat",
-        "source": "/Users/trianap/Documents/ProjectCertification/codelab-textclassification-android-master/start/app/src/main/res/menu/menu_main.xml"
-    },
-    {
         "merged": "/Users/trianap/Documents/ProjectCertification/codelab-textclassification-android-master/start/app/build/intermediates/res/merged/debug/layout_item_rating.xml.flat",
         "source": "/Users/trianap/Documents/ProjectCertification/codelab-textclassification-android-master/start/app/src/main/res/layout/item_rating.xml"
+    },
+    {
+        "merged": "/Users/trianap/Documents/ProjectCertification/codelab-textclassification-android-master/start/app/build/intermediates/res/merged/debug/drawable_ic_local_dining_white_24px.xml.flat",
+        "source": "/Users/trianap/Documents/ProjectCertification/codelab-textclassification-android-master/start/app/src/main/res/drawable/ic_local_dining_white_24px.xml"
     },
     {
         "merged": "/Users/trianap/Documents/ProjectCertification/codelab-textclassification-android-master/start/app/build/intermediates/res/merged/debug/drawable_ic_filter_list_white_24px.xml.flat",
         "source": "/Users/trianap/Documents/ProjectCertification/codelab-textclassification-android-master/start/app/src/main/res/drawable/ic_filter_list_white_24px.xml"
     },
     {
-        "merged": "/Users/trianap/Documents/ProjectCertification/codelab-textclassification-android-master/start/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher_round.png.flat",
-        "source": "/Users/trianap/Documents/ProjectCertification/codelab-textclassification-android-master/start/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png"
+        "merged": "/Users/trianap/Documents/ProjectCertification/codelab-textclassification-android-master/start/app/build/intermediates/res/merged/debug/drawable_ic_baseline_assignment_24.xml.flat",
+        "source": "/Users/trianap/Documents/ProjectCertification/codelab-textclassification-android-master/start/app/src/main/res/drawable/ic_baseline_assignment_24.xml"
     },
     {
         "merged": "/Users/trianap/Documents/ProjectCertification/codelab-textclassification-android-master/start/app/build/intermediates/res/merged/debug/drawable-hdpi_pizza_monster.png.flat",
@@ -116,10 +28,6 @@
         "source": "/Users/trianap/Documents/ProjectCertification/codelab-textclassification-android-master/start/app/src/main/res/drawable-xxhdpi/tfl2_logo_dark.png"
     },
     {
-        "merged": "/Users/trianap/Documents/ProjectCertification/codelab-textclassification-android-master/start/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_launcher.png.flat",
-        "source": "/Users/trianap/Documents/ProjectCertification/codelab-textclassification-android-master/start/app/src/main/res/drawable-xxhdpi/ic_launcher.png"
-    },
-    {
         "merged": "/Users/trianap/Documents/ProjectCertification/codelab-textclassification-android-master/start/app/build/intermediates/res/merged/debug/drawable_ic_baseline_data_exploration_24.xml.flat",
         "source": "/Users/trianap/Documents/ProjectCertification/codelab-textclassification-android-master/start/app/src/main/res/drawable/ic_baseline_data_exploration_24.xml"
     },
@@ -128,16 +36,12 @@
         "source": "/Users/trianap/Documents/ProjectCertification/codelab-textclassification-android-master/start/app/src/main/res/layout/dialog_filters.xml"
     },
     {
-        "merged": "/Users/trianap/Documents/ProjectCertification/codelab-textclassification-android-master/start/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher.png.flat",
-        "source": "/Users/trianap/Documents/ProjectCertification/codelab-textclassification-android-master/start/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
+        "merged": "/Users/trianap/Documents/ProjectCertification/codelab-textclassification-android-master/start/app/build/intermediates/res/merged/debug/drawable-mdpi_pizza_monster.png.flat",
+        "source": "/Users/trianap/Documents/ProjectCertification/codelab-textclassification-android-master/start/app/src/main/res/drawable-mdpi/pizza_monster.png"
     },
     {
-        "merged": "/Users/trianap/Documents/ProjectCertification/codelab-textclassification-android-master/start/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher_foreground.png.flat",
-        "source": "/Users/trianap/Documents/ProjectCertification/codelab-textclassification-android-master/start/app/src/main/res/mipmap-xhdpi/ic_launcher_foreground.png"
-    },
-    {
-        "merged": "/Users/trianap/Documents/ProjectCertification/codelab-textclassification-android-master/start/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher_round.png.flat",
-        "source": "/Users/trianap/Documents/ProjectCertification/codelab-textclassification-android-master/start/app/src/main/res/mipmap-mdpi/ic_launcher_round.png"
+        "merged": "/Users/trianap/Documents/ProjectCertification/codelab-textclassification-android-master/start/app/build/intermediates/res/merged/debug/drawable-xhdpi_pizza_monster.png.flat",
+        "source": "/Users/trianap/Documents/ProjectCertification/codelab-textclassification-android-master/start/app/src/main/res/drawable-xhdpi/pizza_monster.png"
     },
     {
         "merged": "/Users/trianap/Documents/ProjectCertification/codelab-textclassification-android-master/start/app/build/intermediates/res/merged/debug/drawable_gradient_up.xml.flat",
@@ -152,12 +56,20 @@
         "source": "/Users/trianap/Documents/ProjectCertification/codelab-textclassification-android-master/start/app/src/main/res/drawable/ic_monetization_on_white_24px.xml"
     },
     {
+        "merged": "/Users/trianap/Documents/ProjectCertification/codelab-textclassification-android-master/start/app/build/intermediates/res/merged/debug/drawable_ic_launcher_background.xml.flat",
+        "source": "/Users/trianap/Documents/ProjectCertification/codelab-textclassification-android-master/start/app/src/main/res/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "/Users/trianap/Documents/ProjectCertification/codelab-textclassification-android-master/start/app/build/intermediates/res/merged/debug/drawable_ic_baseline_emoji_emotions_24.xml.flat",
+        "source": "/Users/trianap/Documents/ProjectCertification/codelab-textclassification-android-master/start/app/src/main/res/drawable/ic_baseline_emoji_emotions_24.xml"
+    },
+    {
         "merged": "/Users/trianap/Documents/ProjectCertification/codelab-textclassification-android-master/start/app/build/intermediates/res/merged/debug/drawable_bg_shadow.xml.flat",
         "source": "/Users/trianap/Documents/ProjectCertification/codelab-textclassification-android-master/start/app/src/main/res/drawable/bg_shadow.xml"
     },
     {
-        "merged": "/Users/trianap/Documents/ProjectCertification/codelab-textclassification-android-master/start/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher.png.flat",
-        "source": "/Users/trianap/Documents/ProjectCertification/codelab-textclassification-android-master/start/app/src/main/res/mipmap-hdpi/ic_launcher.png"
+        "merged": "/Users/trianap/Documents/ProjectCertification/codelab-textclassification-android-master/start/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "/Users/trianap/Documents/ProjectCertification/codelab-textclassification-android-master/start/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml"
     },
     {
         "merged": "/Users/trianap/Documents/ProjectCertification/codelab-textclassification-android-master/start/app/build/intermediates/res/merged/debug/drawable_ic_place_white_24px.xml.flat",
@@ -168,20 +80,24 @@
         "source": "/Users/trianap/Documents/ProjectCertification/codelab-textclassification-android-master/start/app/src/main/res/drawable-xxhdpi/icn_chevron_up.png"
     },
     {
-        "merged": "/Users/trianap/Documents/ProjectCertification/codelab-textclassification-android-master/start/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher.png.flat",
-        "source": "/Users/trianap/Documents/ProjectCertification/codelab-textclassification-android-master/start/app/src/main/res/mipmap-mdpi/ic_launcher.png"
+        "merged": "/Users/trianap/Documents/ProjectCertification/codelab-textclassification-android-master/start/app/build/intermediates/res/merged/debug/layout_activity_main.xml.flat",
+        "source": "/Users/trianap/Documents/ProjectCertification/codelab-textclassification-android-master/start/app/src/main/res/layout/activity_main.xml"
     },
     {
-        "merged": "/Users/trianap/Documents/ProjectCertification/codelab-textclassification-android-master/start/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_launcher.png.flat",
-        "source": "/Users/trianap/Documents/ProjectCertification/codelab-textclassification-android-master/start/app/src/main/res/drawable-mdpi/ic_launcher.png"
+        "merged": "/Users/trianap/Documents/ProjectCertification/codelab-textclassification-android-master/start/app/build/intermediates/res/merged/debug/drawable-xxhdpi_tfl2_logo.png.flat",
+        "source": "/Users/trianap/Documents/ProjectCertification/codelab-textclassification-android-master/start/app/src/main/res/drawable-xxhdpi/tfl2_logo.png"
     },
     {
         "merged": "/Users/trianap/Documents/ProjectCertification/codelab-textclassification-android-master/start/app/build/intermediates/res/merged/debug/drawable_ic_fastfood_white_24dp.xml.flat",
         "source": "/Users/trianap/Documents/ProjectCertification/codelab-textclassification-android-master/start/app/src/main/res/drawable/ic_fastfood_white_24dp.xml"
     },
     {
-        "merged": "/Users/trianap/Documents/ProjectCertification/codelab-textclassification-android-master/start/app/build/intermediates/res/merged/debug/layout_activity_main.xml.flat",
-        "source": "/Users/trianap/Documents/ProjectCertification/codelab-textclassification-android-master/start/app/src/main/res/layout/activity_main.xml"
+        "merged": "/Users/trianap/Documents/ProjectCertification/codelab-textclassification-android-master/start/app/build/intermediates/res/merged/debug/drawable-nodpi_food_1.png.flat",
+        "source": "/Users/trianap/Documents/ProjectCertification/codelab-textclassification-android-master/start/app/src/main/res/drawable-nodpi/food_1.png"
+    },
+    {
+        "merged": "/Users/trianap/Documents/ProjectCertification/codelab-textclassification-android-master/start/app/build/intermediates/res/merged/debug/drawable-nodpi_logo.png.flat",
+        "source": "/Users/trianap/Documents/ProjectCertification/codelab-textclassification-android-master/start/app/src/main/res/drawable-nodpi/logo.png"
     },
     {
         "merged": "/Users/trianap/Documents/ProjectCertification/codelab-textclassification-android-master/start/app/build/intermediates/res/merged/debug/drawable_ic_sort_white_24px.xml.flat",
@@ -192,16 +108,40 @@
         "source": "/Users/trianap/Documents/ProjectCertification/codelab-textclassification-android-master/start/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml"
     },
     {
+        "merged": "/Users/trianap/Documents/ProjectCertification/codelab-textclassification-android-master/start/app/build/intermediates/res/merged/debug/layout_tfe_tc_activity_main.xml.flat",
+        "source": "/Users/trianap/Documents/ProjectCertification/codelab-textclassification-android-master/start/app/src/main/res/layout/tfe_tc_activity_main.xml"
+    },
+    {
+        "merged": "/Users/trianap/Documents/ProjectCertification/codelab-textclassification-android-master/start/app/build/intermediates/res/merged/debug/layout_activity_restaurant_detail.xml.flat",
+        "source": "/Users/trianap/Documents/ProjectCertification/codelab-textclassification-android-master/start/app/src/main/res/layout/activity_restaurant_detail.xml"
+    },
+    {
         "merged": "/Users/trianap/Documents/ProjectCertification/codelab-textclassification-android-master/start/app/build/intermediates/res/merged/debug/drawable_ic_close_white_24px.xml.flat",
         "source": "/Users/trianap/Documents/ProjectCertification/codelab-textclassification-android-master/start/app/src/main/res/drawable/ic_close_white_24px.xml"
     },
     {
-        "merged": "/Users/trianap/Documents/ProjectCertification/codelab-textclassification-android-master/start/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher.png.flat",
-        "source": "/Users/trianap/Documents/ProjectCertification/codelab-textclassification-android-master/start/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
+        "merged": "/Users/trianap/Documents/ProjectCertification/codelab-textclassification-android-master/start/app/build/intermediates/res/merged/debug/drawable-xxhdpi_pizza_monster.png.flat",
+        "source": "/Users/trianap/Documents/ProjectCertification/codelab-textclassification-android-master/start/app/src/main/res/drawable-xxhdpi/pizza_monster.png"
+    },
+    {
+        "merged": "/Users/trianap/Documents/ProjectCertification/codelab-textclassification-android-master/start/app/build/intermediates/res/merged/debug/layout_login.xml.flat",
+        "source": "/Users/trianap/Documents/ProjectCertification/codelab-textclassification-android-master/start/app/src/main/res/layout/login.xml"
     },
     {
         "merged": "/Users/trianap/Documents/ProjectCertification/codelab-textclassification-android-master/start/app/build/intermediates/res/merged/debug/drawable-xxhdpi_icn_chevron_down.png.flat",
         "source": "/Users/trianap/Documents/ProjectCertification/codelab-textclassification-android-master/start/app/src/main/res/drawable-xxhdpi/icn_chevron_down.png"
+    },
+    {
+        "merged": "/Users/trianap/Documents/ProjectCertification/codelab-textclassification-android-master/start/app/build/intermediates/res/merged/debug/drawable-nodpi_money_back.png.flat",
+        "source": "/Users/trianap/Documents/ProjectCertification/codelab-textclassification-android-master/start/app/src/main/res/drawable-nodpi/money_back.png"
+    },
+    {
+        "merged": "/Users/trianap/Documents/ProjectCertification/codelab-textclassification-android-master/start/app/build/intermediates/res/merged/debug/drawable_ic_arrow_back_white_24px.xml.flat",
+        "source": "/Users/trianap/Documents/ProjectCertification/codelab-textclassification-android-master/start/app/src/main/res/drawable/ic_arrow_back_white_24px.xml"
+    },
+    {
+        "merged": "/Users/trianap/Documents/ProjectCertification/codelab-textclassification-android-master/start/app/build/intermediates/res/merged/debug/drawable_ic_baseline_donut_small_24.xml.flat",
+        "source": "/Users/trianap/Documents/ProjectCertification/codelab-textclassification-android-master/start/app/src/main/res/drawable/ic_baseline_donut_small_24.xml"
     },
     {
         "merged": "/Users/trianap/Documents/ProjectCertification/codelab-textclassification-android-master/start/app/build/intermediates/res/merged/debug/drawable-v24_ic_launcher_foreground.xml.flat",
@@ -216,7 +156,7 @@
         "source": "/Users/trianap/Documents/ProjectCertification/codelab-textclassification-android-master/start/app/src/main/res/layout/dialog_rating.xml"
     },
     {
-        "merged": "/Users/trianap/Documents/ProjectCertification/codelab-textclassification-android-master/start/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher_foreground.png.flat",
-        "source": "/Users/trianap/Documents/ProjectCertification/codelab-textclassification-android-master/start/app/src/main/res/mipmap-mdpi/ic_launcher_foreground.png"
+        "merged": "/Users/trianap/Documents/ProjectCertification/codelab-textclassification-android-master/start/app/build/intermediates/res/merged/debug/menu_menu_main.xml.flat",
+        "source": "/Users/trianap/Documents/ProjectCertification/codelab-textclassification-android-master/start/app/src/main/res/menu/menu_main.xml"
     }
 ]

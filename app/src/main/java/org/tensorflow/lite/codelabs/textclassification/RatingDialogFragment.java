@@ -17,6 +17,7 @@ package org.tensorflow.lite.codelabs.textclassification;
 
 import android.content.Context;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -28,6 +29,9 @@ import androidx.fragment.app.DialogFragment;
 
 import com.google.firebase.auth.FirebaseAuth;
 import org.tensorflow.lite.codelabs.textclassification.model.Rating;
+import org.tensorflow.lite.codelabs.textclassification.util.NLPUtil;
+
+import java.util.Hashtable;
 
 import me.zhanghai.android.materialratingbar.MaterialRatingBar;
 
@@ -39,6 +43,7 @@ public class RatingDialogFragment extends DialogFragment implements View.OnClick
     public static final String TAG = "RatingDialog";
 
     private EditText mRatingText;
+
 
     interface RatingListener {
 
@@ -93,9 +98,15 @@ public class RatingDialogFragment extends DialogFragment implements View.OnClick
     }
 
     public void onSubmitClicked(View view) {
+        String example = mRatingText.getText().toString();
+        Hashtable<String, Float> classifications =  NLPUtil.classify(example);
+        Log.d(TAG, "********** RATING: "+classifications.get(NLPUtil.TAG_NEGATIVE));
+        Log.d(TAG, "********** RATING: "+classifications.get(NLPUtil.TAG_POSITIVE));
         Rating rating = new Rating(
                 FirebaseAuth.getInstance().getCurrentUser(),
-                mRatingText.getText().toString());
+                mRatingText.getText().toString(),
+                classifications.get(NLPUtil.TAG_POSITIVE),
+                classifications.get(NLPUtil.TAG_NEGATIVE));
 
         if (mRatingListener != null) {
             mRatingListener.onRating(rating);

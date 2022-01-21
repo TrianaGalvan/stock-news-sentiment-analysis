@@ -15,6 +15,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "569670136182-kkhr8jf5dd7e8phvg7cl8odb5bqa8n7m.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "org.tensorflow.lite.codelabs.textclassification",
+            "certificate_hash": "3ac41399fbb67c2e27d9857dad6d4b676fb1c9f9"
+          }
+        },
+        {
           "client_id": "569670136182-6q19ltb00h7htsfc7ceo7mmvu0fdkmrh.apps.googleusercontent.com",
           "client_type": 3
         }

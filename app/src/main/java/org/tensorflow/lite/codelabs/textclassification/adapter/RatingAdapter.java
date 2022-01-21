@@ -15,19 +15,28 @@
  */
  package org.tensorflow.lite.codelabs.textclassification.adapter;
 
+import android.content.res.ColorStateList;
+import android.graphics.Color;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
+import androidx.core.content.ContextCompat;
 import androidx.recyclerview.widget.RecyclerView;
 
 import org.tensorflow.lite.codelabs.textclassification.R;
 import org.tensorflow.lite.codelabs.textclassification.model.Rating;
+import org.tensorflow.lite.codelabs.textclassification.util.NLPUtil;
+
+import com.google.firebase.firestore.DocumentSnapshot;
 import com.google.firebase.firestore.Query;
 
 import me.zhanghai.android.materialratingbar.MaterialRatingBar;
+
+import static com.firebase.ui.auth.AuthUI.getApplicationContext;
+import static java.security.AccessController.getContext;
 
 /**
  * RecyclerView adapter for a bunch of Ratings.
@@ -47,6 +56,7 @@ public class RatingAdapter extends FirestoreAdapter<RatingAdapter.ViewHolder> {
 
     @Override
     public void onBindViewHolder(@NonNull ViewHolder holder, int position) {
+        DocumentSnapshot snap = getSnapshot(position);
         holder.bind(getSnapshot(position).toObject(Rating.class));
     }
 
@@ -66,6 +76,24 @@ public class RatingAdapter extends FirestoreAdapter<RatingAdapter.ViewHolder> {
         public void bind(Rating rating) {
             nameView.setText(rating.getUserName());
             textView.setText(rating.getText());
+            Float scorePositive = rating.getPositiveRate();
+            Float scoreNegative = rating.getNegativeRate();
+            if(scorePositive != null && scoreNegative !=null){
+                if(scoreNegative > scorePositive){
+                    int color = Color.parseColor("#f44336");
+                    ratingBar.setSupportProgressTintList(ColorStateList.valueOf(color));
+                    float rating_stars = (5*rating.getNegativeRate())/1;
+                    ratingBar.setRating(rating_stars);
+
+                }else{
+                    int color = Color.parseColor("#2196f3");
+                    ratingBar.setSupportProgressTintList(ColorStateList.valueOf(color));
+                    float rating_stars = (5*rating.getPositiveRate())/1;
+                    ratingBar.setRating(rating_stars);
+                }
+            }
+
+
         }
     }
 

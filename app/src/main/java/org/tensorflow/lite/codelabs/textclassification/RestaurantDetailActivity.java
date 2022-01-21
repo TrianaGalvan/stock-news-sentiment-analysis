@@ -38,7 +38,10 @@ import com.google.android.material.snackbar.Snackbar;
 import org.tensorflow.lite.codelabs.textclassification.adapter.RatingAdapter;
 import org.tensorflow.lite.codelabs.textclassification.model.Rating;
 import org.tensorflow.lite.codelabs.textclassification.model.Restaurant;
+import org.tensorflow.lite.codelabs.textclassification.util.NLPUtil;
 import org.tensorflow.lite.codelabs.textclassification.util.RestaurantUtil;
+import org.tensorflow.lite.support.label.Category;
+
 import com.google.firebase.firestore.DocumentReference;
 import com.google.firebase.firestore.DocumentSnapshot;
 import com.google.firebase.firestore.EventListener;
@@ -47,6 +50,9 @@ import com.google.firebase.firestore.FirebaseFirestoreException;
 import com.google.firebase.firestore.ListenerRegistration;
 import com.google.firebase.firestore.Query;
 import com.google.firebase.firestore.Transaction;
+
+import java.util.Hashtable;
+import java.util.List;
 
 import me.zhanghai.android.materialratingbar.MaterialRatingBar;
 
@@ -58,7 +64,6 @@ public class RestaurantDetailActivity extends AppCompatActivity implements
     private static final String TAG = "RestaurantDetail";
 
     public static final String KEY_RESTAURANT_ID = "key_restaurant_id";
-
     private ImageView mImageView;
     private TextView mNameView;
     private MaterialRatingBar mRatingIndicator;
@@ -76,6 +81,7 @@ public class RestaurantDetailActivity extends AppCompatActivity implements
     private ListenerRegistration mRestaurantRegistration;
 
     private RatingAdapter mRatingAdapter;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -117,7 +123,9 @@ public class RestaurantDetailActivity extends AppCompatActivity implements
         mRatingAdapter = new RatingAdapter(ratingsQuery) {
             @Override
             protected void onDataChanged() {
-                if (getItemCount() == 0) {
+                // TODO: NLPT ADD A NEW TWEET NLP
+
+                 if (getItemCount() == 0) {
                     mRatingsRecycler.setVisibility(View.GONE);
                     mEmptyView.setVisibility(View.VISIBLE);
                 } else {
@@ -183,10 +191,8 @@ public class RestaurantDetailActivity extends AppCompatActivity implements
                 int newNumRatings = restaurant.getNumRatings() + 1;
 
                 // Compute new average rating
-                double oldRatingTotal = restaurant.getAvgRating() *
-                        restaurant.getNumRatings();
-                double newAvgRating = (oldRatingTotal ) /
-                        newNumRatings;
+                double oldRatingTotal = restaurant.getAvgRating() * restaurant.getNumRatings();
+                double newAvgRating = (oldRatingTotal ) / newNumRatings;
 
                 // Set new restaurant info
                 restaurant.setNumRatings(newNumRatings);
@@ -216,7 +222,7 @@ public class RestaurantDetailActivity extends AppCompatActivity implements
 
     private void onRestaurantLoaded(Restaurant restaurant) {
         mNameView.setText(restaurant.getName());
-        mRatingIndicator.setRating((float) restaurant.getAvgRating());
+        mRatingIndicator.setRating((float) (5*restaurant.getAvgRating()));
         mNumRatingsView.setText(getString(R.string.fmt_num_ratings, restaurant.getNumRatings()));
         mCityView.setText(restaurant.getCity());
         mCategoryView.setText(restaurant.getCategory());

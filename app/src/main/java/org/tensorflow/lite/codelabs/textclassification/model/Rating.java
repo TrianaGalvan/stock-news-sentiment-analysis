@@ -30,17 +30,21 @@ public class Rating {
     private String userId;
     private String userName;
     private String text;
+    private Float positiveRate;
+    private Float negativeRate;
     private @ServerTimestamp Date timestamp;
 
     public Rating() {}
 
-    public Rating(FirebaseUser user,  String text) {
+    public Rating(FirebaseUser user,  String text, Float scorePositive, Float scoreNegative) {
         this.userId = user.getUid();
         this.userName = user.getDisplayName();
         if (TextUtils.isEmpty(this.userName)) {
             this.userName = user.getEmail();
         }
         this.text = text;
+        this.positiveRate = scorePositive;
+        this.negativeRate = scoreNegative;
     }
 
     public String getUserId() {
@@ -73,5 +77,21 @@ public class Rating {
 
     public void setTimestamp(Date timestamp) {
         this.timestamp = timestamp;
+    }
+
+    public Float getPositiveRate() {
+        return positiveRate;
+    }
+
+    public Float getNegativeRate() {
+        return negativeRate;
+    }
+
+    public void setNegativeRate(Float negativeRate) {
+        this.negativeRate = negativeRate;
+    }
+
+    public void setPositiveRate(Float positiveRate) {
+        this.positiveRate = positiveRate;
     }
 }

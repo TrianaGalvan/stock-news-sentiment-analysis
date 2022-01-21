@@ -24,7 +24,6 @@
         android:layout_marginBottom="4dp"
         android:layout_marginLeft="8dp"
         android:layout_marginTop="-2dp"
-        android:layout_toLeftOf="@+id/restaurant_item_price"
         android:layout_toRightOf="@+id/restaurant_item_image"
         android:ellipsize="end"
         android:maxLines="1"
@@ -78,14 +77,5 @@
         android:layout_toRightOf="@+id/restaurant_item_city_divider"
         android:textColor="@color/greySecondary"
         tools:text="San Francisco" />
-
-    <TextView
-        android:id="@+id/restaurant_item_price"
-        style="@style/AppTheme.Caption"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentRight="true"
-        android:textColor="@color/greySecondary"
-        tools:text="$$$" />
 
 </RelativeLayout>

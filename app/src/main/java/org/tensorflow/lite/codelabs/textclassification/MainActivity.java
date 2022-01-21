@@ -23,6 +23,8 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
+import android.widget.ScrollView;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -34,20 +36,31 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.firebase.ui.auth.AuthUI;
+import com.google.android.gms.tasks.Continuation;
 import com.google.android.material.snackbar.Snackbar;
 import com.google.firebase.auth.FirebaseAuth;
 import org.tensorflow.lite.codelabs.textclassification.adapter.RestaurantAdapter;
 import org.tensorflow.lite.codelabs.textclassification.model.Restaurant;
 import org.tensorflow.lite.codelabs.textclassification.util.FirebaseUtil;
+import org.tensorflow.lite.codelabs.textclassification.util.NLPUtil;
 import org.tensorflow.lite.codelabs.textclassification.util.RestaurantUtil;
 import org.tensorflow.lite.codelabs.textclassification.viewmodel.MainActivityViewModel;
+import org.tensorflow.lite.task.text.nlclassifier.NLClassifier;
+
 import com.google.firebase.firestore.CollectionReference;
 import com.google.firebase.firestore.DocumentSnapshot;
 import com.google.firebase.firestore.FirebaseFirestore;
 import com.google.firebase.firestore.FirebaseFirestoreException;
 import com.google.firebase.firestore.Query;
+import com.google.firebase.ml.common.modeldownload.FirebaseModelDownloadConditions;
+import com.google.firebase.ml.common.modeldownload.FirebaseModelManager;
+import com.google.firebase.ml.custom.FirebaseCustomRemoteModel;
 
+import java.io.File;
+import java.util.Arrays;
 import java.util.Collections;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
 
 public class MainActivity extends AppCompatActivity implements
         View.OnClickListener,
@@ -73,14 +86,17 @@ public class MainActivity extends AppCompatActivity implements
     private RestaurantAdapter mAdapter;
 
     private MainActivityViewModel mViewModel;
-
+    private ExecutorService executorService;
+    private NLClassifier textClassifier;
 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        NLPUtil util = new NLPUtil();
+        util.downloadModel();
         super.onCreate(savedInstanceState);
+        //downloadModel();
         setContentView(R.layout.activity_main);
-
         mToolbar = findViewById(R.id.toolbar);
         setSupportActionBar(mToolbar);
 
@@ -235,9 +251,6 @@ public class MainActivity extends AppCompatActivity implements
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {
-            case R.id.menu_add_items:
-                onAddItemsClicked();
-                break;
             case R.id.menu_sign_out:
                 AuthUI.getInstance().signOut(this);
                 startSignIn();
@@ -296,16 +309,16 @@ public class MainActivity extends AppCompatActivity implements
     private void startSignIn() {
         // Sign in with FirebaseUI
         Intent intent = AuthUI.getInstance().createSignInIntentBuilder()
-                .setAvailableProviders(Collections.singletonList(
+                .setAvailableProviders(Arrays.asList(
+                        new AuthUI.IdpConfig.GoogleBuilder().build(),
                         new AuthUI.IdpConfig.EmailBuilder().build()))
                 .setIsSmartLockEnabled(false)
+                .setLogo(R.drawable.logo)
+                .setTheme(R.style.LoginTheme)
                 .build();
 
         startActivityForResult(intent, RC_SIGN_IN);
         mViewModel.setIsSigningIn(true);
     }
 
-    private void showTodoToast() {
-        Toast.makeText(this, "TODO: Implement", Toast.LENGTH_SHORT).show();
-    }
 }

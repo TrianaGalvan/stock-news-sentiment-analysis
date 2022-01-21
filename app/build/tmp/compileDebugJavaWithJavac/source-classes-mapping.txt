@@ -3,6 +3,8 @@ org/tensorflow/lite/codelabs/textclassification/FilterDialogFragment.java
  org.tensorflow.lite.codelabs.textclassification.FilterDialogFragment$FilterListener
 org/tensorflow/lite/codelabs/textclassification/model/Rating.java
  org.tensorflow.lite.codelabs.textclassification.model.Rating
+org/tensorflow/lite/codelabs/textclassification/util/NLPUtil.java
+ org.tensorflow.lite.codelabs.textclassification.util.NLPUtil
 org/tensorflow/lite/codelabs/textclassification/Filters.java
  org.tensorflow.lite.codelabs.textclassification.Filters
 org/tensorflow/lite/codelabs/textclassification/MainActivity.java

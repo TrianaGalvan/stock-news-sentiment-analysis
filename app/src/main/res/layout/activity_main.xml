@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#E0E0E0"
-    tools:context="com.google.firebase.example.fireeats.MainActivity">
+    android:background="#FBFEF7"
+    tools:context="org.tensorflow.lite.codelabs.textclassification.MainActivity">
 
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar"
@@ -48,8 +48,8 @@
                     android:layout_height="wrap_content"
                     android:layout_centerVertical="true"
                     android:padding="8dp"
-                    android:tint="@color/greySecondary"
-                    app:srcCompat="@drawable/ic_filter_list_white_24px" />
+                    app:srcCompat="@drawable/ic_filter_list_white_24px"
+                    app:tint="@color/greySecondary" />
 
                 <LinearLayout
                     android:id="@+id/text_current_search_container"
@@ -88,8 +88,8 @@
                     android:layout_alignParentRight="true"
                     android:layout_centerVertical="true"
                     android:padding="8dp"
-                    android:tint="@color/greySecondary"
-                    app:srcCompat="@drawable/ic_close_white_24px" />
+                    app:srcCompat="@drawable/ic_close_white_24px"
+                    app:tint="@color/greySecondary" />
 
             </RelativeLayout>
 

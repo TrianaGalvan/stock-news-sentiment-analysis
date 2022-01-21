@@ -960,9 +960,11 @@ color mtrl_textinput_disabled_color
 color mtrl_textinput_filled_box_default_background_color
 color mtrl_textinput_focused_box_stroke_color
 color mtrl_textinput_hovered_box_stroke_color
+color negativeSentiment
 color notification_action_color_filter
 color notification_icon_bg_color
 color notification_material_background_media_default_color
+color positiveSentiment
 color primary_dark_material_dark
 color primary_dark_material_light
 color primary_material_dark
@@ -1497,7 +1499,6 @@ drawable ic_fastfood_white_24dp
 drawable ic_filter_list_white_24px
 drawable ic_keyboard_arrow_left_black_24dp
 drawable ic_keyboard_arrow_right_black_24dp
-drawable ic_launcher
 drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable ic_local_dining_white_24px
@@ -1512,6 +1513,8 @@ drawable ic_place_white_24px
 drawable ic_sort_white_24px
 drawable icn_chevron_down
 drawable icn_chevron_up
+drawable logo
+drawable money_back
 drawable mrb_star_border_icon_black_36dp
 drawable mrb_star_icon_black_36dp
 drawable mtrl_dialog_background
@@ -1749,7 +1752,6 @@ id logo
 id main_tos_and_pp
 id masked
 id media_actions
-id menu_add_items
 id menu_sign_out
 id message
 id microsoft_signin_button
@@ -1837,7 +1839,6 @@ id restaurant_item_city_divider
 id restaurant_item_image
 id restaurant_item_name
 id restaurant_item_num_ratings
-id restaurant_item_price
 id restaurant_item_rating
 id restaurant_name
 id restaurant_num_ratings
@@ -2078,6 +2079,7 @@ layout fui_welcome_back_idp_prompt_layout
 layout fui_welcome_back_password_prompt_layout
 layout item_rating
 layout item_restaurant
+layout login
 layout mtrl_alert_dialog
 layout mtrl_alert_dialog_actions
 layout mtrl_alert_dialog_title
@@ -2140,7 +2142,6 @@ layout text_view_without_line_height
 layout tfe_tc_activity_main
 menu menu_main
 mipmap ic_launcher
-mipmap ic_launcher_foreground
 mipmap ic_launcher_round
 plurals fui_error_weak_password
 plurals mtrl_badge_content_description
@@ -2663,6 +2664,7 @@ style FirebaseUI_TopProgressBar
 style FirebaseUI_Transparent
 style FirebaseUI_VerifyPhoneButton
 style FirebaseUI_WrapperStyle
+style LoginTheme
 style MaterialAlertDialog_MaterialComponents
 style MaterialAlertDialog_MaterialComponents_Body_Text
 style MaterialAlertDialog_MaterialComponents_Picker_Date_Calendar
