@@ -27,15 +27,12 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.bumptech.glide.Glide;
 import org.tensorflow.lite.codelabs.textclassification.R;
-import org.tensorflow.lite.codelabs.textclassification.model.Restaurant;
-import org.tensorflow.lite.codelabs.textclassification.util.RestaurantUtil;
-import org.tensorflow.lite.support.label.Category;
+import org.tensorflow.lite.codelabs.textclassification.model.Company;
 import org.tensorflow.lite.task.text.nlclassifier.NLClassifier;
 
 import com.google.firebase.firestore.DocumentSnapshot;
 import com.google.firebase.firestore.Query;
 
-import java.util.List;
 import java.util.concurrent.ExecutorService;
 
 import me.zhanghai.android.materialratingbar.MaterialRatingBar;
@@ -43,19 +40,19 @@ import me.zhanghai.android.materialratingbar.MaterialRatingBar;
 /**
  * RecyclerView adapter for a list of Restaurants.
  */
-public class RestaurantAdapter extends FirestoreAdapter<RestaurantAdapter.ViewHolder> {
+public class CompanyAdapter extends FirestoreAdapter<CompanyAdapter.ViewHolder> {
 
-    public interface OnRestaurantSelectedListener {
+    public interface onCompanySelectedListener {
 
-        void onRestaurantSelected(DocumentSnapshot restaurant);
+        void onCompanySelected(DocumentSnapshot restaurant);
 
     }
 
-    private OnRestaurantSelectedListener mListener;
+    private onCompanySelectedListener mListener;
     private ExecutorService mExecutorService;
     private NLClassifier mTextClassifier;
 
-    public RestaurantAdapter(Query query, OnRestaurantSelectedListener listener) {
+    public CompanyAdapter(Query query, onCompanySelectedListener listener) {
         super(query);
         mListener = listener;
     }
@@ -93,29 +90,29 @@ public class RestaurantAdapter extends FirestoreAdapter<RestaurantAdapter.ViewHo
         }
 
         public void bind(final DocumentSnapshot snapshot,
-                         final OnRestaurantSelectedListener listener) {
+                         final onCompanySelectedListener listener) {
 
-            Restaurant restaurant = snapshot.toObject(Restaurant.class);
+            Company company = snapshot.toObject(Company.class);
             Resources resources = itemView.getResources();
 
             // Load image
             Glide.with(imageView.getContext())
-                    .load(restaurant.getPhoto())
+                    .load(company.getPhoto())
                     .into(imageView);
 
-            nameView.setText(restaurant.getName());
-            ratingBar.setRating((float) (5*restaurant.getAvgRating()));
-            cityView.setText(restaurant.getCity());
-            categoryView.setText(restaurant.getCategory());
+            nameView.setText(company.getName());
+            ratingBar.setRating((float) (5*company.getAvgRating()));
+            cityView.setText(company.getCity());
+            categoryView.setText(company.getCategory());
             numRatingsView.setText(resources.getString(R.string.fmt_num_ratings,
-                    restaurant.getNumRatings()));
+                    company.getNumRatings()));
 
             // Click listener
             itemView.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
                     if (listener != null) {
-                        listener.onRestaurantSelected(snapshot);
+                        listener.onCompanySelected(snapshot);
                     }
                 }
             });

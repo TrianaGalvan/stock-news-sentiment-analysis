@@ -196,10 +196,10 @@ category#android.intent.category.LAUNCHER
 ADDED from /Users/trianap/Documents/ProjectCertification/codelab-textclassification-android-master/start/app/src/main/AndroidManifest.xml:16:9-68
 	android:name
 		ADDED from /Users/trianap/Documents/ProjectCertification/codelab-textclassification-android-master/start/app/src/main/AndroidManifest.xml:16:19-66
-activity#org.tensorflow.lite.codelabs.textclassification.RestaurantDetailActivity
-ADDED from /Users/trianap/Documents/ProjectCertification/codelab-textclassification-android-master/start/app/src/main/AndroidManifest.xml:19:5-58
+activity#org.tensorflow.lite.codelabs.textclassification.CompanyDetailActivity
+ADDED from /Users/trianap/Documents/ProjectCertification/codelab-textclassification-android-master/start/app/src/main/AndroidManifest.xml:19:5-55
 	android:name
-		ADDED from /Users/trianap/Documents/ProjectCertification/codelab-textclassification-android-master/start/app/src/main/AndroidManifest.xml:19:15-55
+		ADDED from /Users/trianap/Documents/ProjectCertification/codelab-textclassification-android-master/start/app/src/main/AndroidManifest.xml:19:15-52
 uses-sdk
 INJECTED from /Users/trianap/Documents/ProjectCertification/codelab-textclassification-android-master/start/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/trianap/Documents/ProjectCertification/codelab-textclassification-android-master/start/app/src/main/AndroidManifest.xml

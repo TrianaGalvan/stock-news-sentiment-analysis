@@ -18,8 +18,7 @@
 import android.content.Context;
 
 import org.tensorflow.lite.codelabs.textclassification.R;
-import org.tensorflow.lite.codelabs.textclassification.model.Restaurant;
-
+import org.tensorflow.lite.codelabs.textclassification.model.Company;
 import java.util.Arrays;
 import java.util.Locale;
 import java.util.Random;
@@ -30,9 +29,9 @@ import java.util.concurrent.TimeUnit;
 /**
  * Utilities for Restaurants.
  */
-public class RestaurantUtil {
+public class CompanyUtil {
 
-    private static final String TAG = "RestaurantUtil";
+    private static final String TAG = "CompanyUtil";
 
     private static final ThreadPoolExecutor EXECUTOR = new ThreadPoolExecutor(2, 4, 60,
             TimeUnit.SECONDS, new LinkedBlockingQueue<Runnable>());
@@ -67,8 +66,8 @@ public class RestaurantUtil {
     /**
      * Create a random Restaurant POJO.
      */
-    public static Restaurant getRandom(Context context) {
-        Restaurant restaurant = new Restaurant();
+    public static Company getRandom(Context context) {
+        Company company = new Company();
         Random random = new Random();
 
         // Cities (first element is 'Any')
@@ -81,15 +80,15 @@ public class RestaurantUtil {
 
         int[] prices = new int[]{1, 2, 3};
 
-        restaurant.setName(getRandomName(random));
-        restaurant.setCity(getRandomString(cities, random));
-        restaurant.setCategory(getRandomString(categories, random));
-        restaurant.setPhoto(getRandomImageUrl(random));
-        restaurant.setPrice(getRandomInt(prices, random));
-        restaurant.setAvgRating(getRandomRating(random));
-        restaurant.setNumRatings(random.nextInt(20));
+        company.setName(getRandomName(random));
+        company.setCity(getRandomString(cities, random));
+        company.setCategory(getRandomString(categories, random));
+        company.setPhoto(getRandomImageUrl(random));
+        company.setPrice(getRandomInt(prices, random));
+        company.setAvgRating(getRandomRating(random));
+        company.setNumRatings(random.nextInt(20));
 
-        return restaurant;
+        return company;
     }
 
 
@@ -106,8 +105,8 @@ public class RestaurantUtil {
     /**
      * Get price represented as dollar signs.
      */
-    public static String getPriceString(Restaurant restaurant) {
-        return getPriceString(restaurant.getPrice());
+    public static String getPriceString(Company company) {
+        return getPriceString(company.getPrice());
     }
 
     /**

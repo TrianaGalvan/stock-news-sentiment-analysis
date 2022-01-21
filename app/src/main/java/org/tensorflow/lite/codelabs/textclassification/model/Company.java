@@ -18,10 +18,10 @@
 import com.google.firebase.firestore.IgnoreExtraProperties;
 
 /**
- * Restaurant POJO.
+ * Company POJO.
  */
 @IgnoreExtraProperties
-public class Restaurant {
+public class Company {
 
     public static final String FIELD_CITY = "city";
     public static final String FIELD_CATEGORY = "category";
@@ -37,9 +37,9 @@ public class Restaurant {
     private int numRatings;
     private double avgRating;
 
-    public Restaurant() {}
+    public Company() {}
 
-    public Restaurant(String name, String city, String category, String photo,
+    public Company(String name, String city, String category, String photo,
                       int price, int numRatings, double avgRating) {
         this.name = name;
         this.city = city;

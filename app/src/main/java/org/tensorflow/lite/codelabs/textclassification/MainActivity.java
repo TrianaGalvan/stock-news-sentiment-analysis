@@ -23,27 +23,22 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Button;
-import android.widget.ScrollView;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 import androidx.lifecycle.ViewModelProvider;
-import androidx.lifecycle.ViewModelProviders;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.firebase.ui.auth.AuthUI;
-import com.google.android.gms.tasks.Continuation;
 import com.google.android.material.snackbar.Snackbar;
 import com.google.firebase.auth.FirebaseAuth;
-import org.tensorflow.lite.codelabs.textclassification.adapter.RestaurantAdapter;
-import org.tensorflow.lite.codelabs.textclassification.model.Restaurant;
+import org.tensorflow.lite.codelabs.textclassification.adapter.CompanyAdapter;
+import org.tensorflow.lite.codelabs.textclassification.model.Company;
+import org.tensorflow.lite.codelabs.textclassification.util.CompanyUtil;
 import org.tensorflow.lite.codelabs.textclassification.util.FirebaseUtil;
 import org.tensorflow.lite.codelabs.textclassification.util.NLPUtil;
-import org.tensorflow.lite.codelabs.textclassification.util.RestaurantUtil;
 import org.tensorflow.lite.codelabs.textclassification.viewmodel.MainActivityViewModel;
 import org.tensorflow.lite.task.text.nlclassifier.NLClassifier;
 
@@ -52,20 +47,14 @@ import com.google.firebase.firestore.DocumentSnapshot;
 import com.google.firebase.firestore.FirebaseFirestore;
 import com.google.firebase.firestore.FirebaseFirestoreException;
 import com.google.firebase.firestore.Query;
-import com.google.firebase.ml.common.modeldownload.FirebaseModelDownloadConditions;
-import com.google.firebase.ml.common.modeldownload.FirebaseModelManager;
-import com.google.firebase.ml.custom.FirebaseCustomRemoteModel;
 
-import java.io.File;
 import java.util.Arrays;
-import java.util.Collections;
 import java.util.concurrent.ExecutorService;
-import java.util.concurrent.Executors;
 
 public class MainActivity extends AppCompatActivity implements
         View.OnClickListener,
         FilterDialogFragment.FilterListener,
-        RestaurantAdapter.OnRestaurantSelectedListener {
+        CompanyAdapter.onCompanySelectedListener {
 
     private static final String TAG = "MainActivity";
 
@@ -83,7 +72,7 @@ public class MainActivity extends AppCompatActivity implements
     private Query mQuery;
 
     private FilterDialogFragment mFilterDialog;
-    private RestaurantAdapter mAdapter;
+    private CompanyAdapter mAdapter;
 
     private MainActivityViewModel mViewModel;
     private ExecutorService executorService;
@@ -136,7 +125,7 @@ public class MainActivity extends AppCompatActivity implements
             Log.w(TAG, "No query, not initializing RecyclerView");
         }
 
-        mAdapter = new RestaurantAdapter(mQuery, this) {
+        mAdapter = new CompanyAdapter(mQuery, this) {
 
             @Override
             protected void onDataChanged() {
@@ -195,10 +184,10 @@ public class MainActivity extends AppCompatActivity implements
 
         for (int i = 0; i < 10; i++) {
             // Get a random Restaurant POJO
-            Restaurant restaurant = RestaurantUtil.getRandom(this);
+            Company company = CompanyUtil.getRandom(this);
 
             // Add a new document to the restaurants collection
-            restaurants.add(restaurant);
+            restaurants.add(company);
         }
     }
 
@@ -294,10 +283,10 @@ public class MainActivity extends AppCompatActivity implements
     }
 
     @Override
-    public void onRestaurantSelected(DocumentSnapshot restaurant) {
+    public void onCompanySelected(DocumentSnapshot restaurant) {
         // Go to the details page for the selected restaurant
-        Intent intent = new Intent(this, RestaurantDetailActivity.class);
-        intent.putExtra(RestaurantDetailActivity.KEY_RESTAURANT_ID, restaurant.getId());
+        Intent intent = new Intent(this, CompanyDetailActivity.class);
+        intent.putExtra(CompanyDetailActivity.KEY_COMPANY_ID, restaurant.getId());
 
         startActivity(intent);
     }

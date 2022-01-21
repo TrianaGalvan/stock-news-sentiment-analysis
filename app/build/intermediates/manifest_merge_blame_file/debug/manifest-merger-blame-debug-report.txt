@@ -58,9 +58,9 @@
 33-->/Users/trianap/Documents/ProjectCertification/codelab-textclassification-android-master/start/app/src/main/AndroidManifest.xml:16:19-66
 34            </intent-filter>
 35        </activity>
-36        <activity android:name="org.tensorflow.lite.codelabs.textclassification.RestaurantDetailActivity" />
-36-->/Users/trianap/Documents/ProjectCertification/codelab-textclassification-android-master/start/app/src/main/AndroidManifest.xml:19:5-58
-36-->/Users/trianap/Documents/ProjectCertification/codelab-textclassification-android-master/start/app/src/main/AndroidManifest.xml:19:15-55
+36        <activity android:name="org.tensorflow.lite.codelabs.textclassification.CompanyDetailActivity" />
+36-->/Users/trianap/Documents/ProjectCertification/codelab-textclassification-android-master/start/app/src/main/AndroidManifest.xml:19:5-55
+36-->/Users/trianap/Documents/ProjectCertification/codelab-textclassification-android-master/start/app/src/main/AndroidManifest.xml:19:15-52
 37
 38        <meta-data
 38-->[com.firebaseui:firebase-ui-auth:6.2.0] /Users/trianap/.gradle/caches/transforms-2/files-2.1/9e889a7aeeb1f5be02b2707a894fd057/jetified-firebase-ui-auth-6.2.0/AndroidManifest.xml:16:9-18:69

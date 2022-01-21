@@ -18,8 +18,8 @@ package org.tensorflow.lite.codelabs.textclassification;
 import android.content.Context;
 import android.text.TextUtils;
 
-import org.tensorflow.lite.codelabs.textclassification.model.Restaurant;
-import org.tensorflow.lite.codelabs.textclassification.util.RestaurantUtil;
+import org.tensorflow.lite.codelabs.textclassification.model.Company;
+import org.tensorflow.lite.codelabs.textclassification.util.CompanyUtil;
 import com.google.firebase.firestore.Query;
 
 /**
@@ -37,7 +37,7 @@ public class Filters {
 
     public static Filters getDefault() {
         Filters filters = new Filters();
-        filters.setSortBy(Restaurant.FIELD_AVG_RATING);
+        filters.setSortBy(Company.FIELD_AVG_RATING);
         filters.setSortDirection(Query.Direction.DESCENDING);
 
         return filters;
@@ -127,7 +127,7 @@ public class Filters {
         if (price > 0) {
             desc.append(" for ");
             desc.append("<b>");
-            desc.append(RestaurantUtil.getPriceString(price));
+            desc.append(CompanyUtil.getPriceString(price));
             desc.append("</b>");
         }
 
@@ -135,7 +135,7 @@ public class Filters {
     }
 
     public String getOrderDescription(Context context) {
-        if (Restaurant.FIELD_PRICE.equals(sortBy)) {
+        if (Company.FIELD_PRICE.equals(sortBy)) {
             return context.getString(R.string.sorted_by_price);
         } else {
             return context.getString(R.string.sorted_by_rating);

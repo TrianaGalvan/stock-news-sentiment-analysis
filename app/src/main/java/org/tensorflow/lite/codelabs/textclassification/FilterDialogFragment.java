@@ -26,7 +26,7 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.DialogFragment;
 
-import org.tensorflow.lite.codelabs.textclassification.model.Restaurant;
+import org.tensorflow.lite.codelabs.textclassification.model.Company;
 import com.google.firebase.firestore.Query;
 
 /**
@@ -147,9 +147,9 @@ public class FilterDialogFragment extends DialogFragment implements View.OnClick
     private String getSelectedSortBy() {
         String selected = (String) mSortSpinner.getSelectedItem();
         if (getString(R.string.sort_by_rating).equals(selected)) {
-            return Restaurant.FIELD_AVG_RATING;
+            return Company.FIELD_AVG_RATING;
         } if (getString(R.string.sort_by_price).equals(selected)) {
-            return Restaurant.FIELD_PRICE;
+            return Company.FIELD_PRICE;
         }
 
         return null;

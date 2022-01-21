@@ -33,15 +33,11 @@ import com.bumptech.glide.Glide;
 import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.android.gms.tasks.Task;
-import com.google.android.gms.tasks.Tasks;
 import com.google.android.material.snackbar.Snackbar;
 import org.tensorflow.lite.codelabs.textclassification.adapter.RatingAdapter;
+import org.tensorflow.lite.codelabs.textclassification.model.Company;
 import org.tensorflow.lite.codelabs.textclassification.model.Rating;
-import org.tensorflow.lite.codelabs.textclassification.model.Restaurant;
-import org.tensorflow.lite.codelabs.textclassification.util.NLPUtil;
-import org.tensorflow.lite.codelabs.textclassification.util.RestaurantUtil;
-import org.tensorflow.lite.support.label.Category;
-
+import org.tensorflow.lite.codelabs.textclassification.util.CompanyUtil;
 import com.google.firebase.firestore.DocumentReference;
 import com.google.firebase.firestore.DocumentSnapshot;
 import com.google.firebase.firestore.EventListener;
@@ -51,19 +47,17 @@ import com.google.firebase.firestore.ListenerRegistration;
 import com.google.firebase.firestore.Query;
 import com.google.firebase.firestore.Transaction;
 
-import java.util.Hashtable;
-import java.util.List;
 
 import me.zhanghai.android.materialratingbar.MaterialRatingBar;
 
-public class RestaurantDetailActivity extends AppCompatActivity implements
+public class CompanyDetailActivity extends AppCompatActivity implements
         View.OnClickListener,
         EventListener<DocumentSnapshot>,
         RatingDialogFragment.RatingListener {
 
     private static final String TAG = "RestaurantDetail";
 
-    public static final String KEY_RESTAURANT_ID = "key_restaurant_id";
+    public static final String KEY_COMPANY_ID = "key_company_id";
     private ImageView mImageView;
     private TextView mNameView;
     private MaterialRatingBar mRatingIndicator;
@@ -102,9 +96,9 @@ public class RestaurantDetailActivity extends AppCompatActivity implements
         findViewById(R.id.fab_show_rating_dialog).setOnClickListener(this);
 
         // Get restaurant ID from extras
-        String restaurantId = getIntent().getExtras().getString(KEY_RESTAURANT_ID);
+        String restaurantId = getIntent().getExtras().getString(KEY_COMPANY_ID);
         if (restaurantId == null) {
-            throw new IllegalArgumentException("Must pass extra " + KEY_RESTAURANT_ID);
+            throw new IllegalArgumentException("Must pass extra " + KEY_COMPANY_ID);
         }
 
         // Initialize Firestore
@@ -184,22 +178,22 @@ public class RestaurantDetailActivity extends AppCompatActivity implements
             public Void apply(Transaction transaction)
                     throws FirebaseFirestoreException {
 
-                Restaurant restaurant = transaction.get(restaurantRef)
-                        .toObject(Restaurant.class);
+                Company company = transaction.get(restaurantRef)
+                        .toObject(Company.class);
 
                 // Compute new number of ratings
-                int newNumRatings = restaurant.getNumRatings() + 1;
+                int newNumRatings = company.getNumRatings() + 1;
 
                 // Compute new average rating
-                double oldRatingTotal = restaurant.getAvgRating() * restaurant.getNumRatings();
+                double oldRatingTotal = company.getAvgRating() * company.getNumRatings();
                 double newAvgRating = (oldRatingTotal ) / newNumRatings;
 
                 // Set new restaurant info
-                restaurant.setNumRatings(newNumRatings);
-                restaurant.setAvgRating(newAvgRating);
+                company.setNumRatings(newNumRatings);
+                company.setAvgRating(newAvgRating);
 
                 // Commit to Firestore
-                transaction.set(restaurantRef, restaurant);
+                transaction.set(restaurantRef, company);
                 transaction.set(ratingRef, rating);
 
                 return null;
@@ -217,20 +211,20 @@ public class RestaurantDetailActivity extends AppCompatActivity implements
             return;
         }
 
-        onRestaurantLoaded(snapshot.toObject(Restaurant.class));
+        onRestaurantLoaded(snapshot.toObject(Company.class));
     }
 
-    private void onRestaurantLoaded(Restaurant restaurant) {
-        mNameView.setText(restaurant.getName());
-        mRatingIndicator.setRating((float) (5*restaurant.getAvgRating()));
-        mNumRatingsView.setText(getString(R.string.fmt_num_ratings, restaurant.getNumRatings()));
-        mCityView.setText(restaurant.getCity());
-        mCategoryView.setText(restaurant.getCategory());
-        mPriceView.setText(RestaurantUtil.getPriceString(restaurant));
+    private void onRestaurantLoaded(Company company) {
+        mNameView.setText(company.getName());
+        mRatingIndicator.setRating((float) (5*company.getAvgRating()));
+        mNumRatingsView.setText(getString(R.string.fmt_num_ratings, company.getNumRatings()));
+        mCityView.setText(company.getCity());
+        mCategoryView.setText(company.getCategory());
+        mPriceView.setText(CompanyUtil.getPriceString(company));
 
         // Background image
         Glide.with(mImageView.getContext())
-                .load(restaurant.getPhoto())
+                .load(company.getPhoto())
                 .into(mImageView);
     }
 
