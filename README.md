@@ -14,7 +14,7 @@ Firebase services used:
 ## App screenshots 
 
 ### Login implemented with Firebase UI and Firebase authentication. 
-![alt text](https://firebasestorage.googleapis.com/v0/b/certificationprojecy.appspot.com/o/login.png?alt=media&token=ae7d005a-8b49-431f-9a16-07502ae54a50)
+![alt text](https://firebasestorage.googleapis.com/v0/b/certificationprojecy.appspot.com/o/Screen%20Shot%202022-08-04%20at%2017.13.33.png?alt=media&token=b603f807-3eb5-440c-b2ba-4c36b944f95a)
 
 ### List of companies. 
 ![alt text](https://firebasestorage.googleapis.com/v0/b/certificationprojecy.appspot.com/o/companies.png?alt=media&token=c19a88ad-a1d5-4aa1-a9ec-ce4f9198bd42)
