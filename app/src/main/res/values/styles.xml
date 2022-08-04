@@ -103,7 +103,7 @@
         <item name="android:layout_alignParentTop">true</item>
 
         <item name="android:layout_marginTop">10dp</item>
-        <item name="android:layout_marginBottom">40dp</item>
+        <item name="android:layout_marginBottom">10dp</item>
         <item name="android:background">#DDF9BF</item>
 
     </style>

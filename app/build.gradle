@@ -72,7 +72,7 @@ dependencies {
     implementation 'com.google.android.gms:play-services-auth:17.0.0'
 
     // FirebaseUI (for authentication)
-    implementation 'com.firebaseui:firebase-ui-auth:6.2.0'
+    implementation 'com.firebaseui:firebase-ui-auth:7.2.0'
 
      // Support Libs
     implementation 'androidx.vectordrawable:vectordrawable-animated:1.1.0'
@@ -82,6 +82,7 @@ dependencies {
     implementation 'androidx.multidex:multidex:2.0.1'
     implementation 'androidx.recyclerview:recyclerview:1.1.0'
     implementation 'com.google.firebase:firebase-analytics:17.2.2'
+    implementation 'com.facebook.android:facebook-login:9.0.0'
 }
 
 project(':app').tasks.withType(Test) {

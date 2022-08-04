@@ -1,9 +1,13 @@
 <resources>
+
+    <string name="facebook_application_id" translatable="false">426636239393627</string>
+    <!-- Facebook Application ID, prefixed by 'fb'. Enables Chrome Custom tabs. -->
+    <string name="facebook_login_protocol_scheme" translatable="false">fbAPP_ID</string>
   <string name="tfe_tc_app_name" translatable="false">Stock news analyzer</string>
   <string name="tfe_tc_edit_text_hint" translatable="false">Enter the tittle or tweet.</string>
   <string name="tfe_tc_button_ok" translatable="false">Predict</string>
 
-  <string name="app_name">Stock news analyzer</string>
+  <string name="app_name">Stock Analyzer</string>
 
   <string name="value_any_category">All sectors</string>
   <string name="value_any_city">Any symbol</string>
